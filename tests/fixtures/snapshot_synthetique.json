@@ -1,0 +1,33 @@
+{
+  "exported_at": "2026-10-28",
+  "origin": "LFPG",
+  "source": "JEU SYNTHÉTIQUE DE TEST : valeurs inventées, ne pas utiliser pour une démo",
+  "destinations": {
+    "MNL": {
+      "opportunity": {"partner_icao": "RPLL", "partner_iata": "MNL", "partner_city": "Manille", "partner_country": "PH",
+        "segment": "long-courrier", "opportunity_score": 65.9, "distance_from_cdg_km": 10733,
+        "pax_l12_hubs": 340000, "cdg_flights_l12": 0, "s_volume": 0.6, "s_growth": 0.9, "s_lf": 0.7, "s_hubs": 0.1},
+      "hub_flows": [{"rep_icao": "LTFM", "rep_iata": "IST", "rep_city": "Istanbul", "partner_icao": "RPLL",
+        "partner_iata": "MNL", "pax_l12": 340000, "pax_p12": 258000, "flights_l12": 730, "lf_l12": 0.87,
+        "growth_pax": 0.318, "window_end": "2025-06-01", "masked_months_l12": 0}],
+      "paris_to_hubs": [{"partner_icao": "LTFM", "partner_iata": "IST", "partner_city": "Istanbul",
+        "pax_l12": 1200000, "flights_l12": 4000, "lf_l12": 0.82, "masked_months_l12": 0, "window_end": "2024-12-01"}],
+      "overrides": []
+    },
+    "IKA": {
+      "opportunity": {"partner_icao": "OIIE", "partner_iata": "IKA", "partner_city": "Téhéran", "partner_country": "IR",
+        "segment": "long-courrier", "opportunity_score": 65.0, "distance_from_cdg_km": 4195,
+        "pax_l12_hubs": 2100000, "cdg_flights_l12": 0, "s_volume": 0.9, "s_growth": 0.2, "s_lf": 0.5, "s_hubs": 0.4},
+      "hub_flows": [
+        {"rep_icao": "LTFM", "rep_iata": "IST", "rep_city": "Istanbul", "partner_icao": "OIIE", "partner_iata": "IKA",
+         "pax_l12": 1600000, "pax_p12": 1620000, "flights_l12": 2900, "lf_l12": 0.83, "growth_pax": -0.012,
+         "window_end": "2025-06-01", "masked_months_l12": 0},
+        {"rep_icao": "EDDF", "rep_iata": "FRA", "rep_city": "Francfort", "partner_icao": "OIIE", "partner_iata": "IKA",
+         "pax_l12": 500000, "pax_p12": 510000, "flights_l12": 900, "lf_l12": 0.84, "growth_pax": -0.02,
+         "window_end": "2025-03-01", "masked_months_l12": 0}],
+      "paris_to_hubs": [],
+      "overrides": []
+    }
+  },
+  "freshness": []
+}

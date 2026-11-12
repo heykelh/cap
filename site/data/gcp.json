@@ -1,0 +1,752 @@
+{
+  "genere_le": "2026-11-09T22:38:25.768355+00:00",
+  "projet": "cap-network",
+  "localisation": "EU",
+  "datasets": [
+    {
+      "dataset": "cap_bronze",
+      "role": "Bronze : données brutes, copie fidèle des sources",
+      "tables": [
+        {
+          "table": "airports",
+          "lignes": 5280,
+          "octets": 920917,
+          "colonnes": 13,
+          "schema": [
+            {
+              "nom": "ident",
+              "type": "STRING"
+            },
+            {
+              "nom": "type",
+              "type": "STRING"
+            },
+            {
+              "nom": "name",
+              "type": "STRING"
+            },
+            {
+              "nom": "latitude_deg",
+              "type": "FLOAT"
+            },
+            {
+              "nom": "longitude_deg",
+              "type": "FLOAT"
+            },
+            {
+              "nom": "iso_country",
+              "type": "STRING"
+            },
+            {
+              "nom": "iso_region",
+              "type": "STRING"
+            },
+            {
+              "nom": "municipality",
+              "type": "STRING"
+            },
+            {
+              "nom": "scheduled_service",
+              "type": "STRING"
+            },
+            {
+              "nom": "icao_code",
+              "type": "STRING"
+            },
+            {
+              "nom": "iata_code",
+              "type": "STRING"
+            },
+            {
+              "nom": "_source_url",
+              "type": "STRING"
+            },
+            {
+              "nom": "_ingested_at",
+              "type": "TIMESTAMP"
+            }
+          ],
+          "modifiee_le": "2026-10-26T12:18:43.845000+00:00",
+          "expire_le": "2026-12-25T12:18:43.845000+00:00"
+        },
+        {
+          "table": "eurostat_routes",
+          "lignes": 1439824,
+          "octets": 310946732,
+          "colonnes": 13,
+          "schema": [
+            {
+              "nom": "dataset_code",
+              "type": "STRING"
+            },
+            {
+              "nom": "period",
+              "type": "STRING"
+            },
+            {
+              "nom": "rep_country",
+              "type": "STRING"
+            },
+            {
+              "nom": "rep_icao",
+              "type": "STRING"
+            },
+            {
+              "nom": "partner_country",
+              "type": "STRING"
+            },
+            {
+              "nom": "partner_icao",
+              "type": "STRING"
+            },
+            {
+              "nom": "measure",
+              "type": "STRING"
+            },
+            {
+              "nom": "unit",
+              "type": "STRING"
+            },
+            {
+              "nom": "value",
+              "type": "FLOAT"
+            },
+            {
+              "nom": "obs_flag",
+              "type": "STRING"
+            },
+            {
+              "nom": "conf_status",
+              "type": "STRING"
+            },
+            {
+              "nom": "_source_url",
+              "type": "STRING"
+            },
+            {
+              "nom": "_ingested_at",
+              "type": "TIMESTAMP"
+            }
+          ],
+          "modifiee_le": "2026-10-26T15:04:55.760000+00:00",
+          "expire_le": "2026-12-25T12:36:26.748000+00:00"
+        },
+        {
+          "table": "paris_network_overrides",
+          "lignes": 2,
+          "octets": 274,
+          "colonnes": 9,
+          "schema": [
+            {
+              "nom": "partner_iata",
+              "type": "STRING"
+            },
+            {
+              "nom": "airport_from",
+              "type": "STRING"
+            },
+            {
+              "nom": "status",
+              "type": "STRING"
+            },
+            {
+              "nom": "season",
+              "type": "STRING"
+            },
+            {
+              "nom": "source",
+              "type": "STRING"
+            },
+            {
+              "nom": "verified_on",
+              "type": "STRING"
+            },
+            {
+              "nom": "comment",
+              "type": "STRING"
+            },
+            {
+              "nom": "_source_file",
+              "type": "STRING"
+            },
+            {
+              "nom": "_ingested_at",
+              "type": "TIMESTAMP"
+            }
+          ],
+          "modifiee_le": "2026-10-27T21:00:14.164000+00:00",
+          "expire_le": "2026-12-26T21:00:14.164000+00:00"
+        }
+      ]
+    },
+    {
+      "dataset": "cap_silver",
+      "role": "Silver : données nettoyées, une ligne par route et par mois",
+      "tables": [
+        {
+          "table": "airports",
+          "lignes": 5280,
+          "octets": 663778,
+          "colonnes": 10,
+          "schema": [
+            {
+              "nom": "icao",
+              "type": "STRING"
+            },
+            {
+              "nom": "iata",
+              "type": "STRING"
+            },
+            {
+              "nom": "airport_name",
+              "type": "STRING"
+            },
+            {
+              "nom": "city",
+              "type": "STRING"
+            },
+            {
+              "nom": "country_iso2",
+              "type": "STRING"
+            },
+            {
+              "nom": "airport_type",
+              "type": "STRING"
+            },
+            {
+              "nom": "has_scheduled_service",
+              "type": "BOOLEAN"
+            },
+            {
+              "nom": "lat",
+              "type": "FLOAT"
+            },
+            {
+              "nom": "lon",
+              "type": "FLOAT"
+            },
+            {
+              "nom": "geo",
+              "type": "GEOGRAPHY"
+            }
+          ],
+          "modifiee_le": "2026-10-26T15:05:01.291000+00:00",
+          "expire_le": "2026-12-25T14:08:06.908000+00:00"
+        },
+        {
+          "table": "data_freshness",
+          "lignes": 33,
+          "octets": 2772,
+          "colonnes": 11,
+          "schema": [
+            {
+              "nom": "rep_country",
+              "type": "STRING"
+            },
+            {
+              "nom": "first_month",
+              "type": "DATE"
+            },
+            {
+              "nom": "last_month",
+              "type": "DATE"
+            },
+            {
+              "nom": "airports",
+              "type": "INTEGER"
+            },
+            {
+              "nom": "route_months",
+              "type": "INTEGER"
+            },
+            {
+              "nom": "rows_ok",
+              "type": "INTEGER"
+            },
+            {
+              "nom": "rows_unknown_airport",
+              "type": "INTEGER"
+            },
+            {
+              "nom": "rows_masked",
+              "type": "INTEGER"
+            },
+            {
+              "nom": "rows_missing_seats",
+              "type": "INTEGER"
+            },
+            {
+              "nom": "rows_lf_over_100",
+              "type": "INTEGER"
+            },
+            {
+              "nom": "share_ok",
+              "type": "FLOAT"
+            }
+          ],
+          "modifiee_le": "2026-10-26T15:05:10.307000+00:00",
+          "expire_le": "2026-12-25T14:08:17.724000+00:00"
+        },
+        {
+          "table": "routes_monthly",
+          "lignes": 481660,
+          "octets": 79765381,
+          "colonnes": 19,
+          "schema": [
+            {
+              "nom": "month",
+              "type": "DATE"
+            },
+            {
+              "nom": "rep_country",
+              "type": "STRING"
+            },
+            {
+              "nom": "rep_icao",
+              "type": "STRING"
+            },
+            {
+              "nom": "rep_iata",
+              "type": "STRING"
+            },
+            {
+              "nom": "rep_city",
+              "type": "STRING"
+            },
+            {
+              "nom": "partner_country",
+              "type": "STRING"
+            },
+            {
+              "nom": "partner_icao",
+              "type": "STRING"
+            },
+            {
+              "nom": "partner_iata",
+              "type": "STRING"
+            },
+            {
+              "nom": "partner_city",
+              "type": "STRING"
+            },
+            {
+              "nom": "partner_airport",
+              "type": "STRING"
+            },
+            {
+              "nom": "passengers",
+              "type": "INTEGER"
+            },
+            {
+              "nom": "seats",
+              "type": "INTEGER"
+            },
+            {
+              "nom": "flights",
+              "type": "INTEGER"
+            },
+            {
+              "nom": "load_factor",
+              "type": "FLOAT"
+            },
+            {
+              "nom": "seats_per_flight",
+              "type": "FLOAT"
+            },
+            {
+              "nom": "distance_km",
+              "type": "FLOAT"
+            },
+            {
+              "nom": "quality_flag",
+              "type": "STRING"
+            },
+            {
+              "nom": "dataset_code",
+              "type": "STRING"
+            },
+            {
+              "nom": "ingested_at",
+              "type": "TIMESTAMP"
+            }
+          ],
+          "modifiee_le": "2026-10-26T15:05:07.957000+00:00",
+          "expire_le": "2026-12-25T14:08:14.255000+00:00"
+        }
+      ]
+    },
+    {
+      "dataset": "cap_gold",
+      "role": "Gold : indicateurs prêts à l'emploi, lus par la chaîne d'instruction et les agents IA",
+      "tables": [
+        {
+          "table": "cdg_route_health",
+          "lignes": 175,
+          "octets": 34581,
+          "colonnes": 21,
+          "schema": [
+            {
+              "nom": "partner_icao",
+              "type": "STRING"
+            },
+            {
+              "nom": "partner_iata",
+              "type": "STRING"
+            },
+            {
+              "nom": "partner_city",
+              "type": "STRING"
+            },
+            {
+              "nom": "partner_airport",
+              "type": "STRING"
+            },
+            {
+              "nom": "partner_country",
+              "type": "STRING"
+            },
+            {
+              "nom": "distance_km",
+              "type": "FLOAT"
+            },
+            {
+              "nom": "segment",
+              "type": "STRING"
+            },
+            {
+              "nom": "flights_l12",
+              "type": "INTEGER"
+            },
+            {
+              "nom": "seats_l12",
+              "type": "INTEGER"
+            },
+            {
+              "nom": "pax_l12",
+              "type": "INTEGER"
+            },
+            {
+              "nom": "lf_l12",
+              "type": "FLOAT"
+            },
+            {
+              "nom": "pax_p12",
+              "type": "INTEGER"
+            },
+            {
+              "nom": "lf_p12",
+              "type": "FLOAT"
+            },
+            {
+              "nom": "growth_pax",
+              "type": "FLOAT"
+            },
+            {
+              "nom": "growth_seats",
+              "type": "FLOAT"
+            },
+            {
+              "nom": "lf_delta_pts",
+              "type": "FLOAT"
+            },
+            {
+              "nom": "alert",
+              "type": "STRING"
+            },
+            {
+              "nom": "months_l12",
+              "type": "INTEGER"
+            },
+            {
+              "nom": "masked_months_l12",
+              "type": "INTEGER"
+            },
+            {
+              "nom": "window_end",
+              "type": "DATE"
+            },
+            {
+              "nom": "flagged_months_l12",
+              "type": "INTEGER"
+            }
+          ],
+          "modifiee_le": "2026-10-27T21:00:21.784000+00:00",
+          "expire_le": "2026-12-25T14:35:35.788000+00:00"
+        },
+        {
+          "table": "opportunities",
+          "lignes": 182,
+          "octets": 42682,
+          "colonnes": 26,
+          "schema": [
+            {
+              "nom": "partner_icao",
+              "type": "STRING"
+            },
+            {
+              "nom": "partner_iata",
+              "type": "STRING"
+            },
+            {
+              "nom": "partner_city",
+              "type": "STRING"
+            },
+            {
+              "nom": "partner_airport",
+              "type": "STRING"
+            },
+            {
+              "nom": "partner_country",
+              "type": "STRING"
+            },
+            {
+              "nom": "hubs_serving",
+              "type": "INTEGER"
+            },
+            {
+              "nom": "hubs_list",
+              "type": "STRING"
+            },
+            {
+              "nom": "pax_l12_hubs",
+              "type": "INTEGER"
+            },
+            {
+              "nom": "pax_p12_hubs",
+              "type": "INTEGER"
+            },
+            {
+              "nom": "seats_l12_hubs",
+              "type": "INTEGER"
+            },
+            {
+              "nom": "flights_l12_hubs",
+              "type": "INTEGER"
+            },
+            {
+              "nom": "lf_l12_hubs",
+              "type": "FLOAT"
+            },
+            {
+              "nom": "data_until_min",
+              "type": "DATE"
+            },
+            {
+              "nom": "data_until_max",
+              "type": "DATE"
+            },
+            {
+              "nom": "growth_hubs",
+              "type": "FLOAT"
+            },
+            {
+              "nom": "distance_from_cdg_km",
+              "type": "FLOAT"
+            },
+            {
+              "nom": "cdg_flights_l12",
+              "type": "INTEGER"
+            },
+            {
+              "nom": "cdg_masked_months_l12",
+              "type": "INTEGER"
+            },
+            {
+              "nom": "ory_flights_l12",
+              "type": "INTEGER"
+            },
+            {
+              "nom": "ory_masked_months_l12",
+              "type": "INTEGER"
+            },
+            {
+              "nom": "segment",
+              "type": "STRING"
+            },
+            {
+              "nom": "s_volume",
+              "type": "FLOAT"
+            },
+            {
+              "nom": "s_growth",
+              "type": "FLOAT"
+            },
+            {
+              "nom": "s_lf",
+              "type": "FLOAT"
+            },
+            {
+              "nom": "s_hubs",
+              "type": "FLOAT"
+            },
+            {
+              "nom": "opportunity_score",
+              "type": "FLOAT"
+            }
+          ],
+          "modifiee_le": "2026-10-27T21:00:24.357000+00:00",
+          "expire_le": "2026-12-25T14:35:39.289000+00:00"
+        },
+        {
+          "table": "route_window",
+          "lignes": 9547,
+          "octets": 2078548,
+          "colonnes": 26,
+          "schema": [
+            {
+              "nom": "rep_country",
+              "type": "STRING"
+            },
+            {
+              "nom": "rep_icao",
+              "type": "STRING"
+            },
+            {
+              "nom": "rep_iata",
+              "type": "STRING"
+            },
+            {
+              "nom": "rep_city",
+              "type": "STRING"
+            },
+            {
+              "nom": "partner_country",
+              "type": "STRING"
+            },
+            {
+              "nom": "partner_icao",
+              "type": "STRING"
+            },
+            {
+              "nom": "partner_iata",
+              "type": "STRING"
+            },
+            {
+              "nom": "partner_city",
+              "type": "STRING"
+            },
+            {
+              "nom": "partner_airport",
+              "type": "STRING"
+            },
+            {
+              "nom": "distance_km",
+              "type": "FLOAT"
+            },
+            {
+              "nom": "window_end",
+              "type": "DATE"
+            },
+            {
+              "nom": "pax_l12",
+              "type": "INTEGER"
+            },
+            {
+              "nom": "seats_l12",
+              "type": "INTEGER"
+            },
+            {
+              "nom": "flights_l12",
+              "type": "INTEGER"
+            },
+            {
+              "nom": "pax_with_seats_l12",
+              "type": "INTEGER"
+            },
+            {
+              "nom": "pax_p12",
+              "type": "INTEGER"
+            },
+            {
+              "nom": "seats_p12",
+              "type": "INTEGER"
+            },
+            {
+              "nom": "flights_p12",
+              "type": "INTEGER"
+            },
+            {
+              "nom": "pax_with_seats_p12",
+              "type": "INTEGER"
+            },
+            {
+              "nom": "months_l12",
+              "type": "INTEGER"
+            },
+            {
+              "nom": "masked_months_l12",
+              "type": "INTEGER"
+            },
+            {
+              "nom": "flagged_months_l12",
+              "type": "INTEGER"
+            },
+            {
+              "nom": "lf_l12",
+              "type": "FLOAT"
+            },
+            {
+              "nom": "lf_p12",
+              "type": "FLOAT"
+            },
+            {
+              "nom": "growth_pax",
+              "type": "FLOAT"
+            },
+            {
+              "nom": "growth_seats",
+              "type": "FLOAT"
+            }
+          ],
+          "modifiee_le": "2026-10-27T21:00:19.536000+00:00",
+          "expire_le": "2026-12-25T14:35:32.336000+00:00"
+        }
+      ]
+    }
+  ],
+  "requetes_30_jours": {
+    "requetes": 1541,
+    "octets_lus": 851724449,
+    "slot_ms": 71361,
+    "en_cache": 1161
+  },
+  "sql": [
+    {
+      "couche": "silver",
+      "fichier": "01_airports.sql",
+      "table": "cap_silver.airports",
+      "sql": "-- Référentiel aéroports nettoyé : un aéroport par code ICAO, avec sa position géographique.\nSELECT\n  COALESCE(NULLIF(icao_code, ''), ident) AS icao,\n  NULLIF(iata_code, '') AS iata,\n  name AS airport_name,\n  NULLIF(municipality, '') AS city,\n  iso_country AS country_iso2,\n  type AS airport_type,\n  scheduled_service = 'yes' AS has_scheduled_service,\n  latitude_deg AS lat,\n  longitude_deg AS lon,\n  ST_GEOGPOINT(longitude_deg, latitude_deg) AS geo\nFROM `cap_bronze.airports`\nWHERE latitude_deg IS NOT NULL\n  AND longitude_deg IS NOT NULL\nQUALIFY ROW_NUMBER() OVER (\n  PARTITION BY COALESCE(NULLIF(icao_code, ''), ident)\n  ORDER BY IF(type = 'large_airport', 0, 1)\n) = 1\n"
+    },
+    {
+      "couche": "silver",
+      "fichier": "02_routes_monthly.sql",
+      "table": "cap_silver.routes_monthly",
+      "sql": "-- Une ligne par route (aéroport déclarant, aéroport partenaire) et par mois.\n-- Passagers, sièges et vols côte à côte, enrichis des codes IATA, des villes et de la distance.\n-- Une valeur confidentielle Eurostat (valeur vide) est conservée et signalée 'valeur_masquee' :\n-- la route existe ce mois-là, seul son volume est masqué.\n-- Attention : une route intra-déclarante (ex. CDG - Francfort) apparaît deux fois,\n-- une fois déclarée par la France, une fois par l'Allemagne. Le choix du côté se fait en gold.\nWITH pivot AS (\n  SELECT\n    rep_country,\n    rep_icao,\n    partner_country,\n    partner_icao,\n    period,\n    SUM(IF(measure = 'PAS_BRD', value, NULL)) AS passengers,\n    SUM(IF(measure = 'ST_PAS', value, NULL)) AS seats,\n    SUM(IF(measure = 'CAF_PAS', value, NULL)) AS flights,\n    COUNTIF(value IS NULL) AS masked_measures,\n    ANY_VALUE(dataset_code) AS dataset_code,\n    MAX(_ingested_at) AS ingested_at\n  FROM `cap_bronze.eurostat_routes`\n  GROUP BY rep_country, rep_icao, partner_country, partner_icao, period\n)\nSELECT\n  PARSE_DATE('%Y-%m-%d', CONCAT(p.period, '-01')) AS month,\n  p.rep_country,\n  p.rep_icao,\n  r.iata AS rep_iata,\n  r.city AS rep_city,\n  p.partner_country,\n  p.partner_icao,\n  a.iata AS partner_iata,\n  a.city AS partner_city,\n  a.airport_name AS partner_airport,\n  CAST(p.passengers AS INT64) AS passengers,\n  CAST(p.seats AS INT64) AS seats,\n  CAST(p.flights AS INT64) AS flights,\n  ROUND(SAFE_DIVIDE(p.passengers, p.seats), 4) AS load_factor,\n  ROUND(SAFE_DIVIDE(p.seats, p.flights), 1) AS seats_per_flight,\n  ROUND(ST_DISTANCE(r.geo, a.geo) / 1000) AS distance_km,\n  CASE\n    WHEN r.icao IS NULL OR a.icao IS NULL THEN 'aeroport_inconnu'\n    WHEN p.masked_measures > 0 THEN 'valeur_masquee'\n    WHEN p.seats IS NULL OR p.seats = 0 THEN 'sieges_absents'\n    WHEN SAFE_DIVIDE(p.passengers, p.seats) > 1 THEN 'remplissage_sup_100'\n    ELSE 'ok'\n  END AS quality_flag,\n  p.dataset_code,\n  p.ingested_at\nFROM pivot AS p\nLEFT JOIN `cap_silver.airports` AS r ON r.icao = p.rep_icao\nLEFT JOIN `cap_silver.airports` AS a ON a.icao = p.partner_icao\n"
+    },
+    {
+      "couche": "silver",
+      "fichier": "03_data_freshness.sql",
+      "table": "cap_silver.data_freshness",
+      "sql": "-- Fraîcheur et qualité des données par pays déclarant.\n-- Sert au badge « données au … » du site et au suivi de qualité.\nSELECT\n  rep_country,\n  MIN(month) AS first_month,\n  MAX(month) AS last_month,\n  COUNT(DISTINCT rep_icao) AS airports,\n  COUNT(*) AS route_months,\n  COUNTIF(quality_flag = 'ok') AS rows_ok,\n  COUNTIF(quality_flag = 'aeroport_inconnu') AS rows_unknown_airport,\n  COUNTIF(quality_flag = 'valeur_masquee') AS rows_masked,\n  COUNTIF(quality_flag = 'sieges_absents') AS rows_missing_seats,\n  COUNTIF(quality_flag = 'remplissage_sup_100') AS rows_lf_over_100,\n  ROUND(SAFE_DIVIDE(COUNTIF(quality_flag = 'ok'), COUNT(*)), 4) AS share_ok\nFROM `cap_silver.routes_monthly`\nGROUP BY rep_country\n"
+    },
+    {
+      "couche": "gold",
+      "fichier": "01_route_window.sql",
+      "table": "cap_gold.route_window",
+      "sql": "-- Chaque route sur deux fenêtres glissantes de 12 mois :\n--   L12 = les 12 derniers mois publiés par le pays déclarant\n--   P12 = les 12 mois précédents\n-- La fenêtre s'adapte à chaque pays : Eurostat ne publie pas tous les pays à la même date.\nWITH bounds AS (\n  SELECT rep_country, last_month\n  FROM `cap_silver.data_freshness`\n),\nwindowed AS (\n  SELECT\n    r.*,\n    b.last_month AS window_end,\n    IF(r.month > DATE_SUB(b.last_month, INTERVAL 12 MONTH), 'L12', 'P12') AS win\n  FROM `cap_silver.routes_monthly` AS r\n  JOIN bounds AS b USING (rep_country)\n  WHERE r.month > DATE_SUB(b.last_month, INTERVAL 24 MONTH)\n),\nagg AS (\n  SELECT\n    rep_country,\n    rep_icao,\n    ANY_VALUE(rep_iata) AS rep_iata,\n    ANY_VALUE(rep_city) AS rep_city,\n    partner_country,\n    partner_icao,\n    ANY_VALUE(partner_iata) AS partner_iata,\n    ANY_VALUE(partner_city) AS partner_city,\n    ANY_VALUE(partner_airport) AS partner_airport,\n    MAX(distance_km) AS distance_km,\n    MAX(window_end) AS window_end,\n    SUM(IF(win = 'L12', passengers, 0)) AS pax_l12,\n    SUM(IF(win = 'L12', seats, 0)) AS seats_l12,\n    SUM(IF(win = 'L12', flights, 0)) AS flights_l12,\n    SUM(IF(win = 'L12' AND seats > 0, passengers, 0)) AS pax_with_seats_l12,\n    SUM(IF(win = 'P12', passengers, 0)) AS pax_p12,\n    SUM(IF(win = 'P12', seats, 0)) AS seats_p12,\n    SUM(IF(win = 'P12', flights, 0)) AS flights_p12,\n    SUM(IF(win = 'P12' AND seats > 0, passengers, 0)) AS pax_with_seats_p12,\n    COUNTIF(win = 'L12') AS months_l12,\n    COUNTIF(win = 'L12' AND quality_flag = 'valeur_masquee') AS masked_months_l12,\n    COUNTIF(win = 'L12' AND quality_flag != 'ok') AS flagged_months_l12\n  FROM windowed\n  GROUP BY rep_country, rep_icao, partner_country, partner_icao\n)\nSELECT\n  *,\n  ROUND(SAFE_DIVIDE(pax_with_seats_l12, seats_l12), 4) AS lf_l12,\n  ROUND(SAFE_DIVIDE(pax_with_seats_p12, seats_p12), 4) AS lf_p12,\n  IF(pax_p12 >= 1000, ROUND(SAFE_DIVIDE(pax_l12, pax_p12) - 1, 4), NULL) AS growth_pax,\n  IF(seats_p12 >= 1000, ROUND(SAFE_DIVIDE(seats_l12, seats_p12) - 1, 4), NULL) AS growth_seats\nFROM agg\n"
+    },
+    {
+      "couche": "gold",
+      "fichier": "02_cdg_route_health.sql",
+      "table": "cap_gold.cdg_route_health",
+      "sql": "-- Bilan de santé des lignes exploitées au départ de CDG.\n-- Toutes compagnies confondues : Eurostat ne détaille pas par transporteur.\nSELECT\n  partner_icao,\n  partner_iata,\n  partner_city,\n  partner_airport,\n  partner_country,\n  distance_km,\n  CASE\n    WHEN distance_km >= 4000 THEN 'long-courrier'\n    WHEN distance_km >= 1500 THEN 'moyen-courrier'\n    ELSE 'court-courrier'\n  END AS segment,\n  flights_l12,\n  seats_l12,\n  pax_l12,\n  lf_l12,\n  pax_p12,\n  lf_p12,\n  growth_pax,\n  growth_seats,\n  ROUND((lf_l12 - lf_p12) * 100, 1) AS lf_delta_pts,\n  CASE\n    WHEN masked_months_l12 >= 6 THEN 'donnees_masquees'\n    WHEN growth_pax < -0.05 THEN 'trafic_en_baisse'\n    WHEN (lf_l12 - lf_p12) * 100 < -3 THEN 'remplissage_en_baisse'\n    WHEN lf_l12 < 0.70 THEN 'remplissage_faible'\n    WHEN growth_seats > 0.10 AND (lf_l12 - lf_p12) * 100 < 0 THEN 'capacite_en_avance_sur_demande'\n    ELSE 'ras'\n  END AS alert,\n  months_l12,\n  masked_months_l12,\n  window_end,\n  flagged_months_l12\nFROM `cap_gold.route_window`\nWHERE rep_icao = 'LFPG'\n  -- Ligne exploitée : au moins un vol par semaine en moyenne, ou volumes masqués par\n  -- Eurostat au moins 10 mois sur 12 (la route existe, son volume n'est pas publié).\n  AND (flights_l12 >= 52 OR masked_months_l12 >= 10)\n"
+    },
+    {
+      "couche": "gold",
+      "fichier": "03_opportunities.sql",
+      "table": "cap_gold.opportunities",
+      "sql": "-- Radar d'opportunités : destinations reliées en direct depuis les grands hubs européens\n-- concurrents, mais ni depuis CDG ni depuis Orly.\n--\n-- Règles :\n--   * seules les routes régulières des hubs comptent (au moins 52 vols sur 12 mois) ;\n--   * les vols intérieurs d'un hub sont exclus (ex. Madrid - Las Palmas), sinon\n--     ils écraseraient le classement ;\n--   * les destinations en France sont exclues, ainsi que les villes déjà desservies\n--     depuis Paris et les lignes signalées par l'analyste (reference/paris_network_overrides.csv) ;\n--   * score transparent de 0 à 100, calculé à l'intérieur de chaque segment\n--     (court, moyen, long-courrier) : volume 40 %, croissance 25 %,\n--     remplissage 20 %, nombre de hubs qui desservent 15 %.\nWITH hubs AS (\n  SELECT icao\n  FROM UNNEST([\n    'EHAM', 'EDDF', 'EDDM', 'LEMD', 'LEBL', 'LIRF', 'LSZH', 'LOWW', 'EBBR',\n    'EKCH', 'LTFM', 'LPPT', 'EIDW', 'ESSA', 'ENGM', 'EFHK'\n  ]) AS icao\n),\nhub_flows AS (\n  SELECT w.*\n  FROM `cap_gold.route_window` AS w\n  JOIN hubs AS h ON h.icao = w.rep_icao\n  WHERE w.partner_country != w.rep_country\n    AND w.partner_country != 'FR'\n    AND w.flights_l12 >= 52\n),\nparis AS (\n  SELECT\n    partner_icao,\n    SUM(IF(rep_icao = 'LFPG', flights_l12, 0)) AS cdg_flights_l12,\n    SUM(IF(rep_icao = 'LFPG', masked_months_l12, 0)) AS cdg_masked_months_l12,\n    SUM(IF(rep_icao = 'LFPO', flights_l12, 0)) AS ory_flights_l12,\n    SUM(IF(rep_icao = 'LFPO', masked_months_l12, 0)) AS ory_masked_months_l12\n  FROM `cap_gold.route_window`\n  WHERE rep_icao IN ('LFPG', 'LFPO')\n  GROUP BY partner_icao\n),\n-- Villes déjà desservies depuis Paris, tous aéroports confondus.\n-- Couvre les villes à plusieurs aéroports et les anciens codes (ex. Doha DIA / DOH).\nparis_cities AS (\n  SELECT DISTINCT ap.city, ap.country_iso2\n  FROM `cap_gold.route_window` AS w\n  JOIN `cap_silver.airports` AS ap ON ap.icao = w.partner_icao\n  WHERE w.rep_icao IN ('LFPG', 'LFPO')\n    AND (w.flights_l12 >= 52 OR w.masked_months_l12 >= 10)\n    AND ap.city IS NOT NULL\n),\n-- Corrections de l'analyste : lignes desservies que les statistiques ne voient pas\n-- (lignes saisonnières, routes non publiées par Eurostat). Chaque ligne cite sa source.\noverrides AS (\n  SELECT DISTINCT partner_iata\n  FROM `cap_bronze.paris_network_overrides`\n  WHERE status = 'desservie'\n),\nagg AS (\n  SELECT\n    partner_icao,\n    ANY_VALUE(partner_iata) AS partner_iata,\n    ANY_VALUE(partner_city) AS partner_city,\n    ANY_VALUE(partner_airport) AS partner_airport,\n    ANY_VALUE(partner_country) AS partner_country,\n    COUNT(*) AS hubs_serving,\n    STRING_AGG(COALESCE(rep_iata, rep_icao), ', ' ORDER BY pax_l12 DESC) AS hubs_list,\n    SUM(pax_l12) AS pax_l12_hubs,\n    SUM(pax_p12) AS pax_p12_hubs,\n    SUM(seats_l12) AS seats_l12_hubs,\n    SUM(flights_l12) AS flights_l12_hubs,\n    ROUND(SAFE_DIVIDE(SUM(pax_with_seats_l12), SUM(seats_l12)), 4) AS lf_l12_hubs,\n    MIN(window_end) AS data_until_min,\n    MAX(window_end) AS data_until_max\n  FROM hub_flows\n  GROUP BY partner_icao\n),\nbase AS (\n  SELECT\n    a.*,\n    IF(a.pax_p12_hubs >= 1000, ROUND(SAFE_DIVIDE(a.pax_l12_hubs, a.pax_p12_hubs) - 1, 4), NULL)\n      AS growth_hubs,\n    ROUND(ST_DISTANCE(cdg.geo, p.geo) / 1000) AS distance_from_cdg_km,\n    COALESCE(x.cdg_flights_l12, 0) AS cdg_flights_l12,\n    COALESCE(x.cdg_masked_months_l12, 0) AS cdg_masked_months_l12,\n    COALESCE(x.ory_flights_l12, 0) AS ory_flights_l12,\n    COALESCE(x.ory_masked_months_l12, 0) AS ory_masked_months_l12\n  FROM agg AS a\n  LEFT JOIN `cap_silver.airports` AS p ON p.icao = a.partner_icao\n  CROSS JOIN (SELECT geo FROM `cap_silver.airports` WHERE icao = 'LFPG') AS cdg\n  LEFT JOIN paris AS x ON x.partner_icao = a.partner_icao\n  LEFT JOIN paris_cities AS pc ON pc.city = p.city AND pc.country_iso2 = p.country_iso2\n  LEFT JOIN overrides AS o ON o.partner_iata = a.partner_iata\n  -- Paris ne dessert pas la destination :\n  --   * ni CDG ni Orly n'ont de ligne régulière vers cet aéroport (au moins 52 vols\n  --     sur 12 mois, ou volumes masqués par Eurostat au moins 10 mois sur 12) ;\n  --   * Paris ne dessert pas déjà la même ville par un autre aéroport ;\n  --   * l'analyste n'a pas signalé la ligne comme desservie.\n  WHERE COALESCE(x.cdg_flights_l12, 0) < 52\n    AND COALESCE(x.cdg_masked_months_l12, 0) < 10\n    AND COALESCE(x.ory_flights_l12, 0) < 52\n    AND COALESCE(x.ory_masked_months_l12, 0) < 10\n    AND pc.city IS NULL\n    AND o.partner_iata IS NULL\n    AND a.pax_l12_hubs >= 50000\n),\nsegmented AS (\n  SELECT\n    *,\n    CASE\n      WHEN distance_from_cdg_km >= 4000 THEN 'long-courrier'\n      WHEN distance_from_cdg_km >= 1500 THEN 'moyen-courrier'\n      ELSE 'court-courrier'\n    END AS segment\n  FROM base\n),\nscored AS (\n  SELECT\n    *,\n    PERCENT_RANK() OVER (PARTITION BY segment ORDER BY pax_l12_hubs) AS s_volume,\n    PERCENT_RANK() OVER (PARTITION BY segment ORDER BY COALESCE(growth_hubs, 0)) AS s_growth,\n    PERCENT_RANK() OVER (PARTITION BY segment ORDER BY COALESCE(lf_l12_hubs, 0)) AS s_lf,\n    PERCENT_RANK() OVER (PARTITION BY segment ORDER BY hubs_serving) AS s_hubs\n  FROM segmented\n)\nSELECT\n  *,\n  ROUND(100 * (0.40 * s_volume + 0.25 * s_growth + 0.20 * s_lf + 0.15 * s_hubs), 1)\n    AS opportunity_score\nFROM scored\n"
+    }
+  ],
+  "dernier_rafraichissement": null
+}

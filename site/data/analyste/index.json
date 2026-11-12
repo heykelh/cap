@@ -1,0 +1,27 @@
+[
+  {
+    "id": "faut-il-ouvrir-une-ligne-paris-manille-a-quelles-conditions-",
+    "question": "Faut-il ouvrir une ligne Paris-Manille ? À quelles conditions serait-elle rentable ?",
+    "ok": true
+  },
+  {
+    "id": "avec-un-seul-b787-9-disponible-quelle-destination-d-asie-ou-",
+    "question": "Avec un seul B787-9 disponible, quelle destination d'Asie ou du Moyen-Orient ouvrir en priorité depuis Paris ?",
+    "ok": true
+  },
+  {
+    "id": "paris-bogota-ou-paris-medellin-laquelle-des-deux-ouvrir-et-p",
+    "question": "Paris-Bogota ou Paris-Medellín : laquelle des deux ouvrir, et pourquoi ?",
+    "ok": true
+  },
+  {
+    "id": "comment-se-porte-le-marche-paris-new-york-et-paris-y-garde-t",
+    "question": "Comment se porte le marché Paris-New York, et Paris y garde-t-il sa place face aux autres hubs européens ?",
+    "ok": true
+  },
+  {
+    "id": "avec-un-seul-a350-disponible-vaut-il-mieux-ouvrir-manille-ja",
+    "question": "Avec un seul A350 disponible, vaut-il mieux ouvrir Manille, Jakarta ou Kuala Lumpur ?",
+    "ok": false
+  }
+]

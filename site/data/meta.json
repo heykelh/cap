@@ -1,0 +1,304 @@
+{
+  "genere_le": "2026-11-09",
+  "instantane_exporte_le": "2026-11-09",
+  "source_donnees": "BigQuery (cap_gold)",
+  "fraicheur_par_pays": [
+    {
+      "rep_country": "SI",
+      "last_month": "2024-12-01",
+      "share_ok": 0.995,
+      "rows_masked": 0
+    },
+    {
+      "rep_country": "LU",
+      "last_month": "2024-12-01",
+      "share_ok": 0.9728,
+      "rows_masked": 0
+    },
+    {
+      "rep_country": "LV",
+      "last_month": "2024-12-01",
+      "share_ok": 0.9802,
+      "rows_masked": 0
+    },
+    {
+      "rep_country": "MT",
+      "last_month": "2024-12-01",
+      "share_ok": 0.9939,
+      "rows_masked": 0
+    },
+    {
+      "rep_country": "ME",
+      "last_month": "2024-12-01",
+      "share_ok": 1.0,
+      "rows_masked": 0
+    },
+    {
+      "rep_country": "CY",
+      "last_month": "2024-12-01",
+      "share_ok": 0.9908,
+      "rows_masked": 0
+    },
+    {
+      "rep_country": "SK",
+      "last_month": "2024-12-01",
+      "share_ok": 0.9934,
+      "rows_masked": 0
+    },
+    {
+      "rep_country": "HU",
+      "last_month": "2024-12-01",
+      "share_ok": 0.9834,
+      "rows_masked": 0
+    },
+    {
+      "rep_country": "BG",
+      "last_month": "2024-12-01",
+      "share_ok": 0.9929,
+      "rows_masked": 0
+    },
+    {
+      "rep_country": "CH",
+      "last_month": "2024-12-01",
+      "share_ok": 0.9966,
+      "rows_masked": 0
+    },
+    {
+      "rep_country": "IS",
+      "last_month": "2024-12-01",
+      "share_ok": 0.9894,
+      "rows_masked": 0
+    },
+    {
+      "rep_country": "LT",
+      "last_month": "2024-12-01",
+      "share_ok": 0.9913,
+      "rows_masked": 0
+    },
+    {
+      "rep_country": "BE",
+      "last_month": "2024-12-01",
+      "share_ok": 0.9849,
+      "rows_masked": 0
+    },
+    {
+      "rep_country": "IE",
+      "last_month": "2024-12-01",
+      "share_ok": 0.9959,
+      "rows_masked": 0
+    },
+    {
+      "rep_country": "HR",
+      "last_month": "2024-12-01",
+      "share_ok": 0.9927,
+      "rows_masked": 0
+    },
+    {
+      "rep_country": "AT",
+      "last_month": "2024-12-01",
+      "share_ok": 0.9894,
+      "rows_masked": 0
+    },
+    {
+      "rep_country": "FI",
+      "last_month": "2024-12-01",
+      "share_ok": 0.9953,
+      "rows_masked": 0
+    },
+    {
+      "rep_country": "PT",
+      "last_month": "2024-12-01",
+      "share_ok": 0.9909,
+      "rows_masked": 0
+    },
+    {
+      "rep_country": "RO",
+      "last_month": "2024-12-01",
+      "share_ok": 0.9854,
+      "rows_masked": 0
+    },
+    {
+      "rep_country": "DE",
+      "last_month": "2024-12-01",
+      "share_ok": 0.9753,
+      "rows_masked": 0
+    },
+    {
+      "rep_country": "IT",
+      "last_month": "2024-12-01",
+      "share_ok": 0.9948,
+      "rows_masked": 0
+    },
+    {
+      "rep_country": "ES",
+      "last_month": "2024-12-01",
+      "share_ok": 0.9959,
+      "rows_masked": 0
+    },
+    {
+      "rep_country": "FR",
+      "last_month": "2024-12-01",
+      "share_ok": 0.9833,
+      "rows_masked": 674
+    },
+    {
+      "rep_country": "EE",
+      "last_month": "2024-12-01",
+      "share_ok": 0.9874,
+      "rows_masked": 0
+    },
+    {
+      "rep_country": "NL",
+      "last_month": "2024-12-01",
+      "share_ok": 0.9973,
+      "rows_masked": 0
+    },
+    {
+      "rep_country": "MK",
+      "last_month": "2024-12-01",
+      "share_ok": 0.9935,
+      "rows_masked": 0
+    },
+    {
+      "rep_country": "RS",
+      "last_month": "2024-12-01",
+      "share_ok": 0.9618,
+      "rows_masked": 0
+    },
+    {
+      "rep_country": "DK",
+      "last_month": "2024-12-01",
+      "share_ok": 0.9904,
+      "rows_masked": 0
+    },
+    {
+      "rep_country": "PL",
+      "last_month": "2024-12-01",
+      "share_ok": 0.9926,
+      "rows_masked": 0
+    },
+    {
+      "rep_country": "TR",
+      "last_month": "2024-12-01",
+      "share_ok": 0.9464,
+      "rows_masked": 0
+    },
+    {
+      "rep_country": "NO",
+      "last_month": "2024-12-01",
+      "share_ok": 0.7581,
+      "rows_masked": 3186
+    },
+    {
+      "rep_country": "SE",
+      "last_month": "2024-12-01",
+      "share_ok": 0.9816,
+      "rows_masked": 0
+    },
+    {
+      "rep_country": "EL",
+      "last_month": "2024-12-01",
+      "share_ok": 0.6869,
+      "rows_masked": 0
+    }
+  ],
+  "hypotheses": {
+    "version": "afklm-fy2025",
+    "valeurs": {
+      "yield_eur_per_rpk": {
+        "valeur": 0.0975,
+        "unite": "€ par passager-km",
+        "libelle": "Recette par passager-km (yield)",
+        "methode": "Recettes passagers trafic du réseau (24 114 M€) / passagers-km du réseau (247 354 M)",
+        "source": "Air France-KLM, communiqué de presse Full Year 2025, 19 février 2026, p. 12 et p. 29"
+      },
+      "cost_eur_per_ask": {
+        "valeur": 0.081,
+        "unite": "€ par siège-km",
+        "libelle": "Coût par siège-km (CASK)",
+        "methode": "Coût net par siège-km hors quotas carbone (ETS), publié",
+        "source": "Air France-KLM, communiqué de presse Full Year 2025, 19 février 2026, p. 27"
+      },
+      "fuel_eur_per_ask": {
+        "valeur": 0.0199,
+        "unite": "€ par siège-km",
+        "libelle": "dont carburant par siège-km",
+        "methode": "Carburant du réseau passagers hors ETS (5 635 M€) / sièges-km du réseau (283 727 M)",
+        "source": "Air France-KLM, communiqué de presse Full Year 2025, 19 février 2026, p. 12 et p. 29"
+      },
+      "load_factor": {
+        "valeur": 0.879,
+        "unite": "part des sièges",
+        "libelle": "Taux de remplissage visé",
+        "methode": "Coefficient de remplissage long-courrier 2025, publié",
+        "source": "Air France-KLM, communiqué de presse Full Year 2025, 19 février 2026, p. 29"
+      },
+      "weeks_per_year": {
+        "valeur": 52.0,
+        "unite": "semaines",
+        "libelle": "Semaines d'exploitation par an",
+        "methode": "Convention : exploitation à l'année. Réduire pour une ligne saisonnière",
+        "source": "Convention du modèle"
+      }
+    },
+    "remplissage_par_region": {
+      "Amérique du Nord": 0.877,
+      "Amérique latine": 0.909,
+      "Asie et Moyen-Orient": 0.881,
+      "Afrique": 0.846,
+      "Caraïbes et océan Indien": 0.876,
+      "Court et moyen-courrier": 0.839
+    },
+    "appareils": {
+      "A350-900": {
+        "seats": 324,
+        "cabins": "34 J, 24 W, 266 Y",
+        "alternatives": [
+          292,
+          290
+        ],
+        "source": "Wikipédia, « Air France fleet », consulté le 2026-10-28 (source secondaire, à confirmer)"
+      },
+      "B787-9": {
+        "seats": 279,
+        "cabins": "30 J, 21 W, 228 Y",
+        "alternatives": [],
+        "source": "Wikipédia, « Air France fleet », consulté le 2026-10-28 (source secondaire, à confirmer)"
+      },
+      "B777-300ER": {
+        "seats": 312,
+        "cabins": "4 F, 60 J, 44 W, 204 Y",
+        "alternatives": [
+          296,
+          369,
+          472
+        ],
+        "source": "Wikipédia, « Air France fleet », consulté le 2026-10-28 : configuration cible de la flotte (source secondaire, à confirmer)"
+      },
+      "B777-200ER": {
+        "seats": 328,
+        "cabins": "28 J, 32 W, 268 Y",
+        "alternatives": [],
+        "source": "Wikipédia, « Air France fleet », consulté le 2026-10-28 (source secondaire, à confirmer)"
+      }
+    },
+    "limites": [
+      "Recette et coût sont des moyennes du réseau : un long-courrier a en général un coût par siège-km plus bas qu'un court-courrier, et la recette varie fortement selon le marché.",
+      "Le modèle ne tient pas compte des passagers en correspondance qui alimentent le reste du réseau (contribution réseau), souvent décisive pour une ouverture.",
+      "Le nombre de sièges vient d'une source secondaire et doit être confirmé."
+    ]
+  },
+  "llm": "Groq (openai/gpt-oss-120b) puis Gemini (gemini-flash-latest)",
+  "statistiques": {
+    "llm": 79,
+    "gabarit": 0,
+    "echec": 0
+  },
+  "regle_dossiers": "un dossier pour chaque destination long-courrier du radar",
+  "radar_par_segment": {
+    "court-courrier": 47,
+    "long-courrier": 79,
+    "moyen-courrier": 50
+  },
+  "agents_source": "BigQuery (cap_gold)"
+}

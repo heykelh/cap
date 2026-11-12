@@ -1,0 +1,989 @@
+{
+  "destination": "SSA",
+  "note_markdown": "# Analyse de l’opportunité de la nouvelle ligne\n\n## Opportunité\nSalvador (SSA) est classée au radar, segment long-courrier, avec un score de 75,4 / 100, à 7 967 km de CDG.\n\n## Marché\nLes hubs européens concurrents ont transporté 245 660 passagers vers la destination sur la dernière année publiée (jusqu’à décembre 2024), soit +58,3 % sur un an. Le premier hub, Lisbon, en porte 69,4 %.\n\n## Concurrence\nSans vol direct, un voyageur parisien rejoint cette destination en correspondance, notamment par les hubs concurrents. CDG est reliée à ces hubs avec 1 697 085 passagers sur douze mois, toutes destinations finales confondues : la part qui continue vers cette destination n’est pas mesurable avec les données publiques et devra être estimée sur les données de réservation de la compagnie.\n\n## Rentabilité\nAvec 4 allers‑retours par semaine en B787-9, la ligne transporte 105 502 passagers par an, pour une recette de 82,0 M€ et un résultat d’exploitation de 7,1 M€ (marge 8,6 %). L’équilibre est atteint à 83,1 % de remplissage, pour 90,9 % visés.\n\n## Risques\n- Il faut capter 42,9 % du trafic que les hubs concurrents réalisent déjà.\n- Une recette inférieure de 10 % fait basculer la ligne en perte (-1,1 M€).\n- Les données s'arrêtent à décembre 2024 : à confirmer sur des données récentes.\n\n## Recommandation\napprofondir avant décision : au moins un risque majeur est à lever\n\n---\n\n## Annexe : chiffres et sources\n\n| Indicateur | Valeur | Source |\n|---|---|---|\n| code IATA de la destination | SSA | requête |\n| ville de destination | Salvador | BigQuery (cap_gold) |\n| code pays de la destination | BR | BigQuery (cap_gold) |\n| segment (court, moyen, long-courrier) | long-courrier | BigQuery (cap_gold) |\n| score d'opportunité du radar, calculé dans le segment | 75,4 / 100 | BigQuery (cap_gold) |\n| distance orthodromique depuis CDG | 7 967 km | BigQuery (cap_gold) |\n| statut de la destination dans le radar | classée au radar | BigQuery (cap_gold) |\n| rang centile de la destination sur le critère volume dans son segment | 71 % | BigQuery (cap_gold) |\n| rang centile de la destination sur le critère croissance dans son segment | 96 % | BigQuery (cap_gold) |\n| rang centile de la destination sur le critère remplissage dans son segment | 56 % | BigQuery (cap_gold) |\n| rang centile de la destination sur le critère hubs dans son segment | 79 % | BigQuery (cap_gold) |\n| passagers sur 12 mois entre les hubs concurrents et la destination | 245 660 | BigQuery (cap_gold) |\n| évolution de ce trafic sur un an | +58,3 % | BigQuery (cap_gold) |\n| nombre de hubs européens qui desservent la destination | 2 | BigQuery (cap_gold) |\n| part du premier hub dans ce trafic | 69,4 % | BigQuery (cap_gold) |\n| premier hub concurrent | Lisbon | BigQuery (cap_gold) |\n| dernier mois de données publié | décembre 2024 | BigQuery (cap_gold) |\n| hub concurrent n°1 | Lisbon | BigQuery (cap_gold) |\n| passagers sur 12 mois du hub n°1 | 170 415 | BigQuery (cap_gold) |\n| évolution sur un an du hub n°1 | +9,8 % | BigQuery (cap_gold) |\n| remplissage du hub n°1 | 83,6 % | BigQuery (cap_gold) |\n| hub concurrent n°2 | Madrid | BigQuery (cap_gold) |\n| passagers sur 12 mois du hub n°2 | 75 245 | BigQuery (cap_gold) |\n| évolution sur un an du hub n°2 | n.d. | BigQuery (cap_gold) |\n| remplissage du hub n°2 | 90,5 % | BigQuery (cap_gold) |\n| passagers CDG vers ces hubs sur 12 mois (clients potentiels en correspondance) | 1 697 085 | BigQuery (cap_gold) |\n| liaisons CDG-hub dont les volumes sont masqués | 0 | BigQuery (cap_gold) |\n| hub relié à CDG n°1 | Madrid | BigQuery (cap_gold) |\n| passagers CDG vers le hub n°1 | 1 052 673 | BigQuery (cap_gold) |\n| hub relié à CDG n°2 | Lisbon | BigQuery (cap_gold) |\n| passagers CDG vers le hub n°2 | 644 412 | BigQuery (cap_gold) |\n| vols CDG vers la destination sur 12 mois | 0 | BigQuery (cap_gold) |\n| allers-retours par semaine | 4 | requête |\n| type d'appareil | B787-9 | requête |\n| sièges par vol | 279 | Wikipédia, « Air France fleet », consulté le 2026-10-28 (source secondaire, à confirmer) |\n| semaines d'exploitation par an | 52 | Modèle CAP, hypothèses afklm-fy2025 |\n| référence de remplissage utilisée | Amérique latine | Modèle CAP, hypothèses afklm-fy2025 |\n| vols par an | 416 | Modèle CAP, hypothèses afklm-fy2025 |\n| passagers par an | 105 502 | Modèle CAP, hypothèses afklm-fy2025 |\n| recette annuelle | 82,0 M€ | Modèle CAP, hypothèses afklm-fy2025 |\n| coûts annuels | 74,9 M€ | Modèle CAP, hypothèses afklm-fy2025 |\n| dont carburant | 18,4 M€ | Modèle CAP, hypothèses afklm-fy2025 |\n| résultat d'exploitation annuel | 7,1 M€ | Modèle CAP, hypothèses afklm-fy2025 |\n| marge d'exploitation | 8,6 % | Modèle CAP, hypothèses afklm-fy2025 |\n| remplissage visé | 90,9 % | Modèle CAP, hypothèses afklm-fy2025 |\n| remplissage d'équilibre | 83,1 % | Modèle CAP, hypothèses afklm-fy2025 |\n| écart entre remplissage visé et équilibre | +7,8 pts | Modèle CAP, hypothèses afklm-fy2025 |\n| part du trafic des hubs concurrents à capter | 42,9 % | Modèle CAP, hypothèses afklm-fy2025 |\n| Yield -10 % / +10 % : scénario bas | -1,1 M€ | Modèle CAP, hypothèses afklm-fy2025 |\n| Yield -10 % / +10 % : scénario haut | 15,2 M€ | Modèle CAP, hypothèses afklm-fy2025 |\n| Remplissage -5 pts / +5 pts : scénario bas | 2,5 M€ | Modèle CAP, hypothèses afklm-fy2025 |\n| Remplissage -5 pts / +5 pts : scénario haut | 11,6 M€ | Modèle CAP, hypothèses afklm-fy2025 |\n| Prix du carburant -20 % / +20 % : scénario bas | 10,7 M€ | Modèle CAP, hypothèses afklm-fy2025 |\n| Prix du carburant -20 % / +20 % : scénario haut | 3,4 M€ | Modèle CAP, hypothèses afklm-fy2025 |\n| Coût hors carburant -5 % / +5 % : scénario bas | 9,9 M€ | Modèle CAP, hypothèses afklm-fy2025 |\n| Coût hors carburant -5 % / +5 % : scénario haut | 4,2 M€ | Modèle CAP, hypothèses afklm-fy2025 |\n| recette par passager-km utilisée | 9,75 c€ | Air France-KLM, communiqué de presse Full Year 2025, 19 février 2026, p. 12 et p. 29 |\n| coût par siège-km utilisé | 8,10 c€ | Air France-KLM, communiqué de presse Full Year 2025, 19 février 2026, p. 27 |",
+  "verdict": "approfondir avant décision : au moins un risque majeur est à lever",
+  "alertes": [
+    {
+      "code": "part_marche_elevee",
+      "gravite": "haute",
+      "texte": "Il faut capter {{part_marche}} du trafic que les hubs concurrents réalisent déjà."
+    },
+    {
+      "code": "dependance_yield",
+      "gravite": "haute",
+      "texte": "Une recette inférieure de 10 % fait basculer la ligne en perte ({{sens_yield_bas}})."
+    },
+    {
+      "code": "donnees_anciennes",
+      "gravite": "moyenne",
+      "texte": "Les données s'arrêtent à {{donnees_jusqu_a}} : à confirmer sur des données récentes."
+    }
+  ],
+  "synthese_economique": {
+    "route": "CDG-SSA",
+    "vols_par_an": 416,
+    "sieges_par_an": 116064,
+    "passagers_par_an": 105502,
+    "recette_meur": 82.0,
+    "couts_meur": 74.9,
+    "resultat_meur": 7.1,
+    "marge_pct": 8.6,
+    "remplissage_equilibre_pct": 83.1,
+    "part_de_marche_necessaire_pct": 42.9
+  },
+  "trace_calcul": [
+    {
+      "indicateur": "Vols par an",
+      "formule": "2 x 4 fréquences x 52.0 semaines",
+      "valeur": 416.0
+    },
+    {
+      "indicateur": "Sièges par an",
+      "formule": "416 vols x 279 sièges",
+      "valeur": 116064.0
+    },
+    {
+      "indicateur": "Sièges-km",
+      "formule": "116064 sièges x 7967 km",
+      "valeur": 924681888.0
+    },
+    {
+      "indicateur": "Passagers-km",
+      "formule": "sièges-km x remplissage 0.909",
+      "valeur": 840535836.192
+    },
+    {
+      "indicateur": "Passagers par an",
+      "formule": "sièges x remplissage 0.909",
+      "valeur": 105502.176
+    },
+    {
+      "indicateur": "Recette (€)",
+      "formule": "passagers-km x 0.0975 €",
+      "valeur": 81952244.02872
+    },
+    {
+      "indicateur": "Carburant (€)",
+      "formule": "sièges-km x 0.0199 € (variation prix +0%)",
+      "valeur": 18401169.571200002
+    },
+    {
+      "indicateur": "Autres coûts (€)",
+      "formule": "sièges-km x 0.0611 €",
+      "valeur": 56498063.356800005
+    },
+    {
+      "indicateur": "Coûts totaux (€)",
+      "formule": "carburant + autres coûts",
+      "valeur": 74899232.928
+    },
+    {
+      "indicateur": "Résultat d'exploitation (€)",
+      "formule": "recette - coûts",
+      "valeur": 7053011.100720003
+    },
+    {
+      "indicateur": "Marge d'exploitation",
+      "formule": "résultat / recette",
+      "valeur": 0.0860624523990861
+    },
+    {
+      "indicateur": "Remplissage d'équilibre",
+      "formule": "coût par siège-km 0.0810 / yield 0.0975",
+      "valeur": 0.8307692307692308
+    },
+    {
+      "indicateur": "Part de marché nécessaire",
+      "formule": "passagers 105502 / marché estimé 245660",
+      "valeur": 0.42946420255637874
+    }
+  ],
+  "sensibilites": [
+    {
+      "hypothese": "Yield -10 % / +10 %",
+      "resultat_bas_meur": -1.1,
+      "resultat_haut_meur": 15.2,
+      "amplitude_meur": 16.4,
+      "resultat_base_meur": 7.1
+    },
+    {
+      "hypothese": "Remplissage -5 pts / +5 pts",
+      "resultat_bas_meur": 2.5,
+      "resultat_haut_meur": 11.6,
+      "amplitude_meur": 9.0,
+      "resultat_base_meur": 7.1
+    },
+    {
+      "hypothese": "Prix du carburant -20 % / +20 %",
+      "resultat_bas_meur": 10.7,
+      "resultat_haut_meur": 3.4,
+      "amplitude_meur": 7.4,
+      "resultat_base_meur": 7.1
+    },
+    {
+      "hypothese": "Coût hors carburant -5 % / +5 %",
+      "resultat_bas_meur": 9.9,
+      "resultat_haut_meur": 4.2,
+      "amplitude_meur": 5.6,
+      "resultat_base_meur": 7.1
+    }
+  ],
+  "faits": {
+    "destination": {
+      "valeur": "SSA",
+      "libelle": "code IATA de la destination",
+      "source": "requête"
+    },
+    "ville": {
+      "valeur": "Salvador",
+      "libelle": "ville de destination",
+      "source": "BigQuery (cap_gold)"
+    },
+    "pays": {
+      "valeur": "BR",
+      "libelle": "code pays de la destination",
+      "source": "BigQuery (cap_gold)"
+    },
+    "segment": {
+      "valeur": "long-courrier",
+      "libelle": "segment (court, moyen, long-courrier)",
+      "source": "BigQuery (cap_gold)"
+    },
+    "score": {
+      "valeur": "75,4 / 100",
+      "libelle": "score d'opportunité du radar, calculé dans le segment",
+      "source": "BigQuery (cap_gold)"
+    },
+    "distance": {
+      "valeur": "7 967 km",
+      "libelle": "distance orthodromique depuis CDG",
+      "source": "BigQuery (cap_gold)"
+    },
+    "radar_statut": {
+      "valeur": "classée au radar",
+      "libelle": "statut de la destination dans le radar",
+      "source": "BigQuery (cap_gold)"
+    },
+    "rang_volume": {
+      "valeur": "71 %",
+      "libelle": "rang centile de la destination sur le critère volume dans son segment",
+      "source": "BigQuery (cap_gold)"
+    },
+    "rang_croissance": {
+      "valeur": "96 %",
+      "libelle": "rang centile de la destination sur le critère croissance dans son segment",
+      "source": "BigQuery (cap_gold)"
+    },
+    "rang_remplissage": {
+      "valeur": "56 %",
+      "libelle": "rang centile de la destination sur le critère remplissage dans son segment",
+      "source": "BigQuery (cap_gold)"
+    },
+    "rang_hubs": {
+      "valeur": "79 %",
+      "libelle": "rang centile de la destination sur le critère hubs dans son segment",
+      "source": "BigQuery (cap_gold)"
+    },
+    "marche_pax": {
+      "valeur": "245 660",
+      "libelle": "passagers sur 12 mois entre les hubs concurrents et la destination",
+      "source": "BigQuery (cap_gold)"
+    },
+    "marche_croissance": {
+      "valeur": "+58,3 %",
+      "libelle": "évolution de ce trafic sur un an",
+      "source": "BigQuery (cap_gold)"
+    },
+    "nb_hubs": {
+      "valeur": "2",
+      "libelle": "nombre de hubs européens qui desservent la destination",
+      "source": "BigQuery (cap_gold)"
+    },
+    "part_premier_hub": {
+      "valeur": "69,4 %",
+      "libelle": "part du premier hub dans ce trafic",
+      "source": "BigQuery (cap_gold)"
+    },
+    "premier_hub": {
+      "valeur": "Lisbon",
+      "libelle": "premier hub concurrent",
+      "source": "BigQuery (cap_gold)"
+    },
+    "donnees_jusqu_a": {
+      "valeur": "décembre 2024",
+      "libelle": "dernier mois de données publié",
+      "source": "BigQuery (cap_gold)"
+    },
+    "hub1_nom": {
+      "valeur": "Lisbon",
+      "libelle": "hub concurrent n°1",
+      "source": "BigQuery (cap_gold)"
+    },
+    "hub1_pax": {
+      "valeur": "170 415",
+      "libelle": "passagers sur 12 mois du hub n°1",
+      "source": "BigQuery (cap_gold)"
+    },
+    "hub1_croissance": {
+      "valeur": "+9,8 %",
+      "libelle": "évolution sur un an du hub n°1",
+      "source": "BigQuery (cap_gold)"
+    },
+    "hub1_remplissage": {
+      "valeur": "83,6 %",
+      "libelle": "remplissage du hub n°1",
+      "source": "BigQuery (cap_gold)"
+    },
+    "hub2_nom": {
+      "valeur": "Madrid",
+      "libelle": "hub concurrent n°2",
+      "source": "BigQuery (cap_gold)"
+    },
+    "hub2_pax": {
+      "valeur": "75 245",
+      "libelle": "passagers sur 12 mois du hub n°2",
+      "source": "BigQuery (cap_gold)"
+    },
+    "hub2_croissance": {
+      "valeur": "n.d.",
+      "libelle": "évolution sur un an du hub n°2",
+      "source": "BigQuery (cap_gold)"
+    },
+    "hub2_remplissage": {
+      "valeur": "90,5 %",
+      "libelle": "remplissage du hub n°2",
+      "source": "BigQuery (cap_gold)"
+    },
+    "paris_vers_hubs_pax": {
+      "valeur": "1 697 085",
+      "libelle": "passagers CDG vers ces hubs sur 12 mois (clients potentiels en correspondance)",
+      "source": "BigQuery (cap_gold)"
+    },
+    "paris_vers_hubs_masques": {
+      "valeur": "0",
+      "libelle": "liaisons CDG-hub dont les volumes sont masqués",
+      "source": "BigQuery (cap_gold)"
+    },
+    "liaison1_hub": {
+      "valeur": "Madrid",
+      "libelle": "hub relié à CDG n°1",
+      "source": "BigQuery (cap_gold)"
+    },
+    "liaison1_pax": {
+      "valeur": "1 052 673",
+      "libelle": "passagers CDG vers le hub n°1",
+      "source": "BigQuery (cap_gold)"
+    },
+    "liaison2_hub": {
+      "valeur": "Lisbon",
+      "libelle": "hub relié à CDG n°2",
+      "source": "BigQuery (cap_gold)"
+    },
+    "liaison2_pax": {
+      "valeur": "644 412",
+      "libelle": "passagers CDG vers le hub n°2",
+      "source": "BigQuery (cap_gold)"
+    },
+    "cdg_vols_actuels": {
+      "valeur": "0",
+      "libelle": "vols CDG vers la destination sur 12 mois",
+      "source": "BigQuery (cap_gold)"
+    },
+    "frequences": {
+      "valeur": "4",
+      "libelle": "allers-retours par semaine",
+      "source": "requête"
+    },
+    "appareil": {
+      "valeur": "B787-9",
+      "libelle": "type d'appareil",
+      "source": "requête"
+    },
+    "sieges": {
+      "valeur": "279",
+      "libelle": "sièges par vol",
+      "source": "Wikipédia, « Air France fleet », consulté le 2026-10-28 (source secondaire, à confirmer)"
+    },
+    "semaines": {
+      "valeur": "52",
+      "libelle": "semaines d'exploitation par an",
+      "source": "Modèle CAP, hypothèses afklm-fy2025"
+    },
+    "region_remplissage": {
+      "valeur": "Amérique latine",
+      "libelle": "référence de remplissage utilisée",
+      "source": "Modèle CAP, hypothèses afklm-fy2025"
+    },
+    "vols_an": {
+      "valeur": "416",
+      "libelle": "vols par an",
+      "source": "Modèle CAP, hypothèses afklm-fy2025"
+    },
+    "passagers_an": {
+      "valeur": "105 502",
+      "libelle": "passagers par an",
+      "source": "Modèle CAP, hypothèses afklm-fy2025"
+    },
+    "recette_meur": {
+      "valeur": "82,0 M€",
+      "libelle": "recette annuelle",
+      "source": "Modèle CAP, hypothèses afklm-fy2025"
+    },
+    "couts_meur": {
+      "valeur": "74,9 M€",
+      "libelle": "coûts annuels",
+      "source": "Modèle CAP, hypothèses afklm-fy2025"
+    },
+    "carburant_meur": {
+      "valeur": "18,4 M€",
+      "libelle": "dont carburant",
+      "source": "Modèle CAP, hypothèses afklm-fy2025"
+    },
+    "resultat_meur": {
+      "valeur": "7,1 M€",
+      "libelle": "résultat d'exploitation annuel",
+      "source": "Modèle CAP, hypothèses afklm-fy2025"
+    },
+    "marge": {
+      "valeur": "8,6 %",
+      "libelle": "marge d'exploitation",
+      "source": "Modèle CAP, hypothèses afklm-fy2025"
+    },
+    "remplissage_vise": {
+      "valeur": "90,9 %",
+      "libelle": "remplissage visé",
+      "source": "Modèle CAP, hypothèses afklm-fy2025"
+    },
+    "remplissage_equilibre": {
+      "valeur": "83,1 %",
+      "libelle": "remplissage d'équilibre",
+      "source": "Modèle CAP, hypothèses afklm-fy2025"
+    },
+    "marge_securite": {
+      "valeur": "+7,8 pts",
+      "libelle": "écart entre remplissage visé et équilibre",
+      "source": "Modèle CAP, hypothèses afklm-fy2025"
+    },
+    "part_marche": {
+      "valeur": "42,9 %",
+      "libelle": "part du trafic des hubs concurrents à capter",
+      "source": "Modèle CAP, hypothèses afklm-fy2025"
+    },
+    "sens_yield_bas": {
+      "valeur": "-1,1 M€",
+      "libelle": "Yield -10 % / +10 % : scénario bas",
+      "source": "Modèle CAP, hypothèses afklm-fy2025"
+    },
+    "sens_yield_haut": {
+      "valeur": "15,2 M€",
+      "libelle": "Yield -10 % / +10 % : scénario haut",
+      "source": "Modèle CAP, hypothèses afklm-fy2025"
+    },
+    "sens_remplissage_bas": {
+      "valeur": "2,5 M€",
+      "libelle": "Remplissage -5 pts / +5 pts : scénario bas",
+      "source": "Modèle CAP, hypothèses afklm-fy2025"
+    },
+    "sens_remplissage_haut": {
+      "valeur": "11,6 M€",
+      "libelle": "Remplissage -5 pts / +5 pts : scénario haut",
+      "source": "Modèle CAP, hypothèses afklm-fy2025"
+    },
+    "sens_carburant_bas": {
+      "valeur": "10,7 M€",
+      "libelle": "Prix du carburant -20 % / +20 % : scénario bas",
+      "source": "Modèle CAP, hypothèses afklm-fy2025"
+    },
+    "sens_carburant_haut": {
+      "valeur": "3,4 M€",
+      "libelle": "Prix du carburant -20 % / +20 % : scénario haut",
+      "source": "Modèle CAP, hypothèses afklm-fy2025"
+    },
+    "sens_couts_bas": {
+      "valeur": "9,9 M€",
+      "libelle": "Coût hors carburant -5 % / +5 % : scénario bas",
+      "source": "Modèle CAP, hypothèses afklm-fy2025"
+    },
+    "sens_couts_haut": {
+      "valeur": "4,2 M€",
+      "libelle": "Coût hors carburant -5 % / +5 % : scénario haut",
+      "source": "Modèle CAP, hypothèses afklm-fy2025"
+    },
+    "hyp_yield": {
+      "valeur": "9,75 c€",
+      "libelle": "recette par passager-km utilisée",
+      "source": "Air France-KLM, communiqué de presse Full Year 2025, 19 février 2026, p. 12 et p. 29"
+    },
+    "hyp_cask": {
+      "valeur": "8,10 c€",
+      "libelle": "coût par siège-km utilisé",
+      "source": "Air France-KLM, communiqué de presse Full Year 2025, 19 février 2026, p. 27"
+    },
+    "alerte1": {
+      "valeur": "Il faut capter 42,9 % du trafic que les hubs concurrents réalisent déjà.",
+      "libelle": "alerte n°1 (haute)",
+      "source": "règles CAP"
+    },
+    "alerte2": {
+      "valeur": "Une recette inférieure de 10 % fait basculer la ligne en perte (-1,1 M€).",
+      "libelle": "alerte n°2 (haute)",
+      "source": "règles CAP"
+    },
+    "alerte3": {
+      "valeur": "Les données s'arrêtent à décembre 2024 : à confirmer sur des données récentes.",
+      "libelle": "alerte n°3 (moyenne)",
+      "source": "règles CAP"
+    },
+    "verdict": {
+      "valeur": "approfondir avant décision : au moins un risque majeur est à lever",
+      "libelle": "recommandation calculée par les règles CAP",
+      "source": "règles CAP"
+    }
+  },
+  "journal": [
+    {
+      "agent": "Éclaireur",
+      "llm": "Groq (openai/gpt-oss-120b) puis Gemini (gemini-flash-latest)",
+      "tentatives": 0,
+      "statut": "gabarit (LLM réservé à la note)",
+      "rejets": [],
+      "requetes": [
+        {
+          "methode": "opportunity",
+          "sql": "SELECT * FROM `cap_gold.opportunities` WHERE partner_iata = @iata LIMIT 1",
+          "parametres": {
+            "iata": "SSA"
+          },
+          "execute_sur": "BigQuery",
+          "job_id": "9aa36e9e-cba4-4889-9e25-7c3c6f27b8d0",
+          "octets_lus": 0,
+          "octets_factures": 0,
+          "cache": true,
+          "duree_ms": 438,
+          "lignes": 1
+        }
+      ],
+      "faits": {
+        "destination": {
+          "valeur": "SSA",
+          "libelle": "code IATA de la destination"
+        },
+        "ville": {
+          "valeur": "Salvador",
+          "libelle": "ville de destination"
+        },
+        "pays": {
+          "valeur": "BR",
+          "libelle": "code pays de la destination"
+        },
+        "segment": {
+          "valeur": "long-courrier",
+          "libelle": "segment (court, moyen, long-courrier)"
+        },
+        "score": {
+          "valeur": "75,4 / 100",
+          "libelle": "score d'opportunité du radar, calculé dans le segment"
+        },
+        "distance": {
+          "valeur": "7 967 km",
+          "libelle": "distance orthodromique depuis CDG"
+        },
+        "radar_statut": {
+          "valeur": "classée au radar",
+          "libelle": "statut de la destination dans le radar"
+        },
+        "rang_volume": {
+          "valeur": "71 %",
+          "libelle": "rang centile de la destination sur le critère volume dans son segment"
+        },
+        "rang_croissance": {
+          "valeur": "96 %",
+          "libelle": "rang centile de la destination sur le critère croissance dans son segment"
+        },
+        "rang_remplissage": {
+          "valeur": "56 %",
+          "libelle": "rang centile de la destination sur le critère remplissage dans son segment"
+        },
+        "rang_hubs": {
+          "valeur": "79 %",
+          "libelle": "rang centile de la destination sur le critère hubs dans son segment"
+        }
+      },
+      "texte": "Salvador (SSA) est classée au radar, segment long-courrier, avec un score de 75,4 / 100, à 7 967 km de CDG.",
+      "duree_ms": 0,
+      "source": "BigQuery (cap_gold)"
+    },
+    {
+      "agent": "Marché",
+      "llm": "Groq (openai/gpt-oss-120b) puis Gemini (gemini-flash-latest)",
+      "tentatives": 0,
+      "statut": "gabarit (LLM réservé à la note)",
+      "rejets": [],
+      "requetes": [
+        {
+          "methode": "hub_flows",
+          "sql": "SELECT rep_icao, rep_iata, rep_city, partner_icao, partner_iata, pax_l12, pax_p12,\n       flights_l12, lf_l12, growth_pax, window_end, masked_months_l12\nFROM `cap_gold.route_window`\nWHERE partner_iata = @iata AND rep_icao IN UNNEST(@hubs) AND flights_l12 >= 52\nORDER BY pax_l12 DESC",
+          "parametres": {
+            "iata": "SSA",
+            "hubs": [
+              "EHAM",
+              "EDDF",
+              "EDDM",
+              "LEMD",
+              "LEBL",
+              "LIRF",
+              "LSZH",
+              "LOWW",
+              "EBBR",
+              "EKCH",
+              "LTFM",
+              "LPPT",
+              "EIDW",
+              "ESSA",
+              "ENGM",
+              "EFHK"
+            ]
+          },
+          "execute_sur": "BigQuery",
+          "job_id": "4fb4f754-a9b7-4545-b41e-35b4565052e8",
+          "octets_lus": 0,
+          "octets_factures": 0,
+          "cache": true,
+          "duree_ms": 519,
+          "lignes": 2
+        }
+      ],
+      "faits": {
+        "marche_pax": {
+          "valeur": "245 660",
+          "libelle": "passagers sur 12 mois entre les hubs concurrents et la destination"
+        },
+        "marche_croissance": {
+          "valeur": "+58,3 %",
+          "libelle": "évolution de ce trafic sur un an"
+        },
+        "nb_hubs": {
+          "valeur": "2",
+          "libelle": "nombre de hubs européens qui desservent la destination"
+        },
+        "part_premier_hub": {
+          "valeur": "69,4 %",
+          "libelle": "part du premier hub dans ce trafic"
+        },
+        "premier_hub": {
+          "valeur": "Lisbon",
+          "libelle": "premier hub concurrent"
+        },
+        "donnees_jusqu_a": {
+          "valeur": "décembre 2024",
+          "libelle": "dernier mois de données publié"
+        },
+        "hub1_nom": {
+          "valeur": "Lisbon",
+          "libelle": "hub concurrent n°1"
+        },
+        "hub1_pax": {
+          "valeur": "170 415",
+          "libelle": "passagers sur 12 mois du hub n°1"
+        },
+        "hub1_croissance": {
+          "valeur": "+9,8 %",
+          "libelle": "évolution sur un an du hub n°1"
+        },
+        "hub1_remplissage": {
+          "valeur": "83,6 %",
+          "libelle": "remplissage du hub n°1"
+        },
+        "hub2_nom": {
+          "valeur": "Madrid",
+          "libelle": "hub concurrent n°2"
+        },
+        "hub2_pax": {
+          "valeur": "75 245",
+          "libelle": "passagers sur 12 mois du hub n°2"
+        },
+        "hub2_croissance": {
+          "valeur": "n.d.",
+          "libelle": "évolution sur un an du hub n°2"
+        },
+        "hub2_remplissage": {
+          "valeur": "90,5 %",
+          "libelle": "remplissage du hub n°2"
+        }
+      },
+      "texte": "Les hubs européens concurrents ont transporté 245 660 passagers vers la destination sur la dernière année publiée (jusqu'à décembre 2024), soit +58,3 % sur un an. Le premier hub, Lisbon, en porte 69,4 %.",
+      "duree_ms": 519,
+      "source": "BigQuery (cap_gold)"
+    },
+    {
+      "agent": "Concurrence",
+      "llm": "Groq (openai/gpt-oss-120b) puis Gemini (gemini-flash-latest)",
+      "tentatives": 0,
+      "statut": "gabarit (LLM réservé à la note)",
+      "rejets": [],
+      "requetes": [
+        {
+          "methode": "paris_to_hubs",
+          "sql": "SELECT partner_icao, partner_iata, partner_city, pax_l12, flights_l12, lf_l12,\n       masked_months_l12, window_end\nFROM `cap_gold.route_window`\nWHERE rep_icao = 'LFPG' AND partner_icao IN UNNEST(@hubs)\nORDER BY pax_l12 DESC",
+          "parametres": {
+            "hubs": [
+              "LPPT",
+              "LEMD"
+            ]
+          },
+          "execute_sur": "BigQuery",
+          "job_id": "622e1be1-4270-4f38-b5e7-0d461db4446c",
+          "octets_lus": 0,
+          "octets_factures": 0,
+          "cache": true,
+          "duree_ms": 421,
+          "lignes": 2
+        }
+      ],
+      "faits": {
+        "paris_vers_hubs_pax": {
+          "valeur": "1 697 085",
+          "libelle": "passagers CDG vers ces hubs sur 12 mois (clients potentiels en correspondance)"
+        },
+        "paris_vers_hubs_masques": {
+          "valeur": "0",
+          "libelle": "liaisons CDG-hub dont les volumes sont masqués"
+        },
+        "liaison1_hub": {
+          "valeur": "Madrid",
+          "libelle": "hub relié à CDG n°1"
+        },
+        "liaison1_pax": {
+          "valeur": "1 052 673",
+          "libelle": "passagers CDG vers le hub n°1"
+        },
+        "liaison2_hub": {
+          "valeur": "Lisbon",
+          "libelle": "hub relié à CDG n°2"
+        },
+        "liaison2_pax": {
+          "valeur": "644 412",
+          "libelle": "passagers CDG vers le hub n°2"
+        },
+        "cdg_vols_actuels": {
+          "valeur": "0",
+          "libelle": "vols CDG vers la destination sur 12 mois"
+        }
+      },
+      "texte": "Sans vol direct, un voyageur parisien rejoint cette destination en correspondance, notamment par les hubs concurrents. CDG est reliée à ces hubs avec 1 697 085 passagers sur douze mois, toutes destinations finales confondues : la part qui continue vers cette destination n'est pas mesurable avec les données publiques et devra être estimée sur les données de réservation de la compagnie.",
+      "duree_ms": 421,
+      "source": "BigQuery (cap_gold)"
+    },
+    {
+      "agent": "Économiste",
+      "llm": "Groq (openai/gpt-oss-120b) puis Gemini (gemini-flash-latest)",
+      "tentatives": 0,
+      "statut": "gabarit (LLM réservé à la note)",
+      "rejets": [],
+      "calcul": "modèle CAP déterministe",
+      "requetes": [],
+      "faits": {
+        "frequences": {
+          "valeur": "4",
+          "libelle": "allers-retours par semaine"
+        },
+        "appareil": {
+          "valeur": "B787-9",
+          "libelle": "type d'appareil"
+        },
+        "sieges": {
+          "valeur": "279",
+          "libelle": "sièges par vol"
+        },
+        "semaines": {
+          "valeur": "52",
+          "libelle": "semaines d'exploitation par an"
+        },
+        "region_remplissage": {
+          "valeur": "Amérique latine",
+          "libelle": "référence de remplissage utilisée"
+        },
+        "vols_an": {
+          "valeur": "416",
+          "libelle": "vols par an"
+        },
+        "passagers_an": {
+          "valeur": "105 502",
+          "libelle": "passagers par an"
+        },
+        "recette_meur": {
+          "valeur": "82,0 M€",
+          "libelle": "recette annuelle"
+        },
+        "couts_meur": {
+          "valeur": "74,9 M€",
+          "libelle": "coûts annuels"
+        },
+        "carburant_meur": {
+          "valeur": "18,4 M€",
+          "libelle": "dont carburant"
+        },
+        "resultat_meur": {
+          "valeur": "7,1 M€",
+          "libelle": "résultat d'exploitation annuel"
+        },
+        "marge": {
+          "valeur": "8,6 %",
+          "libelle": "marge d'exploitation"
+        },
+        "remplissage_vise": {
+          "valeur": "90,9 %",
+          "libelle": "remplissage visé"
+        },
+        "remplissage_equilibre": {
+          "valeur": "83,1 %",
+          "libelle": "remplissage d'équilibre"
+        },
+        "marge_securite": {
+          "valeur": "+7,8 pts",
+          "libelle": "écart entre remplissage visé et équilibre"
+        },
+        "part_marche": {
+          "valeur": "42,9 %",
+          "libelle": "part du trafic des hubs concurrents à capter"
+        },
+        "sens_yield_bas": {
+          "valeur": "-1,1 M€",
+          "libelle": "Yield -10 % / +10 % : scénario bas"
+        },
+        "sens_yield_haut": {
+          "valeur": "15,2 M€",
+          "libelle": "Yield -10 % / +10 % : scénario haut"
+        },
+        "sens_remplissage_bas": {
+          "valeur": "2,5 M€",
+          "libelle": "Remplissage -5 pts / +5 pts : scénario bas"
+        },
+        "sens_remplissage_haut": {
+          "valeur": "11,6 M€",
+          "libelle": "Remplissage -5 pts / +5 pts : scénario haut"
+        },
+        "sens_carburant_bas": {
+          "valeur": "10,7 M€",
+          "libelle": "Prix du carburant -20 % / +20 % : scénario bas"
+        },
+        "sens_carburant_haut": {
+          "valeur": "3,4 M€",
+          "libelle": "Prix du carburant -20 % / +20 % : scénario haut"
+        },
+        "sens_couts_bas": {
+          "valeur": "9,9 M€",
+          "libelle": "Coût hors carburant -5 % / +5 % : scénario bas"
+        },
+        "sens_couts_haut": {
+          "valeur": "4,2 M€",
+          "libelle": "Coût hors carburant -5 % / +5 % : scénario haut"
+        },
+        "hyp_yield": {
+          "valeur": "9,75 c€",
+          "libelle": "recette par passager-km utilisée"
+        },
+        "hyp_cask": {
+          "valeur": "8,10 c€",
+          "libelle": "coût par siège-km utilisé"
+        }
+      },
+      "texte": "Avec 4 allers-retours par semaine en B787-9, la ligne transporte 105 502 passagers par an, pour une recette de 82,0 M€ et un résultat d'exploitation de 7,1 M€ (marge 8,6 %). L'équilibre est atteint à 83,1 % de remplissage, pour 90,9 % visés.",
+      "duree_ms": 1,
+      "source": "BigQuery (cap_gold)",
+      "formules": [
+        {
+          "indicateur": "Vols par an",
+          "formule": "2 x 4 fréquences x 52.0 semaines",
+          "valeur": 416.0
+        },
+        {
+          "indicateur": "Sièges par an",
+          "formule": "416 vols x 279 sièges",
+          "valeur": 116064.0
+        },
+        {
+          "indicateur": "Sièges-km",
+          "formule": "116064 sièges x 7967 km",
+          "valeur": 924681888.0
+        },
+        {
+          "indicateur": "Passagers-km",
+          "formule": "sièges-km x remplissage 0.909",
+          "valeur": 840535836.192
+        },
+        {
+          "indicateur": "Passagers par an",
+          "formule": "sièges x remplissage 0.909",
+          "valeur": 105502.176
+        },
+        {
+          "indicateur": "Recette (€)",
+          "formule": "passagers-km x 0.0975 €",
+          "valeur": 81952244.02872
+        },
+        {
+          "indicateur": "Carburant (€)",
+          "formule": "sièges-km x 0.0199 € (variation prix +0%)",
+          "valeur": 18401169.571200002
+        },
+        {
+          "indicateur": "Autres coûts (€)",
+          "formule": "sièges-km x 0.0611 €",
+          "valeur": 56498063.356800005
+        },
+        {
+          "indicateur": "Coûts totaux (€)",
+          "formule": "carburant + autres coûts",
+          "valeur": 74899232.928
+        },
+        {
+          "indicateur": "Résultat d'exploitation (€)",
+          "formule": "recette - coûts",
+          "valeur": 7053011.100720003
+        },
+        {
+          "indicateur": "Marge d'exploitation",
+          "formule": "résultat / recette",
+          "valeur": 0.0860624523990861
+        },
+        {
+          "indicateur": "Remplissage d'équilibre",
+          "formule": "coût par siège-km 0.0810 / yield 0.0975",
+          "valeur": 0.8307692307692308
+        },
+        {
+          "indicateur": "Part de marché nécessaire",
+          "formule": "passagers 105502 / marché estimé 245660",
+          "valeur": 0.42946420255637874
+        }
+      ]
+    },
+    {
+      "agent": "Avocat du diable",
+      "llm": "Groq (openai/gpt-oss-120b) puis Gemini (gemini-flash-latest)",
+      "tentatives": 0,
+      "statut": "gabarit (LLM réservé à la note)",
+      "rejets": [],
+      "alertes": [
+        "part_marche_elevee",
+        "dependance_yield",
+        "donnees_anciennes"
+      ],
+      "requetes": [
+        {
+          "methode": "overrides",
+          "sql": "SELECT partner_iata, airport_from, status, season, source, verified_on, comment\nFROM `cap_bronze.paris_network_overrides`\nWHERE partner_iata = @iata",
+          "parametres": {
+            "iata": "SSA"
+          },
+          "execute_sur": "BigQuery",
+          "job_id": "b82f039c-6e50-42aa-939b-f10756aed64d",
+          "octets_lus": 0,
+          "octets_factures": 0,
+          "cache": true,
+          "duree_ms": 394,
+          "lignes": 0
+        }
+      ],
+      "faits": {
+        "alerte1": {
+          "valeur": "Il faut capter 42,9 % du trafic que les hubs concurrents réalisent déjà.",
+          "libelle": "alerte n°1 (haute)"
+        },
+        "alerte2": {
+          "valeur": "Une recette inférieure de 10 % fait basculer la ligne en perte (-1,1 M€).",
+          "libelle": "alerte n°2 (haute)"
+        },
+        "alerte3": {
+          "valeur": "Les données s'arrêtent à décembre 2024 : à confirmer sur des données récentes.",
+          "libelle": "alerte n°3 (moyenne)"
+        },
+        "verdict": {
+          "valeur": "approfondir avant décision : au moins un risque majeur est à lever",
+          "libelle": "recommandation calculée par les règles CAP"
+        }
+      },
+      "texte": "- Il faut capter 42,9 % du trafic que les hubs concurrents réalisent déjà.\n- Une recette inférieure de 10 % fait basculer la ligne en perte (-1,1 M€).\n- Les données s'arrêtent à décembre 2024 : à confirmer sur des données récentes.",
+      "duree_ms": 394,
+      "source": "BigQuery (cap_gold)",
+      "regles": [
+        {
+          "code": "part_marche_elevee",
+          "gravite": "haute",
+          "texte": "Il faut capter 42,9 % du trafic que les hubs concurrents réalisent déjà."
+        },
+        {
+          "code": "dependance_yield",
+          "gravite": "haute",
+          "texte": "Une recette inférieure de 10 % fait basculer la ligne en perte (-1,1 M€)."
+        },
+        {
+          "code": "donnees_anciennes",
+          "gravite": "moyenne",
+          "texte": "Les données s'arrêtent à décembre 2024 : à confirmer sur des données récentes."
+        }
+      ]
+    },
+    {
+      "agent": "Rédacteur",
+      "llm": "Groq (openai/gpt-oss-120b) puis Gemini (gemini-flash-latest) (dernier utilisé : Groq (openai/gpt-oss-120b))",
+      "tentatives": 1,
+      "statut": "rédigé par le LLM, contrôle réussi",
+      "rejets": [],
+      "essais": [
+        {
+          "essai": 1,
+          "brouillon": "# Analyse de l’opportunité de la nouvelle ligne\n\n## Opportunité\n{{ville}} ({{destination}}) est {{radar_statut}}, segment {{segment}}, avec un score de {{score}}, à {{distance}} de CDG.\n\n## Marché\nLes hubs européens concurrents ont transporté {{marche_pax}} passagers vers la destination sur la dernière année publiée (jusqu’à {{donnees_jusqu_a}}), soit {{marche_croissance}} sur un an. Le premier hub, {{premier_hub}}, en porte {{part_premier_hub}}.\n\n## Concurrence\nSans vol direct, un voyageur parisien rejoint cette destination en correspondance, notamment par les hubs concurrents. CDG est reliée à ces hubs avec {{paris_vers_hubs_pax}} passagers sur douze mois, toutes destinations finales confondues : la part qui continue vers cette destination n’est pas mesurable avec les données publiques et devra être estimée sur les données de réservation de la compagnie.\n\n## Rentabilité\nAvec {{frequences}} allers‑retours par semaine en {{appareil}}, la ligne transporte {{passagers_an}} passagers par an, pour une recette de {{recette_meur}} et un résultat d’exploitation de {{resultat_meur}} (marge {{marge}}). L’équilibre est atteint à {{remplissage_equilibre}} de remplissage, pour {{remplissage_vise}} visés.\n\n## Risques\n- {{alerte1}}\n- {{alerte2}}\n- {{alerte3}}\n\n## Recommandation\n{{verdict}}",
+          "rejets": [],
+          "duree_ms": null
+        }
+      ],
+      "brouillon": "# Analyse de l’opportunité de la nouvelle ligne\n\n## Opportunité\n{{ville}} ({{destination}}) est {{radar_statut}}, segment {{segment}}, avec un score de {{score}}, à {{distance}} de CDG.\n\n## Marché\nLes hubs européens concurrents ont transporté {{marche_pax}} passagers vers la destination sur la dernière année publiée (jusqu’à {{donnees_jusqu_a}}), soit {{marche_croissance}} sur un an. Le premier hub, {{premier_hub}}, en porte {{part_premier_hub}}.\n\n## Concurrence\nSans vol direct, un voyageur parisien rejoint cette destination en correspondance, notamment par les hubs concurrents. CDG est reliée à ces hubs avec {{paris_vers_hubs_pax}} passagers sur douze mois, toutes destinations finales confondues : la part qui continue vers cette destination n’est pas mesurable avec les données publiques et devra être estimée sur les données de réservation de la compagnie.\n\n## Rentabilité\nAvec {{frequences}} allers‑retours par semaine en {{appareil}}, la ligne transporte {{passagers_an}} passagers par an, pour une recette de {{recette_meur}} et un résultat d’exploitation de {{resultat_meur}} (marge {{marge}}). L’équilibre est atteint à {{remplissage_equilibre}} de remplissage, pour {{remplissage_vise}} visés.\n\n## Risques\n- {{alerte1}}\n- {{alerte2}}\n- {{alerte3}}\n\n## Recommandation\n{{verdict}}",
+      "texte": "# Analyse de l’opportunité de la nouvelle ligne\n\n## Opportunité\nSalvador (SSA) est classée au radar, segment long-courrier, avec un score de 75,4 / 100, à 7 967 km de CDG.\n\n## Marché\nLes hubs européens concurrents ont transporté 245 660 passagers vers la destination sur la dernière année publiée (jusqu’à décembre 2024), soit +58,3 % sur un an. Le premier hub, Lisbon, en porte 69,4 %.\n\n## Concurrence\nSans vol direct, un voyageur parisien rejoint cette destination en correspondance, notamment par les hubs concurrents. CDG est reliée à ces hubs avec 1 697 085 passagers sur douze mois, toutes destinations finales confondues : la part qui continue vers cette destination n’est pas mesurable avec les données publiques et devra être estimée sur les données de réservation de la compagnie.\n\n## Rentabilité\nAvec 4 allers‑retours par semaine en B787-9, la ligne transporte 105 502 passagers par an, pour une recette de 82,0 M€ et un résultat d’exploitation de 7,1 M€ (marge 8,6 %). L’équilibre est atteint à 83,1 % de remplissage, pour 90,9 % visés.\n\n## Risques\n- Il faut capter 42,9 % du trafic que les hubs concurrents réalisent déjà.\n- Une recette inférieure de 10 % fait basculer la ligne en perte (-1,1 M€).\n- Les données s'arrêtent à décembre 2024 : à confirmer sur des données récentes.\n\n## Recommandation\napprofondir avant décision : au moins un risque majeur est à lever",
+      "requetes": []
+    }
+  ],
+  "source_donnees": "BigQuery (cap_gold)",
+  "hypotheses": "afklm-fy2025",
+  "limites": [
+    "Recette et coût sont des moyennes du réseau : un long-courrier a en général un coût par siège-km plus bas qu'un court-courrier, et la recette varie fortement selon le marché.",
+    "Le modèle ne tient pas compte des passagers en correspondance qui alimentent le reste du réseau (contribution réseau), souvent décisive pour une ouverture.",
+    "Le nombre de sièges vient d'une source secondaire et doit être confirmé."
+  ],
+  "scenario": {
+    "freq": 4,
+    "aircraft": "B787-9",
+    "region": "Amérique latine"
+  },
+  "opportunity": {
+    "partner_icao": "SBSV",
+    "partner_iata": "SSA",
+    "partner_city": "Salvador",
+    "partner_airport": "Deputado Luiz Eduardo Magalhães International Airport",
+    "partner_country": "BR",
+    "hubs_serving": 2,
+    "hubs_list": "LIS, MAD",
+    "pax_l12_hubs": 245660,
+    "pax_p12_hubs": 155178,
+    "seats_l12_hubs": 287049,
+    "flights_l12_hubs": 1003,
+    "lf_l12_hubs": 0.8558,
+    "data_until_min": "2024-12-01",
+    "data_until_max": "2024-12-01",
+    "growth_hubs": 0.5831,
+    "distance_from_cdg_km": 7967.0,
+    "cdg_flights_l12": 0,
+    "cdg_masked_months_l12": 0,
+    "ory_flights_l12": 0,
+    "ory_masked_months_l12": 0,
+    "segment": "long-courrier",
+    "s_volume": 0.7051282051282052,
+    "s_growth": 0.9615384615384616,
+    "s_lf": 0.5641025641025641,
+    "s_hubs": 0.7948717948717948,
+    "opportunity_score": 75.4,
+    "lat": -12.908611,
+    "lon": -38.322498
+  }
+}

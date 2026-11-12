@@ -1,0 +1,5406 @@
+{
+  "exported_at": "2026-11-09",
+  "origin": "LFPG",
+  "source": "BigQuery (cap_gold)",
+  "destinations": {
+    "CLT": {
+      "opportunity": {
+        "partner_icao": "KCLT",
+        "partner_iata": "CLT",
+        "partner_city": "Charlotte",
+        "partner_airport": "Charlotte Douglas International Airport",
+        "partner_country": "US",
+        "hubs_serving": 5,
+        "hubs_list": "MUC, MAD, FRA, DUB, FCO",
+        "pax_l12_hubs": 878914,
+        "pax_p12_hubs": 756781,
+        "seats_l12_hubs": 1023636,
+        "flights_l12_hubs": 3641,
+        "lf_l12_hubs": 0.8586,
+        "data_until_min": "2024-12-01",
+        "data_until_max": "2024-12-01",
+        "growth_hubs": 0.1614,
+        "distance_from_cdg_km": 6702.0,
+        "cdg_flights_l12": 0,
+        "cdg_masked_months_l12": 0,
+        "ory_flights_l12": 0,
+        "ory_masked_months_l12": 0,
+        "segment": "long-courrier",
+        "s_volume": 0.9871794871794872,
+        "s_growth": 0.7051282051282052,
+        "s_lf": 0.6025641025641025,
+        "s_hubs": 1.0,
+        "opportunity_score": 84.2
+      },
+      "hub_flows": [
+        {
+          "rep_icao": "EDDM",
+          "rep_iata": "MUC",
+          "rep_city": "Munich",
+          "partner_icao": "KCLT",
+          "partner_iata": "CLT",
+          "pax_l12": 317585,
+          "pax_p12": 292973,
+          "flights_l12": 1330,
+          "lf_l12": 0.8297,
+          "growth_pax": 0.084,
+          "window_end": "2024-12-01",
+          "masked_months_l12": 0
+        },
+        {
+          "rep_icao": "LEMD",
+          "rep_iata": "MAD",
+          "rep_city": "Madrid",
+          "partner_icao": "KCLT",
+          "partner_iata": "CLT",
+          "pax_l12": 179824,
+          "pax_p12": 125306,
+          "flights_l12": 734,
+          "lf_l12": 0.9005,
+          "growth_pax": 0.4351,
+          "window_end": "2024-12-01",
+          "masked_months_l12": 0
+        },
+        {
+          "rep_icao": "EDDF",
+          "rep_iata": "FRA",
+          "rep_city": "Frankfurt am Main",
+          "partner_icao": "KCLT",
+          "partner_iata": "CLT",
+          "pax_l12": 160794,
+          "pax_p12": 159477,
+          "flights_l12": 692,
+          "lf_l12": 0.8056,
+          "growth_pax": 0.0083,
+          "window_end": "2024-12-01",
+          "masked_months_l12": 0
+        },
+        {
+          "rep_icao": "EIDW",
+          "rep_iata": "DUB",
+          "rep_city": "Dublin",
+          "partner_icao": "KCLT",
+          "partner_iata": "CLT",
+          "pax_l12": 115770,
+          "pax_p12": 85953,
+          "flights_l12": 470,
+          "lf_l12": 0.9023,
+          "growth_pax": 0.3469,
+          "window_end": "2024-12-01",
+          "masked_months_l12": 0
+        },
+        {
+          "rep_icao": "LIRF",
+          "rep_iata": "FCO",
+          "rep_city": "Rome",
+          "partner_icao": "KCLT",
+          "partner_iata": "CLT",
+          "pax_l12": 104941,
+          "pax_p12": 93072,
+          "flights_l12": 415,
+          "lf_l12": 0.9264,
+          "growth_pax": 0.1275,
+          "window_end": "2024-12-01",
+          "masked_months_l12": 0
+        }
+      ],
+      "paris_to_hubs": [
+        {
+          "partner_icao": "LEMD",
+          "partner_iata": "MAD",
+          "partner_city": "Madrid",
+          "pax_l12": 1052673,
+          "flights_l12": 6557,
+          "lf_l12": 0.8715,
+          "masked_months_l12": 0,
+          "window_end": "2024-12-01"
+        },
+        {
+          "partner_icao": "LIRF",
+          "partner_iata": "FCO",
+          "partner_city": "Rome",
+          "pax_l12": 966175,
+          "flights_l12": 6788,
+          "lf_l12": 0.8492,
+          "masked_months_l12": 0,
+          "window_end": "2024-12-01"
+        },
+        {
+          "partner_icao": "EDDM",
+          "partner_iata": "MUC",
+          "partner_city": "Munich",
+          "pax_l12": 830929,
+          "flights_l12": 6426,
+          "lf_l12": 0.8097,
+          "masked_months_l12": 0,
+          "window_end": "2024-12-01"
+        },
+        {
+          "partner_icao": "EDDF",
+          "partner_iata": "FRA",
+          "partner_city": "Frankfurt am Main",
+          "pax_l12": 752494,
+          "flights_l12": 7173,
+          "lf_l12": 0.7365,
+          "masked_months_l12": 0,
+          "window_end": "2024-12-01"
+        },
+        {
+          "partner_icao": "EIDW",
+          "partner_iata": "DUB",
+          "partner_city": "Dublin",
+          "pax_l12": 692321,
+          "flights_l12": 5101,
+          "lf_l12": 0.8395,
+          "masked_months_l12": 0,
+          "window_end": "2024-12-01"
+        }
+      ],
+      "overrides": []
+    },
+    "MCO": {
+      "opportunity": {
+        "partner_icao": "KMCO",
+        "partner_iata": "MCO",
+        "partner_city": "Orlando",
+        "partner_airport": "Orlando International Airport",
+        "partner_country": "US",
+        "hubs_serving": 3,
+        "hubs_list": "FRA, DUB, AMS",
+        "pax_l12_hubs": 403630,
+        "pax_p12_hubs": 303041,
+        "seats_l12_hubs": 470284,
+        "flights_l12_hubs": 1610,
+        "lf_l12_hubs": 0.8583,
+        "data_until_min": "2024-12-01",
+        "data_until_max": "2024-12-01",
+        "growth_hubs": 0.3319,
+        "distance_from_cdg_km": 7239.0,
+        "cdg_flights_l12": 0,
+        "cdg_masked_months_l12": 0,
+        "ory_flights_l12": 0,
+        "ory_masked_months_l12": 0,
+        "segment": "long-courrier",
+        "s_volume": 0.8461538461538461,
+        "s_growth": 0.8846153846153846,
+        "s_lf": 0.5897435897435898,
+        "s_hubs": 0.9743589743589743,
+        "opportunity_score": 82.4
+      },
+      "hub_flows": [
+        {
+          "rep_icao": "EDDF",
+          "rep_iata": "FRA",
+          "rep_city": "Frankfurt am Main",
+          "partner_icao": "KMCO",
+          "partner_iata": "MCO",
+          "pax_l12": 213058,
+          "pax_p12": 179482,
+          "flights_l12": 854,
+          "lf_l12": 0.878,
+          "growth_pax": 0.1871,
+          "window_end": "2024-12-01",
+          "masked_months_l12": 0
+        },
+        {
+          "rep_icao": "EIDW",
+          "rep_iata": "DUB",
+          "rep_city": "Dublin",
+          "partner_icao": "KMCO",
+          "partner_iata": "MCO",
+          "pax_l12": 115073,
+          "pax_p12": 123559,
+          "flights_l12": 442,
+          "lf_l12": 0.8391,
+          "growth_pax": -0.0687,
+          "window_end": "2024-12-01",
+          "masked_months_l12": 0
+        },
+        {
+          "rep_icao": "EHAM",
+          "rep_iata": "AMS",
+          "rep_city": "Amsterdam",
+          "partner_icao": "KMCO",
+          "partner_iata": "MCO",
+          "pax_l12": 75499,
+          "pax_p12": 0,
+          "flights_l12": 314,
+          "lf_l12": 0.8345,
+          "growth_pax": null,
+          "window_end": "2024-12-01",
+          "masked_months_l12": 0
+        }
+      ],
+      "paris_to_hubs": [
+        {
+          "partner_icao": "EHAM",
+          "partner_iata": "AMS",
+          "partner_city": "Amsterdam",
+          "pax_l12": 1120710,
+          "flights_l12": 8025,
+          "lf_l12": 0.8157,
+          "masked_months_l12": 0,
+          "window_end": "2024-12-01"
+        },
+        {
+          "partner_icao": "EDDF",
+          "partner_iata": "FRA",
+          "partner_city": "Frankfurt am Main",
+          "pax_l12": 752494,
+          "flights_l12": 7173,
+          "lf_l12": 0.7365,
+          "masked_months_l12": 0,
+          "window_end": "2024-12-01"
+        },
+        {
+          "partner_icao": "EIDW",
+          "partner_iata": "DUB",
+          "partner_city": "Dublin",
+          "pax_l12": 692321,
+          "flights_l12": 5101,
+          "lf_l12": 0.8395,
+          "masked_months_l12": 0,
+          "window_end": "2024-12-01"
+        }
+      ],
+      "overrides": []
+    },
+    "DPS": {
+      "opportunity": {
+        "partner_icao": "WADD",
+        "partner_iata": "DPS",
+        "partner_city": "Kuta, Badung",
+        "partner_airport": "Denpasar I Gusti Ngurah Rai International Airport",
+        "partner_country": "ID",
+        "hubs_serving": 2,
+        "hubs_list": "IST, AMS",
+        "pax_l12_hubs": 302006,
+        "pax_p12_hubs": 265701,
+        "seats_l12_hubs": 326638,
+        "flights_l12_hubs": 915,
+        "lf_l12_hubs": 0.9246,
+        "data_until_min": "2024-12-01",
+        "data_until_max": "2024-12-01",
+        "growth_hubs": 0.1366,
+        "distance_from_cdg_km": 12382.0,
+        "cdg_flights_l12": 0,
+        "cdg_masked_months_l12": 0,
+        "ory_flights_l12": 0,
+        "ory_masked_months_l12": 0,
+        "segment": "long-courrier",
+        "s_volume": 0.782051282051282,
+        "s_growth": 0.6923076923076923,
+        "s_lf": 0.9487179487179487,
+        "s_hubs": 0.7948717948717948,
+        "opportunity_score": 79.5
+      },
+      "hub_flows": [
+        {
+          "rep_icao": "LTFM",
+          "rep_iata": "IST",
+          "rep_city": "Istanbul",
+          "partner_icao": "WADD",
+          "partner_iata": "DPS",
+          "pax_l12": 172846,
+          "pax_p12": 152612,
+          "flights_l12": 559,
+          "lf_l12": 0.9552,
+          "growth_pax": 0.1326,
+          "window_end": "2024-12-01",
+          "masked_months_l12": 0
+        },
+        {
+          "rep_icao": "EHAM",
+          "rep_iata": "AMS",
+          "rep_city": "Amsterdam",
+          "partner_icao": "WADD",
+          "partner_iata": "DPS",
+          "pax_l12": 129160,
+          "pax_p12": 113089,
+          "flights_l12": 356,
+          "lf_l12": 0.8866,
+          "growth_pax": 0.1421,
+          "window_end": "2024-12-01",
+          "masked_months_l12": 0
+        }
+      ],
+      "paris_to_hubs": [
+        {
+          "partner_icao": "EHAM",
+          "partner_iata": "AMS",
+          "partner_city": "Amsterdam",
+          "pax_l12": 1120710,
+          "flights_l12": 8025,
+          "lf_l12": 0.8157,
+          "masked_months_l12": 0,
+          "window_end": "2024-12-01"
+        },
+        {
+          "partner_icao": "LTFM",
+          "partner_iata": "IST",
+          "partner_city": "Istanbul",
+          "pax_l12": 1011226,
+          "flights_l12": 5231,
+          "lf_l12": 0.8475,
+          "masked_months_l12": 0,
+          "window_end": "2024-12-01"
+        }
+      ],
+      "overrides": []
+    },
+    "ALA": {
+      "opportunity": {
+        "partner_icao": "UAAA",
+        "partner_iata": "ALA",
+        "partner_city": "Almaty",
+        "partner_airport": "Almaty International Airport",
+        "partner_country": "KZ",
+        "hubs_serving": 2,
+        "hubs_list": "IST, FRA",
+        "pax_l12_hubs": 519223,
+        "pax_p12_hubs": 432379,
+        "seats_l12_hubs": 610662,
+        "flights_l12_hubs": 2843,
+        "lf_l12_hubs": 0.8503,
+        "data_until_min": "2024-12-01",
+        "data_until_max": "2024-12-01",
+        "growth_hubs": 0.2009,
+        "distance_from_cdg_km": 5535.0,
+        "cdg_flights_l12": 0,
+        "cdg_masked_months_l12": 0,
+        "ory_flights_l12": 0,
+        "ory_masked_months_l12": 0,
+        "segment": "long-courrier",
+        "s_volume": 0.9102564102564102,
+        "s_growth": 0.7564102564102564,
+        "s_lf": 0.5512820512820513,
+        "s_hubs": 0.7948717948717948,
+        "opportunity_score": 78.3
+      },
+      "hub_flows": [
+        {
+          "rep_icao": "LTFM",
+          "rep_iata": "IST",
+          "rep_city": "Istanbul",
+          "partner_icao": "UAAA",
+          "partner_iata": "ALA",
+          "pax_l12": 434166,
+          "pax_p12": 432379,
+          "flights_l12": 2438,
+          "lf_l12": 0.8561,
+          "growth_pax": 0.0041,
+          "window_end": "2024-12-01",
+          "masked_months_l12": 0
+        },
+        {
+          "rep_icao": "EDDF",
+          "rep_iata": "FRA",
+          "rep_city": "Frankfurt am Main",
+          "partner_icao": "UAAA",
+          "partner_iata": "ALA",
+          "pax_l12": 85057,
+          "pax_p12": 0,
+          "flights_l12": 405,
+          "lf_l12": 0.8216,
+          "growth_pax": null,
+          "window_end": "2024-12-01",
+          "masked_months_l12": 0
+        }
+      ],
+      "paris_to_hubs": [
+        {
+          "partner_icao": "LTFM",
+          "partner_iata": "IST",
+          "partner_city": "Istanbul",
+          "pax_l12": 1011226,
+          "flights_l12": 5231,
+          "lf_l12": 0.8475,
+          "masked_months_l12": 0,
+          "window_end": "2024-12-01"
+        },
+        {
+          "partner_icao": "EDDF",
+          "partner_iata": "FRA",
+          "partner_city": "Frankfurt am Main",
+          "pax_l12": 752494,
+          "flights_l12": 7173,
+          "lf_l12": 0.7365,
+          "masked_months_l12": 0,
+          "window_end": "2024-12-01"
+        }
+      ],
+      "overrides": []
+    },
+    "CCS": {
+      "opportunity": {
+        "partner_icao": "SVMI",
+        "partner_iata": "CCS",
+        "partner_city": "Maiquetía",
+        "partner_airport": "Maiquetía Simón Bolívar International Airport",
+        "partner_country": "VE",
+        "hubs_serving": 2,
+        "hubs_list": "MAD, IST",
+        "pax_l12_hubs": 605202,
+        "pax_p12_hubs": 445800,
+        "seats_l12_hubs": 750161,
+        "flights_l12_hubs": 2410,
+        "lf_l12_hubs": 0.8068,
+        "data_until_min": "2024-12-01",
+        "data_until_max": "2024-12-01",
+        "growth_hubs": 0.3576,
+        "distance_from_cdg_km": 7633.0,
+        "cdg_flights_l12": 0,
+        "cdg_masked_months_l12": 0,
+        "ory_flights_l12": 0,
+        "ory_masked_months_l12": 0,
+        "segment": "long-courrier",
+        "s_volume": 0.9358974358974359,
+        "s_growth": 0.9102564102564102,
+        "s_lf": 0.3076923076923077,
+        "s_hubs": 0.7948717948717948,
+        "opportunity_score": 78.3
+      },
+      "hub_flows": [
+        {
+          "rep_icao": "LEMD",
+          "rep_iata": "MAD",
+          "rep_city": "Madrid",
+          "partner_icao": "SVMI",
+          "partner_iata": "CCS",
+          "pax_l12": 464087,
+          "pax_p12": 295565,
+          "flights_l12": 1846,
+          "lf_l12": 0.8013,
+          "growth_pax": 0.5702,
+          "window_end": "2024-12-01",
+          "masked_months_l12": 0
+        },
+        {
+          "rep_icao": "LTFM",
+          "rep_iata": "IST",
+          "rep_city": "Istanbul",
+          "partner_icao": "SVMI",
+          "partner_iata": "CCS",
+          "pax_l12": 141115,
+          "pax_p12": 150235,
+          "flights_l12": 564,
+          "lf_l12": 0.8252,
+          "growth_pax": -0.0607,
+          "window_end": "2024-12-01",
+          "masked_months_l12": 0
+        }
+      ],
+      "paris_to_hubs": [
+        {
+          "partner_icao": "LEMD",
+          "partner_iata": "MAD",
+          "partner_city": "Madrid",
+          "pax_l12": 1052673,
+          "flights_l12": 6557,
+          "lf_l12": 0.8715,
+          "masked_months_l12": 0,
+          "window_end": "2024-12-01"
+        },
+        {
+          "partner_icao": "LTFM",
+          "partner_iata": "IST",
+          "partner_city": "Istanbul",
+          "pax_l12": 1011226,
+          "flights_l12": 5231,
+          "lf_l12": 0.8475,
+          "masked_months_l12": 0,
+          "window_end": "2024-12-01"
+        }
+      ],
+      "overrides": []
+    },
+    "SSA": {
+      "opportunity": {
+        "partner_icao": "SBSV",
+        "partner_iata": "SSA",
+        "partner_city": "Salvador",
+        "partner_airport": "Deputado Luiz Eduardo Magalhães International Airport",
+        "partner_country": "BR",
+        "hubs_serving": 2,
+        "hubs_list": "LIS, MAD",
+        "pax_l12_hubs": 245660,
+        "pax_p12_hubs": 155178,
+        "seats_l12_hubs": 287049,
+        "flights_l12_hubs": 1003,
+        "lf_l12_hubs": 0.8558,
+        "data_until_min": "2024-12-01",
+        "data_until_max": "2024-12-01",
+        "growth_hubs": 0.5831,
+        "distance_from_cdg_km": 7967.0,
+        "cdg_flights_l12": 0,
+        "cdg_masked_months_l12": 0,
+        "ory_flights_l12": 0,
+        "ory_masked_months_l12": 0,
+        "segment": "long-courrier",
+        "s_volume": 0.7051282051282052,
+        "s_growth": 0.9615384615384616,
+        "s_lf": 0.5641025641025641,
+        "s_hubs": 0.7948717948717948,
+        "opportunity_score": 75.4
+      },
+      "hub_flows": [
+        {
+          "rep_icao": "LPPT",
+          "rep_iata": "LIS",
+          "rep_city": "Lisbon",
+          "partner_icao": "SBSV",
+          "partner_iata": "SSA",
+          "pax_l12": 170415,
+          "pax_p12": 155178,
+          "flights_l12": 728,
+          "lf_l12": 0.8359,
+          "growth_pax": 0.0982,
+          "window_end": "2024-12-01",
+          "masked_months_l12": 0
+        },
+        {
+          "rep_icao": "LEMD",
+          "rep_iata": "MAD",
+          "rep_city": "Madrid",
+          "partner_icao": "SBSV",
+          "partner_iata": "SSA",
+          "pax_l12": 75245,
+          "pax_p12": 0,
+          "flights_l12": 275,
+          "lf_l12": 0.9047,
+          "growth_pax": null,
+          "window_end": "2024-12-01",
+          "masked_months_l12": 0
+        }
+      ],
+      "paris_to_hubs": [
+        {
+          "partner_icao": "LEMD",
+          "partner_iata": "MAD",
+          "partner_city": "Madrid",
+          "pax_l12": 1052673,
+          "flights_l12": 6557,
+          "lf_l12": 0.8715,
+          "masked_months_l12": 0,
+          "window_end": "2024-12-01"
+        },
+        {
+          "partner_icao": "LPPT",
+          "partner_iata": "LIS",
+          "partner_city": "Lisbon",
+          "pax_l12": 644412,
+          "flights_l12": 4148,
+          "lf_l12": 0.8848,
+          "masked_months_l12": 0,
+          "window_end": "2024-12-01"
+        }
+      ],
+      "overrides": []
+    },
+    "DEN": {
+      "opportunity": {
+        "partner_icao": "KDEN",
+        "partner_iata": "DEN",
+        "partner_city": "Denver",
+        "partner_airport": "Denver International Airport",
+        "partner_country": "US",
+        "hubs_serving": 2,
+        "hubs_list": "FRA, MUC",
+        "pax_l12_hubs": 651195,
+        "pax_p12_hubs": 640654,
+        "seats_l12_hubs": 742722,
+        "flights_l12_hubs": 2690,
+        "lf_l12_hubs": 0.8768,
+        "data_until_min": "2024-12-01",
+        "data_until_max": "2024-12-01",
+        "growth_hubs": 0.0165,
+        "distance_from_cdg_km": 7834.0,
+        "cdg_flights_l12": 0,
+        "cdg_masked_months_l12": 0,
+        "ory_flights_l12": 0,
+        "ory_masked_months_l12": 0,
+        "segment": "long-courrier",
+        "s_volume": 0.9615384615384616,
+        "s_growth": 0.3974358974358974,
+        "s_lf": 0.6923076923076923,
+        "s_hubs": 0.7948717948717948,
+        "opportunity_score": 74.2
+      },
+      "hub_flows": [
+        {
+          "rep_icao": "EDDF",
+          "rep_iata": "FRA",
+          "rep_city": "Frankfurt am Main",
+          "partner_icao": "KDEN",
+          "partner_iata": "DEN",
+          "pax_l12": 344957,
+          "pax_p12": 330442,
+          "flights_l12": 1417,
+          "lf_l12": 0.8936,
+          "growth_pax": 0.0439,
+          "window_end": "2024-12-01",
+          "masked_months_l12": 0
+        },
+        {
+          "rep_icao": "EDDM",
+          "rep_iata": "MUC",
+          "rep_city": "Munich",
+          "partner_icao": "KDEN",
+          "partner_iata": "DEN",
+          "pax_l12": 306238,
+          "pax_p12": 310212,
+          "flights_l12": 1273,
+          "lf_l12": 0.8585,
+          "growth_pax": -0.0128,
+          "window_end": "2024-12-01",
+          "masked_months_l12": 0
+        }
+      ],
+      "paris_to_hubs": [
+        {
+          "partner_icao": "EDDM",
+          "partner_iata": "MUC",
+          "partner_city": "Munich",
+          "pax_l12": 830929,
+          "flights_l12": 6426,
+          "lf_l12": 0.8097,
+          "masked_months_l12": 0,
+          "window_end": "2024-12-01"
+        },
+        {
+          "partner_icao": "EDDF",
+          "partner_iata": "FRA",
+          "partner_city": "Frankfurt am Main",
+          "pax_l12": 752494,
+          "flights_l12": 7173,
+          "lf_l12": 0.7365,
+          "masked_months_l12": 0,
+          "window_end": "2024-12-01"
+        }
+      ],
+      "overrides": [
+        {
+          "partner_iata": "DEN",
+          "airport_from": "CDG",
+          "status": "a_verifier",
+          "season": "",
+          "source": "",
+          "verified_on": "",
+          "comment": "Jamais publiée par Eurostat : vérifier les horaires Air France"
+        }
+      ]
+    },
+    "CUR": {
+      "opportunity": {
+        "partner_icao": "TNCC",
+        "partner_iata": "CUR",
+        "partner_city": "Willemstad",
+        "partner_airport": "Hato International Airport",
+        "partner_country": "AN",
+        "hubs_serving": 1,
+        "hubs_list": "AMS",
+        "pax_l12_hubs": 690954,
+        "pax_p12_hubs": 617041,
+        "seats_l12_hubs": 763662,
+        "flights_l12_hubs": 2044,
+        "lf_l12_hubs": 0.9048,
+        "data_until_min": "2024-12-01",
+        "data_until_max": "2024-12-01",
+        "growth_hubs": 0.1198,
+        "distance_from_cdg_km": 7643.0,
+        "cdg_flights_l12": 0,
+        "cdg_masked_months_l12": 0,
+        "ory_flights_l12": 0,
+        "ory_masked_months_l12": 0,
+        "segment": "long-courrier",
+        "s_volume": 0.9743589743589743,
+        "s_growth": 0.6538461538461539,
+        "s_lf": 0.8717948717948718,
+        "s_hubs": 0.0,
+        "opportunity_score": 72.8
+      },
+      "hub_flows": [
+        {
+          "rep_icao": "EHAM",
+          "rep_iata": "AMS",
+          "rep_city": "Amsterdam",
+          "partner_icao": "TNCC",
+          "partner_iata": "CUR",
+          "pax_l12": 690954,
+          "pax_p12": 617041,
+          "flights_l12": 2044,
+          "lf_l12": 0.9048,
+          "growth_pax": 0.1198,
+          "window_end": "2024-12-01",
+          "masked_months_l12": 0
+        }
+      ],
+      "paris_to_hubs": [
+        {
+          "partner_icao": "EHAM",
+          "partner_iata": "AMS",
+          "partner_city": "Amsterdam",
+          "pax_l12": 1120710,
+          "flights_l12": 8025,
+          "lf_l12": 0.8157,
+          "masked_months_l12": 0,
+          "window_end": "2024-12-01"
+        }
+      ],
+      "overrides": []
+    },
+    "CGK": {
+      "opportunity": {
+        "partner_icao": "WIII",
+        "partner_iata": "CGK",
+        "partner_city": "Jakarta",
+        "partner_airport": "Soekarno-Hatta International Airport",
+        "partner_country": "ID",
+        "hubs_serving": 2,
+        "hubs_list": "IST, AMS",
+        "pax_l12_hubs": 391940,
+        "pax_p12_hubs": 385119,
+        "seats_l12_hubs": 437201,
+        "flights_l12_hubs": 1373,
+        "lf_l12_hubs": 0.8965,
+        "data_until_min": "2024-12-01",
+        "data_until_max": "2024-12-01",
+        "growth_hubs": 0.0177,
+        "distance_from_cdg_km": 11548.0,
+        "cdg_flights_l12": 0,
+        "cdg_masked_months_l12": 0,
+        "ory_flights_l12": 0,
+        "ory_masked_months_l12": 0,
+        "segment": "long-courrier",
+        "s_volume": 0.8333333333333334,
+        "s_growth": 0.41025641025641024,
+        "s_lf": 0.8333333333333334,
+        "s_hubs": 0.7948717948717948,
+        "opportunity_score": 72.2
+      },
+      "hub_flows": [
+        {
+          "rep_icao": "LTFM",
+          "rep_iata": "IST",
+          "rep_city": "Istanbul",
+          "partner_icao": "WIII",
+          "partner_iata": "CGK",
+          "pax_l12": 268926,
+          "pax_p12": 289403,
+          "flights_l12": 896,
+          "lf_l12": 0.9195,
+          "growth_pax": -0.0708,
+          "window_end": "2024-12-01",
+          "masked_months_l12": 0
+        },
+        {
+          "rep_icao": "EHAM",
+          "rep_iata": "AMS",
+          "rep_city": "Amsterdam",
+          "partner_icao": "WIII",
+          "partner_iata": "CGK",
+          "pax_l12": 123014,
+          "pax_p12": 95716,
+          "flights_l12": 477,
+          "lf_l12": 0.85,
+          "growth_pax": 0.2852,
+          "window_end": "2024-12-01",
+          "masked_months_l12": 0
+        }
+      ],
+      "paris_to_hubs": [
+        {
+          "partner_icao": "EHAM",
+          "partner_iata": "AMS",
+          "partner_city": "Amsterdam",
+          "pax_l12": 1120710,
+          "flights_l12": 8025,
+          "lf_l12": 0.8157,
+          "masked_months_l12": 0,
+          "window_end": "2024-12-01"
+        },
+        {
+          "partner_icao": "LTFM",
+          "partner_iata": "IST",
+          "partner_city": "Istanbul",
+          "pax_l12": 1011226,
+          "flights_l12": 5231,
+          "lf_l12": 0.8475,
+          "masked_months_l12": 0,
+          "window_end": "2024-12-01"
+        }
+      ],
+      "overrides": []
+    },
+    "ACC": {
+      "opportunity": {
+        "partner_icao": "DGAA",
+        "partner_iata": "ACC",
+        "partner_city": "Accra",
+        "partner_airport": "Kotoka International Airport",
+        "partner_country": "GH",
+        "hubs_serving": 3,
+        "hubs_list": "AMS, IST, BRU",
+        "pax_l12_hubs": 493557,
+        "pax_p12_hubs": 487835,
+        "seats_l12_hubs": 600364,
+        "flights_l12_hubs": 2110,
+        "lf_l12_hubs": 0.8221,
+        "data_until_min": "2024-12-01",
+        "data_until_max": "2024-12-01",
+        "growth_hubs": 0.0117,
+        "distance_from_cdg_km": 4833.0,
+        "cdg_flights_l12": 0,
+        "cdg_masked_months_l12": 0,
+        "ory_flights_l12": 0,
+        "ory_masked_months_l12": 0,
+        "segment": "long-courrier",
+        "s_volume": 0.8974358974358975,
+        "s_growth": 0.38461538461538464,
+        "s_lf": 0.3974358974358974,
+        "s_hubs": 0.9743589743589743,
+        "opportunity_score": 68.1
+      },
+      "hub_flows": [
+        {
+          "rep_icao": "EHAM",
+          "rep_iata": "AMS",
+          "rep_city": "Amsterdam",
+          "partner_icao": "DGAA",
+          "partner_iata": "ACC",
+          "pax_l12": 240126,
+          "pax_p12": 255659,
+          "flights_l12": 718,
+          "lf_l12": 0.8159,
+          "growth_pax": -0.0608,
+          "window_end": "2024-12-01",
+          "masked_months_l12": 0
+        },
+        {
+          "rep_icao": "LTFM",
+          "rep_iata": "IST",
+          "rep_city": "Istanbul",
+          "partner_icao": "DGAA",
+          "partner_iata": "ACC",
+          "pax_l12": 126984,
+          "pax_p12": 104553,
+          "flights_l12": 892,
+          "lf_l12": 0.7907,
+          "growth_pax": 0.2145,
+          "window_end": "2024-12-01",
+          "masked_months_l12": 0
+        },
+        {
+          "rep_icao": "EBBR",
+          "rep_iata": "BRU",
+          "rep_city": "Zaventem",
+          "partner_icao": "DGAA",
+          "partner_iata": "ACC",
+          "pax_l12": 126447,
+          "pax_p12": 127623,
+          "flights_l12": 500,
+          "lf_l12": 0.8693,
+          "growth_pax": -0.0092,
+          "window_end": "2024-12-01",
+          "masked_months_l12": 0
+        }
+      ],
+      "paris_to_hubs": [
+        {
+          "partner_icao": "EHAM",
+          "partner_iata": "AMS",
+          "partner_city": "Amsterdam",
+          "pax_l12": 1120710,
+          "flights_l12": 8025,
+          "lf_l12": 0.8157,
+          "masked_months_l12": 0,
+          "window_end": "2024-12-01"
+        },
+        {
+          "partner_icao": "LTFM",
+          "partner_iata": "IST",
+          "partner_city": "Istanbul",
+          "pax_l12": 1011226,
+          "flights_l12": 5231,
+          "lf_l12": 0.8475,
+          "masked_months_l12": 0,
+          "window_end": "2024-12-01"
+        },
+        {
+          "partner_icao": "EBBR",
+          "partner_iata": "BRU",
+          "partner_city": "Zaventem",
+          "pax_l12": 199106,
+          "flights_l12": 1699,
+          "lf_l12": 0.6159,
+          "masked_months_l12": 0,
+          "window_end": "2024-12-01"
+        }
+      ],
+      "overrides": []
+    },
+    "KGL": {
+      "opportunity": {
+        "partner_icao": "HRYR",
+        "partner_iata": "KGL",
+        "partner_city": "Kigali",
+        "partner_airport": "Kigali International Airport",
+        "partner_country": "RW",
+        "hubs_serving": 2,
+        "hubs_list": "AMS, BRU",
+        "pax_l12_hubs": 197057,
+        "pax_p12_hubs": 132604,
+        "seats_l12_hubs": 234011,
+        "flights_l12_hubs": 836,
+        "lf_l12_hubs": 0.8421,
+        "data_until_min": "2024-12-01",
+        "data_until_max": "2024-12-01",
+        "growth_hubs": 0.4861,
+        "distance_from_cdg_km": 6258.0,
+        "cdg_flights_l12": 0,
+        "cdg_masked_months_l12": 0,
+        "ory_flights_l12": 0,
+        "ory_masked_months_l12": 0,
+        "segment": "long-courrier",
+        "s_volume": 0.5641025641025641,
+        "s_growth": 0.9358974358974359,
+        "s_lf": 0.47435897435897434,
+        "s_hubs": 0.7948717948717948,
+        "opportunity_score": 67.4
+      },
+      "hub_flows": [
+        {
+          "rep_icao": "EHAM",
+          "rep_iata": "AMS",
+          "rep_city": "Amsterdam",
+          "partner_icao": "HRYR",
+          "partner_iata": "KGL",
+          "pax_l12": 120931,
+          "pax_p12": 132604,
+          "flights_l12": 504,
+          "lf_l12": 0.8862,
+          "growth_pax": -0.088,
+          "window_end": "2024-12-01",
+          "masked_months_l12": 0
+        },
+        {
+          "rep_icao": "EBBR",
+          "rep_iata": "BRU",
+          "rep_city": "Zaventem",
+          "partner_icao": "HRYR",
+          "partner_iata": "KGL",
+          "pax_l12": 76126,
+          "pax_p12": 0,
+          "flights_l12": 332,
+          "lf_l12": 0.7804,
+          "growth_pax": null,
+          "window_end": "2024-12-01",
+          "masked_months_l12": 0
+        }
+      ],
+      "paris_to_hubs": [
+        {
+          "partner_icao": "EHAM",
+          "partner_iata": "AMS",
+          "partner_city": "Amsterdam",
+          "pax_l12": 1120710,
+          "flights_l12": 8025,
+          "lf_l12": 0.8157,
+          "masked_months_l12": 0,
+          "window_end": "2024-12-01"
+        },
+        {
+          "partner_icao": "EBBR",
+          "partner_iata": "BRU",
+          "partner_city": "Zaventem",
+          "pax_l12": 199106,
+          "flights_l12": 1699,
+          "lf_l12": 0.6159,
+          "masked_months_l12": 0,
+          "window_end": "2024-12-01"
+        }
+      ],
+      "overrides": []
+    },
+    "SDQ": {
+      "opportunity": {
+        "partner_icao": "MDSD",
+        "partner_iata": "SDQ",
+        "partner_city": "Santo Domingo",
+        "partner_airport": "Las Américas International Airport",
+        "partner_country": "DO",
+        "hubs_serving": 1,
+        "hubs_list": "MAD",
+        "pax_l12_hubs": 527931,
+        "pax_p12_hubs": 505486,
+        "seats_l12_hubs": 586638,
+        "flights_l12_hubs": 1773,
+        "lf_l12_hubs": 0.8999,
+        "data_until_min": "2024-12-01",
+        "data_until_max": "2024-12-01",
+        "growth_hubs": 0.0444,
+        "distance_from_cdg_km": 7185.0,
+        "cdg_flights_l12": 0,
+        "cdg_masked_months_l12": 0,
+        "ory_flights_l12": 0,
+        "ory_masked_months_l12": 0,
+        "segment": "long-courrier",
+        "s_volume": 0.9230769230769231,
+        "s_growth": 0.5128205128205128,
+        "s_lf": 0.8589743589743589,
+        "s_hubs": 0.0,
+        "opportunity_score": 66.9
+      },
+      "hub_flows": [
+        {
+          "rep_icao": "LEMD",
+          "rep_iata": "MAD",
+          "rep_city": "Madrid",
+          "partner_icao": "MDSD",
+          "partner_iata": "SDQ",
+          "pax_l12": 527931,
+          "pax_p12": 505486,
+          "flights_l12": 1773,
+          "lf_l12": 0.8999,
+          "growth_pax": 0.0444,
+          "window_end": "2024-12-01",
+          "masked_months_l12": 0
+        }
+      ],
+      "paris_to_hubs": [
+        {
+          "partner_icao": "LEMD",
+          "partner_iata": "MAD",
+          "partner_city": "Madrid",
+          "pax_l12": 1052673,
+          "flights_l12": 6557,
+          "lf_l12": 0.8715,
+          "masked_months_l12": 0,
+          "window_end": "2024-12-01"
+        }
+      ],
+      "overrides": []
+    },
+    "MNL": {
+      "opportunity": {
+        "partner_icao": "RPLL",
+        "partner_iata": "MNL",
+        "partner_city": "Manila (Pasay)",
+        "partner_airport": "Ninoy Aquino International Airport",
+        "partner_country": "PH",
+        "hubs_serving": 1,
+        "hubs_list": "IST",
+        "pax_l12_hubs": 339958,
+        "pax_p12_hubs": 257861,
+        "seats_l12_hubs": 391168,
+        "flights_l12_hubs": 1192,
+        "lf_l12_hubs": 0.8691,
+        "data_until_min": "2024-12-01",
+        "data_until_max": "2024-12-01",
+        "growth_hubs": 0.3184,
+        "distance_from_cdg_km": 10733.0,
+        "cdg_flights_l12": 0,
+        "cdg_masked_months_l12": 0,
+        "ory_flights_l12": 0,
+        "ory_masked_months_l12": 0,
+        "segment": "long-courrier",
+        "s_volume": 0.7948717948717948,
+        "s_growth": 0.8717948717948718,
+        "s_lf": 0.6410256410256411,
+        "s_hubs": 0.0,
+        "opportunity_score": 66.4
+      },
+      "hub_flows": [
+        {
+          "rep_icao": "LTFM",
+          "rep_iata": "IST",
+          "rep_city": "Istanbul",
+          "partner_icao": "RPLL",
+          "partner_iata": "MNL",
+          "pax_l12": 339958,
+          "pax_p12": 257861,
+          "flights_l12": 1192,
+          "lf_l12": 0.8691,
+          "growth_pax": 0.3184,
+          "window_end": "2024-12-01",
+          "masked_months_l12": 0
+        }
+      ],
+      "paris_to_hubs": [
+        {
+          "partner_icao": "LTFM",
+          "partner_iata": "IST",
+          "partner_city": "Istanbul",
+          "pax_l12": 1011226,
+          "flights_l12": 5231,
+          "lf_l12": 0.8475,
+          "masked_months_l12": 0,
+          "window_end": "2024-12-01"
+        }
+      ],
+      "overrides": []
+    },
+    "MDE": {
+      "opportunity": {
+        "partner_icao": "SKRG",
+        "partner_iata": "MDE",
+        "partner_city": "Medellín",
+        "partner_airport": "Jose Maria Córdova International Airport",
+        "partner_country": "CO",
+        "hubs_serving": 1,
+        "hubs_list": "MAD",
+        "pax_l12_hubs": 270205,
+        "pax_p12_hubs": 219048,
+        "seats_l12_hubs": 301615,
+        "flights_l12_hubs": 1044,
+        "lf_l12_hubs": 0.8959,
+        "data_until_min": "2024-12-01",
+        "data_until_max": "2024-12-01",
+        "growth_hubs": 0.2335,
+        "distance_from_cdg_km": 8615.0,
+        "cdg_flights_l12": 0,
+        "cdg_masked_months_l12": 0,
+        "ory_flights_l12": 0,
+        "ory_masked_months_l12": 0,
+        "segment": "long-courrier",
+        "s_volume": 0.7307692307692307,
+        "s_growth": 0.7948717948717948,
+        "s_lf": 0.8205128205128205,
+        "s_hubs": 0.0,
+        "opportunity_score": 65.5
+      },
+      "hub_flows": [
+        {
+          "rep_icao": "LEMD",
+          "rep_iata": "MAD",
+          "rep_city": "Madrid",
+          "partner_icao": "SKRG",
+          "partner_iata": "MDE",
+          "pax_l12": 270205,
+          "pax_p12": 219048,
+          "flights_l12": 1044,
+          "lf_l12": 0.8959,
+          "growth_pax": 0.2335,
+          "window_end": "2024-12-01",
+          "masked_months_l12": 0
+        }
+      ],
+      "paris_to_hubs": [
+        {
+          "partner_icao": "LEMD",
+          "partner_iata": "MAD",
+          "partner_city": "Madrid",
+          "pax_l12": 1052673,
+          "flights_l12": 6557,
+          "lf_l12": 0.8715,
+          "masked_months_l12": 0,
+          "window_end": "2024-12-01"
+        }
+      ],
+      "overrides": []
+    },
+    "KUL": {
+      "opportunity": {
+        "partner_icao": "WMKK",
+        "partner_iata": "KUL",
+        "partner_city": "Sepang",
+        "partner_airport": "Kuala Lumpur International Airport",
+        "partner_country": "MY",
+        "hubs_serving": 1,
+        "hubs_list": "IST",
+        "pax_l12_hubs": 438847,
+        "pax_p12_hubs": 349301,
+        "seats_l12_hubs": 520455,
+        "flights_l12_hubs": 1447,
+        "lf_l12_hubs": 0.8432,
+        "data_until_min": "2024-12-01",
+        "data_until_max": "2024-12-01",
+        "growth_hubs": 0.2564,
+        "distance_from_cdg_km": 10442.0,
+        "cdg_flights_l12": 0,
+        "cdg_masked_months_l12": 0,
+        "ory_flights_l12": 0,
+        "ory_masked_months_l12": 0,
+        "segment": "long-courrier",
+        "s_volume": 0.8717948717948718,
+        "s_growth": 0.8205128205128205,
+        "s_lf": 0.48717948717948717,
+        "s_hubs": 0.0,
+        "opportunity_score": 65.1
+      },
+      "hub_flows": [
+        {
+          "rep_icao": "LTFM",
+          "rep_iata": "IST",
+          "rep_city": "Istanbul",
+          "partner_icao": "WMKK",
+          "partner_iata": "KUL",
+          "pax_l12": 438847,
+          "pax_p12": 349301,
+          "flights_l12": 1447,
+          "lf_l12": 0.8432,
+          "growth_pax": 0.2564,
+          "window_end": "2024-12-01",
+          "masked_months_l12": 0
+        }
+      ],
+      "paris_to_hubs": [
+        {
+          "partner_icao": "LTFM",
+          "partner_iata": "IST",
+          "partner_city": "Istanbul",
+          "pax_l12": 1011226,
+          "flights_l12": 5231,
+          "lf_l12": 0.8475,
+          "masked_months_l12": 0,
+          "window_end": "2024-12-01"
+        }
+      ],
+      "overrides": []
+    },
+    "IKA": {
+      "opportunity": {
+        "partner_icao": "OIIE",
+        "partner_iata": "IKA",
+        "partner_city": "Tehran",
+        "partner_airport": "Imam Khomeini International Airport",
+        "partner_country": "IR",
+        "hubs_serving": 2,
+        "hubs_list": "IST, FRA",
+        "pax_l12_hubs": 2133195,
+        "pax_p12_hubs": 2157503,
+        "seats_l12_hubs": 2563319,
+        "flights_l12_hubs": 11087,
+        "lf_l12_hubs": 0.8322,
+        "data_until_min": "2024-12-01",
+        "data_until_max": "2024-12-01",
+        "growth_hubs": -0.0113,
+        "distance_from_cdg_km": 4195.0,
+        "cdg_flights_l12": 0,
+        "cdg_masked_months_l12": 0,
+        "ory_flights_l12": 0,
+        "ory_masked_months_l12": 0,
+        "segment": "long-courrier",
+        "s_volume": 1.0,
+        "s_growth": 0.1794871794871795,
+        "s_lf": 0.4358974358974359,
+        "s_hubs": 0.7948717948717948,
+        "opportunity_score": 65.1
+      },
+      "hub_flows": [
+        {
+          "rep_icao": "LTFM",
+          "rep_iata": "IST",
+          "rep_city": "Istanbul",
+          "partner_icao": "OIIE",
+          "partner_iata": "IKA",
+          "pax_l12": 2051314,
+          "pax_p12": 1978982,
+          "flights_l12": 10710,
+          "lf_l12": 0.8321,
+          "growth_pax": 0.0366,
+          "window_end": "2024-12-01",
+          "masked_months_l12": 0
+        },
+        {
+          "rep_icao": "EDDF",
+          "rep_iata": "FRA",
+          "rep_city": "Frankfurt am Main",
+          "partner_icao": "OIIE",
+          "partner_iata": "IKA",
+          "pax_l12": 81881,
+          "pax_p12": 178521,
+          "flights_l12": 377,
+          "lf_l12": 0.8353,
+          "growth_pax": -0.5413,
+          "window_end": "2024-12-01",
+          "masked_months_l12": 0
+        }
+      ],
+      "paris_to_hubs": [
+        {
+          "partner_icao": "LTFM",
+          "partner_iata": "IST",
+          "partner_city": "Istanbul",
+          "pax_l12": 1011226,
+          "flights_l12": 5231,
+          "lf_l12": 0.8475,
+          "masked_months_l12": 0,
+          "window_end": "2024-12-01"
+        },
+        {
+          "partner_icao": "EDDF",
+          "partner_iata": "FRA",
+          "partner_city": "Frankfurt am Main",
+          "pax_l12": 752494,
+          "flights_l12": 7173,
+          "lf_l12": 0.7365,
+          "masked_months_l12": 0,
+          "window_end": "2024-12-01"
+        }
+      ],
+      "overrides": []
+    },
+    "UBN": {
+      "opportunity": {
+        "partner_icao": "ZMCK",
+        "partner_iata": "UBN",
+        "partner_city": "Ulaanbaatar (Sergelen)",
+        "partner_airport": "Ulaanbaatar Chinggis Khaan International Airport",
+        "partner_country": "MN",
+        "hubs_serving": 2,
+        "hubs_list": "IST, FRA",
+        "pax_l12_hubs": 230412,
+        "pax_p12_hubs": 138893,
+        "seats_l12_hubs": 309848,
+        "flights_l12_hubs": 1102,
+        "lf_l12_hubs": 0.7436,
+        "data_until_min": "2024-12-01",
+        "data_until_max": "2024-12-01",
+        "growth_hubs": 0.6589,
+        "distance_from_cdg_km": 7042.0,
+        "cdg_flights_l12": 0,
+        "cdg_masked_months_l12": 0,
+        "ory_flights_l12": 0,
+        "ory_masked_months_l12": 0,
+        "segment": "long-courrier",
+        "s_volume": 0.6282051282051282,
+        "s_growth": 0.9743589743589743,
+        "s_lf": 0.14102564102564102,
+        "s_hubs": 0.7948717948717948,
+        "opportunity_score": 64.2
+      },
+      "hub_flows": [
+        {
+          "rep_icao": "LTFM",
+          "rep_iata": "IST",
+          "rep_city": "Istanbul",
+          "partner_icao": "ZMCK",
+          "partner_iata": "UBN",
+          "pax_l12": 145271,
+          "pax_p12": 138893,
+          "flights_l12": 686,
+          "lf_l12": 0.7686,
+          "growth_pax": 0.0459,
+          "window_end": "2024-12-01",
+          "masked_months_l12": 0
+        },
+        {
+          "rep_icao": "EDDF",
+          "rep_iata": "FRA",
+          "rep_city": "Frankfurt am Main",
+          "partner_icao": "ZMCK",
+          "partner_iata": "UBN",
+          "pax_l12": 85141,
+          "pax_p12": 0,
+          "flights_l12": 416,
+          "lf_l12": 0.7046,
+          "growth_pax": null,
+          "window_end": "2024-12-01",
+          "masked_months_l12": 0
+        }
+      ],
+      "paris_to_hubs": [
+        {
+          "partner_icao": "LTFM",
+          "partner_iata": "IST",
+          "partner_city": "Istanbul",
+          "pax_l12": 1011226,
+          "flights_l12": 5231,
+          "lf_l12": 0.8475,
+          "masked_months_l12": 0,
+          "window_end": "2024-12-01"
+        },
+        {
+          "partner_icao": "EDDF",
+          "partner_iata": "FRA",
+          "partner_city": "Frankfurt am Main",
+          "pax_l12": 752494,
+          "flights_l12": 7173,
+          "lf_l12": 0.7365,
+          "masked_months_l12": 0,
+          "window_end": "2024-12-01"
+        }
+      ],
+      "overrides": []
+    },
+    "ASB": {
+      "opportunity": {
+        "partner_icao": "UTAA",
+        "partner_iata": "ASB",
+        "partner_city": "Ashgabat",
+        "partner_airport": "Ashgabat International Airport",
+        "partner_country": "TM",
+        "hubs_serving": 1,
+        "hubs_list": "IST",
+        "pax_l12_hubs": 367577,
+        "pax_p12_hubs": 235211,
+        "seats_l12_hubs": 451286,
+        "flights_l12_hubs": 2099,
+        "lf_l12_hubs": 0.8145,
+        "data_until_min": "2024-12-01",
+        "data_until_max": "2024-12-01",
+        "growth_hubs": 0.5628,
+        "distance_from_cdg_km": 4555.0,
+        "cdg_flights_l12": 0,
+        "cdg_masked_months_l12": 0,
+        "ory_flights_l12": 0,
+        "ory_masked_months_l12": 0,
+        "segment": "long-courrier",
+        "s_volume": 0.8076923076923077,
+        "s_growth": 0.9487179487179487,
+        "s_lf": 0.358974358974359,
+        "s_hubs": 0.0,
+        "opportunity_score": 63.2
+      },
+      "hub_flows": [
+        {
+          "rep_icao": "LTFM",
+          "rep_iata": "IST",
+          "rep_city": "Istanbul",
+          "partner_icao": "UTAA",
+          "partner_iata": "ASB",
+          "pax_l12": 367577,
+          "pax_p12": 235211,
+          "flights_l12": 2099,
+          "lf_l12": 0.8145,
+          "growth_pax": 0.5628,
+          "window_end": "2024-12-01",
+          "masked_months_l12": 0
+        }
+      ],
+      "paris_to_hubs": [
+        {
+          "partner_icao": "LTFM",
+          "partner_iata": "IST",
+          "partner_city": "Istanbul",
+          "pax_l12": 1011226,
+          "flights_l12": 5231,
+          "lf_l12": 0.8475,
+          "masked_months_l12": 0,
+          "window_end": "2024-12-01"
+        }
+      ],
+      "overrides": []
+    },
+    "UIO": {
+      "opportunity": {
+        "partner_icao": "SEQM",
+        "partner_iata": "UIO",
+        "partner_city": "Quito",
+        "partner_airport": "Mariscal Sucre International Airport",
+        "partner_country": "EC",
+        "hubs_serving": 2,
+        "hubs_list": "MAD, AMS",
+        "pax_l12_hubs": 376353,
+        "pax_p12_hubs": 385122,
+        "seats_l12_hubs": 429138,
+        "flights_l12_hubs": 1275,
+        "lf_l12_hubs": 0.877,
+        "data_until_min": "2024-12-01",
+        "data_until_max": "2024-12-01",
+        "growth_hubs": -0.0228,
+        "distance_from_cdg_km": 9357.0,
+        "cdg_flights_l12": 0,
+        "cdg_masked_months_l12": 0,
+        "ory_flights_l12": 0,
+        "ory_masked_months_l12": 0,
+        "segment": "long-courrier",
+        "s_volume": 0.8205128205128205,
+        "s_growth": 0.14102564102564102,
+        "s_lf": 0.7051282051282052,
+        "s_hubs": 0.7948717948717948,
+        "opportunity_score": 62.4
+      },
+      "hub_flows": [
+        {
+          "rep_icao": "LEMD",
+          "rep_iata": "MAD",
+          "rep_city": "Madrid",
+          "partner_icao": "SEQM",
+          "partner_iata": "UIO",
+          "pax_l12": 228601,
+          "pax_p12": 203166,
+          "flights_l12": 733,
+          "lf_l12": 0.8961,
+          "growth_pax": 0.1252,
+          "window_end": "2024-12-01",
+          "masked_months_l12": 0
+        },
+        {
+          "rep_icao": "EHAM",
+          "rep_iata": "AMS",
+          "rep_city": "Amsterdam",
+          "partner_icao": "SEQM",
+          "partner_iata": "UIO",
+          "pax_l12": 147752,
+          "pax_p12": 181956,
+          "flights_l12": 542,
+          "lf_l12": 0.849,
+          "growth_pax": -0.188,
+          "window_end": "2024-12-01",
+          "masked_months_l12": 0
+        }
+      ],
+      "paris_to_hubs": [
+        {
+          "partner_icao": "EHAM",
+          "partner_iata": "AMS",
+          "partner_city": "Amsterdam",
+          "pax_l12": 1120710,
+          "flights_l12": 8025,
+          "lf_l12": 0.8157,
+          "masked_months_l12": 0,
+          "window_end": "2024-12-01"
+        },
+        {
+          "partner_icao": "LEMD",
+          "partner_iata": "MAD",
+          "partner_city": "Madrid",
+          "pax_l12": 1052673,
+          "flights_l12": 6557,
+          "lf_l12": 0.8715,
+          "masked_months_l12": 0,
+          "window_end": "2024-12-01"
+        }
+      ],
+      "overrides": []
+    },
+    "LAS": {
+      "opportunity": {
+        "partner_icao": "KLAS",
+        "partner_iata": "LAS",
+        "partner_city": "Las Vegas",
+        "partner_airport": "Harry Reid International Airport",
+        "partner_country": "US",
+        "hubs_serving": 2,
+        "hubs_list": "AMS, FRA",
+        "pax_l12_hubs": 231787,
+        "pax_p12_hubs": 222872,
+        "seats_l12_hubs": 270153,
+        "flights_l12_hubs": 872,
+        "lf_l12_hubs": 0.858,
+        "data_until_min": "2024-12-01",
+        "data_until_max": "2024-12-01",
+        "growth_hubs": 0.04,
+        "distance_from_cdg_km": 8737.0,
+        "cdg_flights_l12": 0,
+        "cdg_masked_months_l12": 0,
+        "ory_flights_l12": 0,
+        "ory_masked_months_l12": 0,
+        "segment": "long-courrier",
+        "s_volume": 0.6410256410256411,
+        "s_growth": 0.46153846153846156,
+        "s_lf": 0.5769230769230769,
+        "s_hubs": 0.7948717948717948,
+        "opportunity_score": 60.6
+      },
+      "hub_flows": [
+        {
+          "rep_icao": "EHAM",
+          "rep_iata": "AMS",
+          "rep_city": "Amsterdam",
+          "partner_icao": "KLAS",
+          "partner_iata": "LAS",
+          "pax_l12": 118719,
+          "pax_p12": 116185,
+          "flights_l12": 424,
+          "lf_l12": 0.8564,
+          "growth_pax": 0.0218,
+          "window_end": "2024-12-01",
+          "masked_months_l12": 0
+        },
+        {
+          "rep_icao": "EDDF",
+          "rep_iata": "FRA",
+          "rep_city": "Frankfurt am Main",
+          "partner_icao": "KLAS",
+          "partner_iata": "LAS",
+          "pax_l12": 113068,
+          "pax_p12": 106687,
+          "flights_l12": 448,
+          "lf_l12": 0.8597,
+          "growth_pax": 0.0598,
+          "window_end": "2024-12-01",
+          "masked_months_l12": 0
+        }
+      ],
+      "paris_to_hubs": [
+        {
+          "partner_icao": "EHAM",
+          "partner_iata": "AMS",
+          "partner_city": "Amsterdam",
+          "pax_l12": 1120710,
+          "flights_l12": 8025,
+          "lf_l12": 0.8157,
+          "masked_months_l12": 0,
+          "window_end": "2024-12-01"
+        },
+        {
+          "partner_icao": "EDDF",
+          "partner_iata": "FRA",
+          "partner_city": "Frankfurt am Main",
+          "pax_l12": 752494,
+          "flights_l12": 7173,
+          "lf_l12": 0.7365,
+          "masked_months_l12": 0,
+          "window_end": "2024-12-01"
+        }
+      ],
+      "overrides": []
+    },
+    "XMN": {
+      "opportunity": {
+        "partner_icao": "ZSAM",
+        "partner_iata": "XMN",
+        "partner_city": "Xiamen",
+        "partner_airport": "Xiamen Gaoqi International Airport",
+        "partner_country": "CN",
+        "hubs_serving": 1,
+        "hubs_list": "AMS",
+        "pax_l12_hubs": 133809,
+        "pax_p12_hubs": 76205,
+        "seats_l12_hubs": 142853,
+        "flights_l12_hubs": 514,
+        "lf_l12_hubs": 0.9367,
+        "data_until_min": "2024-12-01",
+        "data_until_max": "2024-12-01",
+        "growth_hubs": 0.7559,
+        "distance_from_cdg_km": 9651.0,
+        "cdg_flights_l12": 0,
+        "cdg_masked_months_l12": 0,
+        "ory_flights_l12": 0,
+        "ory_masked_months_l12": 0,
+        "segment": "long-courrier",
+        "s_volume": 0.3717948717948718,
+        "s_growth": 1.0,
+        "s_lf": 0.9871794871794872,
+        "s_hubs": 0.0,
+        "opportunity_score": 59.6
+      },
+      "hub_flows": [
+        {
+          "rep_icao": "EHAM",
+          "rep_iata": "AMS",
+          "rep_city": "Amsterdam",
+          "partner_icao": "ZSAM",
+          "partner_iata": "XMN",
+          "pax_l12": 133809,
+          "pax_p12": 76205,
+          "flights_l12": 514,
+          "lf_l12": 0.9367,
+          "growth_pax": 0.7559,
+          "window_end": "2024-12-01",
+          "masked_months_l12": 0
+        }
+      ],
+      "paris_to_hubs": [
+        {
+          "partner_icao": "EHAM",
+          "partner_iata": "AMS",
+          "partner_city": "Amsterdam",
+          "pax_l12": 1120710,
+          "flights_l12": 8025,
+          "lf_l12": 0.8157,
+          "masked_months_l12": 0,
+          "window_end": "2024-12-01"
+        }
+      ],
+      "overrides": []
+    },
+    "MBA": {
+      "opportunity": {
+        "partner_icao": "HKMO",
+        "partner_iata": "MBA",
+        "partner_city": "Mombasa",
+        "partner_airport": "Moi International Airport",
+        "partner_country": "KE",
+        "hubs_serving": 1,
+        "hubs_list": "FRA",
+        "pax_l12_hubs": 179569,
+        "pax_p12_hubs": 140877,
+        "seats_l12_hubs": 198058,
+        "flights_l12_hubs": 673,
+        "lf_l12_hubs": 0.9066,
+        "data_until_min": "2024-12-01",
+        "data_until_max": "2024-12-01",
+        "growth_hubs": 0.2747,
+        "distance_from_cdg_km": 6896.0,
+        "cdg_flights_l12": 0,
+        "cdg_masked_months_l12": 0,
+        "ory_flights_l12": 0,
+        "ory_masked_months_l12": 0,
+        "segment": "long-courrier",
+        "s_volume": 0.5128205128205128,
+        "s_growth": 0.8333333333333334,
+        "s_lf": 0.8974358974358975,
+        "s_hubs": 0.0,
+        "opportunity_score": 59.3
+      },
+      "hub_flows": [
+        {
+          "rep_icao": "EDDF",
+          "rep_iata": "FRA",
+          "rep_city": "Frankfurt am Main",
+          "partner_icao": "HKMO",
+          "partner_iata": "MBA",
+          "pax_l12": 179569,
+          "pax_p12": 140877,
+          "flights_l12": 673,
+          "lf_l12": 0.9066,
+          "growth_pax": 0.2747,
+          "window_end": "2024-12-01",
+          "masked_months_l12": 0
+        }
+      ],
+      "paris_to_hubs": [
+        {
+          "partner_icao": "EDDF",
+          "partner_iata": "FRA",
+          "partner_city": "Frankfurt am Main",
+          "pax_l12": 752494,
+          "flights_l12": 7173,
+          "lf_l12": 0.7365,
+          "masked_months_l12": 0,
+          "window_end": "2024-12-01"
+        }
+      ],
+      "overrides": []
+    },
+    "SJU": {
+      "opportunity": {
+        "partner_icao": "TJSJ",
+        "partner_iata": "SJU",
+        "partner_city": "San Juan",
+        "partner_airport": "Luis Munoz Marin International Airport",
+        "partner_country": "PR",
+        "hubs_serving": 1,
+        "hubs_list": "MAD",
+        "pax_l12_hubs": 182958,
+        "pax_p12_hubs": 140017,
+        "seats_l12_hubs": 204385,
+        "flights_l12_hubs": 701,
+        "lf_l12_hubs": 0.8952,
+        "data_until_min": "2024-12-01",
+        "data_until_max": "2024-12-01",
+        "growth_hubs": 0.3067,
+        "distance_from_cdg_km": 6917.0,
+        "cdg_flights_l12": 0,
+        "cdg_masked_months_l12": 0,
+        "ory_flights_l12": 0,
+        "ory_masked_months_l12": 0,
+        "segment": "long-courrier",
+        "s_volume": 0.5256410256410257,
+        "s_growth": 0.8589743589743589,
+        "s_lf": 0.8076923076923077,
+        "s_hubs": 0.0,
+        "opportunity_score": 58.7
+      },
+      "hub_flows": [
+        {
+          "rep_icao": "LEMD",
+          "rep_iata": "MAD",
+          "rep_city": "Madrid",
+          "partner_icao": "TJSJ",
+          "partner_iata": "SJU",
+          "pax_l12": 182958,
+          "pax_p12": 140017,
+          "flights_l12": 701,
+          "lf_l12": 0.8952,
+          "growth_pax": 0.3067,
+          "window_end": "2024-12-01",
+          "masked_months_l12": 0
+        }
+      ],
+      "paris_to_hubs": [
+        {
+          "partner_icao": "LEMD",
+          "partner_iata": "MAD",
+          "partner_city": "Madrid",
+          "pax_l12": 1052673,
+          "flights_l12": 6557,
+          "lf_l12": 0.8715,
+          "masked_months_l12": 0,
+          "window_end": "2024-12-01"
+        }
+      ],
+      "overrides": []
+    },
+    "NQZ": {
+      "opportunity": {
+        "partner_icao": "UACC",
+        "partner_iata": "NQZ",
+        "partner_city": "Astana",
+        "partner_airport": "Nursultan Nazarbayev International Airport",
+        "partner_country": "KZ",
+        "hubs_serving": 2,
+        "hubs_list": "IST, FRA",
+        "pax_l12_hubs": 413003,
+        "pax_p12_hubs": 427780,
+        "seats_l12_hubs": 495497,
+        "flights_l12_hubs": 2410,
+        "lf_l12_hubs": 0.8335,
+        "data_until_min": "2024-12-01",
+        "data_until_max": "2024-12-01",
+        "growth_hubs": -0.0345,
+        "distance_from_cdg_km": 4745.0,
+        "cdg_flights_l12": 0,
+        "cdg_masked_months_l12": 0,
+        "ory_flights_l12": 0,
+        "ory_masked_months_l12": 0,
+        "segment": "long-courrier",
+        "s_volume": 0.8589743589743589,
+        "s_growth": 0.11538461538461539,
+        "s_lf": 0.44871794871794873,
+        "s_hubs": 0.7948717948717948,
+        "opportunity_score": 58.1
+      },
+      "hub_flows": [
+        {
+          "rep_icao": "LTFM",
+          "rep_iata": "IST",
+          "rep_city": "Istanbul",
+          "partner_icao": "UACC",
+          "partner_iata": "NQZ",
+          "pax_l12": 272834,
+          "pax_p12": 267516,
+          "flights_l12": 1590,
+          "lf_l12": 0.8352,
+          "growth_pax": 0.0199,
+          "window_end": "2024-12-01",
+          "masked_months_l12": 0
+        },
+        {
+          "rep_icao": "EDDF",
+          "rep_iata": "FRA",
+          "rep_city": "Frankfurt am Main",
+          "partner_icao": "UACC",
+          "partner_iata": "NQZ",
+          "pax_l12": 140169,
+          "pax_p12": 160264,
+          "flights_l12": 820,
+          "lf_l12": 0.8302,
+          "growth_pax": -0.1254,
+          "window_end": "2024-12-01",
+          "masked_months_l12": 0
+        }
+      ],
+      "paris_to_hubs": [
+        {
+          "partner_icao": "LTFM",
+          "partner_iata": "IST",
+          "partner_city": "Istanbul",
+          "pax_l12": 1011226,
+          "flights_l12": 5231,
+          "lf_l12": 0.8475,
+          "masked_months_l12": 0,
+          "window_end": "2024-12-01"
+        },
+        {
+          "partner_icao": "EDDF",
+          "partner_iata": "FRA",
+          "partner_city": "Frankfurt am Main",
+          "pax_l12": 752494,
+          "flights_l12": 7173,
+          "lf_l12": 0.7365,
+          "masked_months_l12": 0,
+          "window_end": "2024-12-01"
+        }
+      ],
+      "overrides": []
+    },
+    "REC": {
+      "opportunity": {
+        "partner_icao": "SBRF",
+        "partner_iata": "REC",
+        "partner_city": "Recife",
+        "partner_airport": "Recife/Guararapes - Gilberto Freyre International Airport",
+        "partner_country": "BR",
+        "hubs_serving": 1,
+        "hubs_list": "LIS",
+        "pax_l12_hubs": 229875,
+        "pax_p12_hubs": 187341,
+        "seats_l12_hubs": 263489,
+        "flights_l12_hubs": 1085,
+        "lf_l12_hubs": 0.8724,
+        "data_until_min": "2024-12-01",
+        "data_until_max": "2024-12-01",
+        "growth_hubs": 0.227,
+        "distance_from_cdg_km": 7326.0,
+        "cdg_flights_l12": 0,
+        "cdg_masked_months_l12": 0,
+        "ory_flights_l12": 0,
+        "ory_masked_months_l12": 0,
+        "segment": "long-courrier",
+        "s_volume": 0.6153846153846154,
+        "s_growth": 0.7692307692307693,
+        "s_lf": 0.6794871794871795,
+        "s_hubs": 0.0,
+        "opportunity_score": 57.4
+      },
+      "hub_flows": [
+        {
+          "rep_icao": "LPPT",
+          "rep_iata": "LIS",
+          "rep_city": "Lisbon",
+          "partner_icao": "SBRF",
+          "partner_iata": "REC",
+          "pax_l12": 229875,
+          "pax_p12": 187341,
+          "flights_l12": 1085,
+          "lf_l12": 0.8724,
+          "growth_pax": 0.227,
+          "window_end": "2024-12-01",
+          "masked_months_l12": 0
+        }
+      ],
+      "paris_to_hubs": [
+        {
+          "partner_icao": "LPPT",
+          "partner_iata": "LIS",
+          "partner_city": "Lisbon",
+          "pax_l12": 644412,
+          "flights_l12": 4148,
+          "lf_l12": 0.8848,
+          "masked_months_l12": 0,
+          "window_end": "2024-12-01"
+        }
+      ],
+      "overrides": []
+    },
+    "WDH": {
+      "opportunity": {
+        "partner_icao": "FYWH",
+        "partner_iata": "WDH",
+        "partner_city": "Windhoek",
+        "partner_airport": "Hosea Kutako International Airport",
+        "partner_country": "NA",
+        "hubs_serving": 1,
+        "hubs_list": "FRA",
+        "pax_l12_hubs": 240822,
+        "pax_p12_hubs": 220268,
+        "seats_l12_hubs": 276464,
+        "flights_l12_hubs": 975,
+        "lf_l12_hubs": 0.8711,
+        "data_until_min": "2024-12-01",
+        "data_until_max": "2024-12-01",
+        "growth_hubs": 0.0933,
+        "distance_from_cdg_km": 8086.0,
+        "cdg_flights_l12": 0,
+        "cdg_masked_months_l12": 0,
+        "ory_flights_l12": 0,
+        "ory_masked_months_l12": 0,
+        "segment": "long-courrier",
+        "s_volume": 0.6923076923076923,
+        "s_growth": 0.6282051282051282,
+        "s_lf": 0.6666666666666666,
+        "s_hubs": 0.0,
+        "opportunity_score": 56.7
+      },
+      "hub_flows": [
+        {
+          "rep_icao": "EDDF",
+          "rep_iata": "FRA",
+          "rep_city": "Frankfurt am Main",
+          "partner_icao": "FYWH",
+          "partner_iata": "WDH",
+          "pax_l12": 240822,
+          "pax_p12": 220268,
+          "flights_l12": 975,
+          "lf_l12": 0.8711,
+          "growth_pax": 0.0933,
+          "window_end": "2024-12-01",
+          "masked_months_l12": 0
+        }
+      ],
+      "paris_to_hubs": [
+        {
+          "partner_icao": "EDDF",
+          "partner_iata": "FRA",
+          "partner_city": "Frankfurt am Main",
+          "pax_l12": 752494,
+          "flights_l12": 7173,
+          "lf_l12": 0.7365,
+          "masked_months_l12": 0,
+          "window_end": "2024-12-01"
+        }
+      ],
+      "overrides": []
+    },
+    "MVD": {
+      "opportunity": {
+        "partner_icao": "SUMU",
+        "partner_iata": "MVD",
+        "partner_city": "Ciudad de la Costa",
+        "partner_airport": "Carrasco General Cesáreo L. Berisso International Airport",
+        "partner_country": "UY",
+        "hubs_serving": 1,
+        "hubs_list": "MAD",
+        "pax_l12_hubs": 301839,
+        "pax_p12_hubs": 289847,
+        "seats_l12_hubs": 347318,
+        "flights_l12_hubs": 1143,
+        "lf_l12_hubs": 0.8691,
+        "data_until_min": "2024-12-01",
+        "data_until_max": "2024-12-01",
+        "growth_hubs": 0.0414,
+        "distance_from_cdg_km": 10970.0,
+        "cdg_flights_l12": 0,
+        "cdg_masked_months_l12": 0,
+        "ory_flights_l12": 0,
+        "ory_masked_months_l12": 0,
+        "segment": "long-courrier",
+        "s_volume": 0.7692307692307693,
+        "s_growth": 0.48717948717948717,
+        "s_lf": 0.6410256410256411,
+        "s_hubs": 0.0,
+        "opportunity_score": 55.8
+      },
+      "hub_flows": [
+        {
+          "rep_icao": "LEMD",
+          "rep_iata": "MAD",
+          "rep_city": "Madrid",
+          "partner_icao": "SUMU",
+          "partner_iata": "MVD",
+          "pax_l12": 301839,
+          "pax_p12": 289847,
+          "flights_l12": 1143,
+          "lf_l12": 0.8691,
+          "growth_pax": 0.0414,
+          "window_end": "2024-12-01",
+          "masked_months_l12": 0
+        }
+      ],
+      "paris_to_hubs": [
+        {
+          "partner_icao": "LEMD",
+          "partner_iata": "MAD",
+          "partner_city": "Madrid",
+          "pax_l12": 1052673,
+          "flights_l12": 6557,
+          "lf_l12": 0.8715,
+          "masked_months_l12": 0,
+          "window_end": "2024-12-01"
+        }
+      ],
+      "overrides": []
+    },
+    "MED": {
+      "opportunity": {
+        "partner_icao": "OEMA",
+        "partner_iata": "MED",
+        "partner_city": "Medina",
+        "partner_airport": "Prince Mohammad Bin Abdulaziz Airport",
+        "partner_country": "SA",
+        "hubs_serving": 1,
+        "hubs_list": "IST",
+        "pax_l12_hubs": 610543,
+        "pax_p12_hubs": 567989,
+        "seats_l12_hubs": 813326,
+        "flights_l12_hubs": 3098,
+        "lf_l12_hubs": 0.7507,
+        "data_until_min": "2024-12-01",
+        "data_until_max": "2024-12-01",
+        "growth_hubs": 0.0749,
+        "distance_from_cdg_km": 4213.0,
+        "cdg_flights_l12": 0,
+        "cdg_masked_months_l12": 0,
+        "ory_flights_l12": 0,
+        "ory_masked_months_l12": 0,
+        "segment": "long-courrier",
+        "s_volume": 0.9487179487179487,
+        "s_growth": 0.5769230769230769,
+        "s_lf": 0.16666666666666666,
+        "s_hubs": 0.0,
+        "opportunity_score": 55.7
+      },
+      "hub_flows": [
+        {
+          "rep_icao": "LTFM",
+          "rep_iata": "IST",
+          "rep_city": "Istanbul",
+          "partner_icao": "OEMA",
+          "partner_iata": "MED",
+          "pax_l12": 610543,
+          "pax_p12": 567989,
+          "flights_l12": 3098,
+          "lf_l12": 0.7507,
+          "growth_pax": 0.0749,
+          "window_end": "2024-12-01",
+          "masked_months_l12": 0
+        }
+      ],
+      "paris_to_hubs": [
+        {
+          "partner_icao": "LTFM",
+          "partner_iata": "IST",
+          "partner_city": "Istanbul",
+          "pax_l12": 1011226,
+          "flights_l12": 5231,
+          "lf_l12": 0.8475,
+          "masked_months_l12": 0,
+          "window_end": "2024-12-01"
+        }
+      ],
+      "overrides": []
+    },
+    "HKT": {
+      "opportunity": {
+        "partner_icao": "VTSP",
+        "partner_iata": "HKT",
+        "partner_city": "Phuket",
+        "partner_airport": "Phuket International Airport",
+        "partner_country": "TH",
+        "hubs_serving": 1,
+        "hubs_list": "IST",
+        "pax_l12_hubs": 130877,
+        "pax_p12_hubs": 97488,
+        "seats_l12_hubs": 141767,
+        "flights_l12_hubs": 491,
+        "lf_l12_hubs": 0.9232,
+        "data_until_min": "2024-12-01",
+        "data_until_max": "2024-12-01",
+        "growth_hubs": 0.3425,
+        "distance_from_cdg_km": 9744.0,
+        "cdg_flights_l12": 0,
+        "cdg_masked_months_l12": 0,
+        "ory_flights_l12": 0,
+        "ory_masked_months_l12": 0,
+        "segment": "long-courrier",
+        "s_volume": 0.3333333333333333,
+        "s_growth": 0.8974358974358975,
+        "s_lf": 0.9358974358974359,
+        "s_hubs": 0.0,
+        "opportunity_score": 54.5
+      },
+      "hub_flows": [
+        {
+          "rep_icao": "LTFM",
+          "rep_iata": "IST",
+          "rep_city": "Istanbul",
+          "partner_icao": "VTSP",
+          "partner_iata": "HKT",
+          "pax_l12": 130877,
+          "pax_p12": 97488,
+          "flights_l12": 491,
+          "lf_l12": 0.9232,
+          "growth_pax": 0.3425,
+          "window_end": "2024-12-01",
+          "masked_months_l12": 0
+        }
+      ],
+      "paris_to_hubs": [
+        {
+          "partner_icao": "LTFM",
+          "partner_iata": "IST",
+          "partner_city": "Istanbul",
+          "pax_l12": 1011226,
+          "flights_l12": 5231,
+          "lf_l12": 0.8475,
+          "masked_months_l12": 0,
+          "window_end": "2024-12-01"
+        }
+      ],
+      "overrides": []
+    },
+    "GYE": {
+      "opportunity": {
+        "partner_icao": "SEGU",
+        "partner_iata": "GYE",
+        "partner_city": "Guayaquil",
+        "partner_airport": "José Joaquín de Olmedo International Airport",
+        "partner_country": "EC",
+        "hubs_serving": 1,
+        "hubs_list": "MAD",
+        "pax_l12_hubs": 217366,
+        "pax_p12_hubs": 202921,
+        "seats_l12_hubs": 243860,
+        "flights_l12_hubs": 818,
+        "lf_l12_hubs": 0.8914,
+        "data_until_min": "2024-12-01",
+        "data_until_max": "2024-12-01",
+        "growth_hubs": 0.0712,
+        "distance_from_cdg_km": 9639.0,
+        "cdg_flights_l12": 0,
+        "cdg_masked_months_l12": 0,
+        "ory_flights_l12": 0,
+        "ory_masked_months_l12": 0,
+        "segment": "long-courrier",
+        "s_volume": 0.6025641025641025,
+        "s_growth": 0.5384615384615384,
+        "s_lf": 0.782051282051282,
+        "s_hubs": 0.0,
+        "opportunity_score": 53.2
+      },
+      "hub_flows": [
+        {
+          "rep_icao": "LEMD",
+          "rep_iata": "MAD",
+          "rep_city": "Madrid",
+          "partner_icao": "SEGU",
+          "partner_iata": "GYE",
+          "pax_l12": 217366,
+          "pax_p12": 202921,
+          "flights_l12": 818,
+          "lf_l12": 0.8914,
+          "growth_pax": 0.0712,
+          "window_end": "2024-12-01",
+          "masked_months_l12": 0
+        }
+      ],
+      "paris_to_hubs": [
+        {
+          "partner_icao": "LEMD",
+          "partner_iata": "MAD",
+          "partner_city": "Madrid",
+          "pax_l12": 1052673,
+          "flights_l12": 6557,
+          "lf_l12": 0.8715,
+          "masked_months_l12": 0,
+          "window_end": "2024-12-01"
+        }
+      ],
+      "overrides": []
+    },
+    "TPA": {
+      "opportunity": {
+        "partner_icao": "KTPA",
+        "partner_iata": "TPA",
+        "partner_city": "Tampa",
+        "partner_airport": "Tampa International Airport",
+        "partner_country": "US",
+        "hubs_serving": 1,
+        "hubs_list": "FRA",
+        "pax_l12_hubs": 147246,
+        "pax_p12_hubs": 114431,
+        "seats_l12_hubs": 167845,
+        "flights_l12_hubs": 592,
+        "lf_l12_hubs": 0.8773,
+        "data_until_min": "2024-12-01",
+        "data_until_max": "2024-12-01",
+        "growth_hubs": 0.2868,
+        "distance_from_cdg_km": 7360.0,
+        "cdg_flights_l12": 0,
+        "cdg_masked_months_l12": 0,
+        "ory_flights_l12": 0,
+        "ory_masked_months_l12": 0,
+        "segment": "long-courrier",
+        "s_volume": 0.41025641025641024,
+        "s_growth": 0.8461538461538461,
+        "s_lf": 0.717948717948718,
+        "s_hubs": 0.0,
+        "opportunity_score": 51.9
+      },
+      "hub_flows": [
+        {
+          "rep_icao": "EDDF",
+          "rep_iata": "FRA",
+          "rep_city": "Frankfurt am Main",
+          "partner_icao": "KTPA",
+          "partner_iata": "TPA",
+          "pax_l12": 147246,
+          "pax_p12": 114431,
+          "flights_l12": 592,
+          "lf_l12": 0.8773,
+          "growth_pax": 0.2868,
+          "window_end": "2024-12-01",
+          "masked_months_l12": 0
+        }
+      ],
+      "paris_to_hubs": [
+        {
+          "partner_icao": "EDDF",
+          "partner_iata": "FRA",
+          "partner_city": "Frankfurt am Main",
+          "pax_l12": 752494,
+          "flights_l12": 7173,
+          "lf_l12": 0.7365,
+          "masked_months_l12": 0,
+          "window_end": "2024-12-01"
+        }
+      ],
+      "overrides": []
+    },
+    "VVI": {
+      "opportunity": {
+        "partner_icao": "SLVR",
+        "partner_iata": "VVI",
+        "partner_city": "Santa Cruz",
+        "partner_airport": "Viru Viru International Airport",
+        "partner_country": "BO",
+        "hubs_serving": 1,
+        "hubs_list": "MAD",
+        "pax_l12_hubs": 205677,
+        "pax_p12_hubs": 196950,
+        "seats_l12_hubs": 230830,
+        "flights_l12_hubs": 793,
+        "lf_l12_hubs": 0.891,
+        "data_until_min": "2024-12-01",
+        "data_until_max": "2024-12-01",
+        "growth_hubs": 0.0443,
+        "distance_from_cdg_km": 9826.0,
+        "cdg_flights_l12": 0,
+        "cdg_masked_months_l12": 0,
+        "ory_flights_l12": 0,
+        "ory_masked_months_l12": 0,
+        "segment": "long-courrier",
+        "s_volume": 0.5897435897435898,
+        "s_growth": 0.5,
+        "s_lf": 0.7692307692307693,
+        "s_hubs": 0.0,
+        "opportunity_score": 51.5
+      },
+      "hub_flows": [
+        {
+          "rep_icao": "LEMD",
+          "rep_iata": "MAD",
+          "rep_city": "Madrid",
+          "partner_icao": "SLVR",
+          "partner_iata": "VVI",
+          "pax_l12": 205677,
+          "pax_p12": 196950,
+          "flights_l12": 793,
+          "lf_l12": 0.891,
+          "growth_pax": 0.0443,
+          "window_end": "2024-12-01",
+          "masked_months_l12": 0
+        }
+      ],
+      "paris_to_hubs": [
+        {
+          "partner_icao": "LEMD",
+          "partner_iata": "MAD",
+          "partner_city": "Madrid",
+          "pax_l12": 1052673,
+          "flights_l12": 6557,
+          "lf_l12": 0.8715,
+          "masked_months_l12": 0,
+          "window_end": "2024-12-01"
+        }
+      ],
+      "overrides": []
+    },
+    "PBM": {
+      "opportunity": {
+        "partner_icao": "SMJP",
+        "partner_iata": "PBM",
+        "partner_city": "Paramaribo",
+        "partner_airport": "Johan Adolf Pengel International Airport",
+        "partner_country": "SR",
+        "hubs_serving": 1,
+        "hubs_list": "AMS",
+        "pax_l12_hubs": 293651,
+        "pax_p12_hubs": 290896,
+        "seats_l12_hubs": 347304,
+        "flights_l12_hubs": 968,
+        "lf_l12_hubs": 0.8455,
+        "data_until_min": "2024-12-01",
+        "data_until_max": "2024-12-01",
+        "growth_hubs": 0.0095,
+        "distance_from_cdg_km": 7244.0,
+        "cdg_flights_l12": 0,
+        "cdg_masked_months_l12": 0,
+        "ory_flights_l12": 0,
+        "ory_masked_months_l12": 0,
+        "segment": "long-courrier",
+        "s_volume": 0.7564102564102564,
+        "s_growth": 0.3717948717948718,
+        "s_lf": 0.5128205128205128,
+        "s_hubs": 0.0,
+        "opportunity_score": 49.8
+      },
+      "hub_flows": [
+        {
+          "rep_icao": "EHAM",
+          "rep_iata": "AMS",
+          "rep_city": "Amsterdam",
+          "partner_icao": "SMJP",
+          "partner_iata": "PBM",
+          "pax_l12": 293651,
+          "pax_p12": 290896,
+          "flights_l12": 968,
+          "lf_l12": 0.8455,
+          "growth_pax": 0.0095,
+          "window_end": "2024-12-01",
+          "masked_months_l12": 0
+        }
+      ],
+      "paris_to_hubs": [
+        {
+          "partner_icao": "EHAM",
+          "partner_iata": "AMS",
+          "partner_city": "Amsterdam",
+          "pax_l12": 1120710,
+          "flights_l12": 8025,
+          "lf_l12": 0.8157,
+          "masked_months_l12": 0,
+          "window_end": "2024-12-01"
+        }
+      ],
+      "overrides": []
+    },
+    "LAD": {
+      "opportunity": {
+        "partner_icao": "FNLU",
+        "partner_iata": "LAD",
+        "partner_city": "Luanda",
+        "partner_airport": "Quatro de Fevereiro International Airport",
+        "partner_country": "AO",
+        "hubs_serving": 1,
+        "hubs_list": "LIS",
+        "pax_l12_hubs": 464271,
+        "pax_p12_hubs": 447644,
+        "seats_l12_hubs": 644266,
+        "flights_l12_hubs": 2213,
+        "lf_l12_hubs": 0.7206,
+        "data_until_min": "2024-12-01",
+        "data_until_max": "2024-12-01",
+        "growth_hubs": 0.0371,
+        "distance_from_cdg_km": 6519.0,
+        "cdg_flights_l12": 0,
+        "cdg_masked_months_l12": 0,
+        "ory_flights_l12": 0,
+        "ory_masked_months_l12": 0,
+        "segment": "long-courrier",
+        "s_volume": 0.8846153846153846,
+        "s_growth": 0.44871794871794873,
+        "s_lf": 0.08974358974358974,
+        "s_hubs": 0.0,
+        "opportunity_score": 48.4
+      },
+      "hub_flows": [
+        {
+          "rep_icao": "LPPT",
+          "rep_iata": "LIS",
+          "rep_city": "Lisbon",
+          "partner_icao": "FNLU",
+          "partner_iata": "LAD",
+          "pax_l12": 464271,
+          "pax_p12": 447644,
+          "flights_l12": 2213,
+          "lf_l12": 0.7206,
+          "growth_pax": 0.0371,
+          "window_end": "2024-12-01",
+          "masked_months_l12": 0
+        }
+      ],
+      "paris_to_hubs": [
+        {
+          "partner_icao": "LPPT",
+          "partner_iata": "LIS",
+          "partner_city": "Lisbon",
+          "pax_l12": 644412,
+          "flights_l12": 4148,
+          "lf_l12": 0.8848,
+          "masked_months_l12": 0,
+          "window_end": "2024-12-01"
+        }
+      ],
+      "overrides": []
+    },
+    "SID": {
+      "opportunity": {
+        "partner_icao": "GVAC",
+        "partner_iata": "SID",
+        "partner_city": "Espargos",
+        "partner_airport": "Amílcar Cabral International Airport",
+        "partner_country": "CV",
+        "hubs_serving": 1,
+        "hubs_list": "LIS",
+        "pax_l12_hubs": 201239,
+        "pax_p12_hubs": 171397,
+        "seats_l12_hubs": 247180,
+        "flights_l12_hubs": 1321,
+        "lf_l12_hubs": 0.8141,
+        "data_until_min": "2024-12-01",
+        "data_until_max": "2024-12-01",
+        "growth_hubs": 0.1741,
+        "distance_from_cdg_km": 4263.0,
+        "cdg_flights_l12": 0,
+        "cdg_masked_months_l12": 0,
+        "ory_flights_l12": 0,
+        "ory_masked_months_l12": 0,
+        "segment": "long-courrier",
+        "s_volume": 0.5769230769230769,
+        "s_growth": 0.717948717948718,
+        "s_lf": 0.34615384615384615,
+        "s_hubs": 0.0,
+        "opportunity_score": 47.9
+      },
+      "hub_flows": [
+        {
+          "rep_icao": "LPPT",
+          "rep_iata": "LIS",
+          "rep_city": "Lisbon",
+          "partner_icao": "GVAC",
+          "partner_iata": "SID",
+          "pax_l12": 201239,
+          "pax_p12": 171397,
+          "flights_l12": 1321,
+          "lf_l12": 0.8141,
+          "growth_pax": 0.1741,
+          "window_end": "2024-12-01",
+          "masked_months_l12": 0
+        }
+      ],
+      "paris_to_hubs": [
+        {
+          "partner_icao": "LPPT",
+          "partner_iata": "LIS",
+          "partner_city": "Lisbon",
+          "pax_l12": 644412,
+          "flights_l12": 4148,
+          "lf_l12": 0.8848,
+          "masked_months_l12": 0,
+          "window_end": "2024-12-01"
+        }
+      ],
+      "overrides": []
+    },
+    "YEG": {
+      "opportunity": {
+        "partner_icao": "CYEG",
+        "partner_iata": "YEG",
+        "partner_city": "Edmonton",
+        "partner_airport": "Edmonton International Airport",
+        "partner_country": "CA",
+        "hubs_serving": 1,
+        "hubs_list": "AMS",
+        "pax_l12_hubs": 111541,
+        "pax_p12_hubs": 94173,
+        "seats_l12_hubs": 120139,
+        "flights_l12_hubs": 410,
+        "lf_l12_hubs": 0.9284,
+        "data_until_min": "2024-12-01",
+        "data_until_max": "2024-12-01",
+        "growth_hubs": 0.1844,
+        "distance_from_cdg_km": 7157.0,
+        "cdg_flights_l12": 0,
+        "cdg_masked_months_l12": 0,
+        "ory_flights_l12": 0,
+        "ory_masked_months_l12": 0,
+        "segment": "long-courrier",
+        "s_volume": 0.24358974358974358,
+        "s_growth": 0.7307692307692307,
+        "s_lf": 0.9615384615384616,
+        "s_hubs": 0.0,
+        "opportunity_score": 47.2
+      },
+      "hub_flows": [
+        {
+          "rep_icao": "EHAM",
+          "rep_iata": "AMS",
+          "rep_city": "Amsterdam",
+          "partner_icao": "CYEG",
+          "partner_iata": "YEG",
+          "pax_l12": 111541,
+          "pax_p12": 94173,
+          "flights_l12": 410,
+          "lf_l12": 0.9284,
+          "growth_pax": 0.1844,
+          "window_end": "2024-12-01",
+          "masked_months_l12": 0
+        }
+      ],
+      "paris_to_hubs": [
+        {
+          "partner_icao": "EHAM",
+          "partner_iata": "AMS",
+          "partner_city": "Amsterdam",
+          "pax_l12": 1120710,
+          "flights_l12": 8025,
+          "lf_l12": 0.8157,
+          "masked_months_l12": 0,
+          "window_end": "2024-12-01"
+        }
+      ],
+      "overrides": []
+    },
+    "LRM": {
+      "opportunity": {
+        "partner_icao": "MDLR",
+        "partner_iata": "LRM",
+        "partner_city": "La Romana",
+        "partner_airport": "Casa De Campo International Airport",
+        "partner_country": "DO",
+        "hubs_serving": 1,
+        "hubs_list": "FRA",
+        "pax_l12_hubs": 99415,
+        "pax_p12_hubs": 80948,
+        "seats_l12_hubs": 104667,
+        "flights_l12_hubs": 351,
+        "lf_l12_hubs": 0.9498,
+        "data_until_min": "2024-12-01",
+        "data_until_max": "2024-12-01",
+        "growth_hubs": 0.2281,
+        "distance_from_cdg_km": 7128.0,
+        "cdg_flights_l12": 0,
+        "cdg_masked_months_l12": 0,
+        "ory_flights_l12": 0,
+        "ory_masked_months_l12": 0,
+        "segment": "long-courrier",
+        "s_volume": 0.1794871794871795,
+        "s_growth": 0.782051282051282,
+        "s_lf": 1.0,
+        "s_hubs": 0.0,
+        "opportunity_score": 46.7
+      },
+      "hub_flows": [
+        {
+          "rep_icao": "EDDF",
+          "rep_iata": "FRA",
+          "rep_city": "Frankfurt am Main",
+          "partner_icao": "MDLR",
+          "partner_iata": "LRM",
+          "pax_l12": 99415,
+          "pax_p12": 80948,
+          "flights_l12": 351,
+          "lf_l12": 0.9498,
+          "growth_pax": 0.2281,
+          "window_end": "2024-12-01",
+          "masked_months_l12": 0
+        }
+      ],
+      "paris_to_hubs": [
+        {
+          "partner_icao": "EDDF",
+          "partner_iata": "FRA",
+          "partner_city": "Frankfurt am Main",
+          "pax_l12": 752494,
+          "flights_l12": 7173,
+          "lf_l12": 0.7365,
+          "masked_months_l12": 0,
+          "window_end": "2024-12-01"
+        }
+      ],
+      "overrides": []
+    },
+    "GDL": {
+      "opportunity": {
+        "partner_icao": "MMGL",
+        "partner_iata": "GDL",
+        "partner_city": "Guadalajara",
+        "partner_airport": "Guadalajara International Airport",
+        "partner_country": "MX",
+        "hubs_serving": 1,
+        "hubs_list": "MAD",
+        "pax_l12_hubs": 133292,
+        "pax_p12_hubs": 117620,
+        "seats_l12_hubs": 149768,
+        "flights_l12_hubs": 552,
+        "lf_l12_hubs": 0.89,
+        "data_until_min": "2024-12-01",
+        "data_until_max": "2024-12-01",
+        "growth_hubs": 0.1332,
+        "distance_from_cdg_km": 9391.0,
+        "cdg_flights_l12": 0,
+        "cdg_masked_months_l12": 0,
+        "ory_flights_l12": 0,
+        "ory_masked_months_l12": 0,
+        "segment": "long-courrier",
+        "s_volume": 0.358974358974359,
+        "s_growth": 0.6794871794871795,
+        "s_lf": 0.7564102564102564,
+        "s_hubs": 0.0,
+        "opportunity_score": 46.5
+      },
+      "hub_flows": [
+        {
+          "rep_icao": "LEMD",
+          "rep_iata": "MAD",
+          "rep_city": "Madrid",
+          "partner_icao": "MMGL",
+          "partner_iata": "GDL",
+          "pax_l12": 133292,
+          "pax_p12": 117620,
+          "flights_l12": 552,
+          "lf_l12": 0.89,
+          "growth_pax": 0.1332,
+          "window_end": "2024-12-01",
+          "masked_months_l12": 0
+        }
+      ],
+      "paris_to_hubs": [
+        {
+          "partner_icao": "LEMD",
+          "partner_iata": "MAD",
+          "partner_city": "Madrid",
+          "pax_l12": 1052673,
+          "flights_l12": 6557,
+          "lf_l12": 0.8715,
+          "masked_months_l12": 0,
+          "window_end": "2024-12-01"
+        }
+      ],
+      "overrides": []
+    },
+    "MLE": {
+      "opportunity": {
+        "partner_icao": "VRMM",
+        "partner_iata": "MLE",
+        "partner_city": "Malé",
+        "partner_airport": "Velana International Airport",
+        "partner_country": "MV",
+        "hubs_serving": 2,
+        "hubs_list": "IST, FRA",
+        "pax_l12_hubs": 238376,
+        "pax_p12_hubs": 298563,
+        "seats_l12_hubs": 294799,
+        "flights_l12_hubs": 952,
+        "lf_l12_hubs": 0.8086,
+        "data_until_min": "2024-12-01",
+        "data_until_max": "2024-12-01",
+        "growth_hubs": -0.2016,
+        "distance_from_cdg_km": 8276.0,
+        "cdg_flights_l12": 0,
+        "cdg_masked_months_l12": 0,
+        "ory_flights_l12": 0,
+        "ory_masked_months_l12": 0,
+        "segment": "long-courrier",
+        "s_volume": 0.6794871794871795,
+        "s_growth": 0.02564102564102564,
+        "s_lf": 0.3333333333333333,
+        "s_hubs": 0.7948717948717948,
+        "opportunity_score": 46.4
+      },
+      "hub_flows": [
+        {
+          "rep_icao": "LTFM",
+          "rep_iata": "IST",
+          "rep_city": "Istanbul",
+          "partner_icao": "VRMM",
+          "partner_iata": "MLE",
+          "pax_l12": 144973,
+          "pax_p12": 196446,
+          "flights_l12": 593,
+          "lf_l12": 0.7787,
+          "growth_pax": -0.262,
+          "window_end": "2024-12-01",
+          "masked_months_l12": 0
+        },
+        {
+          "rep_icao": "EDDF",
+          "rep_iata": "FRA",
+          "rep_city": "Frankfurt am Main",
+          "partner_icao": "VRMM",
+          "partner_iata": "MLE",
+          "pax_l12": 93403,
+          "pax_p12": 102117,
+          "flights_l12": 359,
+          "lf_l12": 0.8599,
+          "growth_pax": -0.0853,
+          "window_end": "2024-12-01",
+          "masked_months_l12": 0
+        }
+      ],
+      "paris_to_hubs": [
+        {
+          "partner_icao": "LTFM",
+          "partner_iata": "IST",
+          "partner_city": "Istanbul",
+          "pax_l12": 1011226,
+          "flights_l12": 5231,
+          "lf_l12": 0.8475,
+          "masked_months_l12": 0,
+          "window_end": "2024-12-01"
+        },
+        {
+          "partner_icao": "EDDF",
+          "partner_iata": "FRA",
+          "partner_city": "Frankfurt am Main",
+          "pax_l12": 752494,
+          "flights_l12": 7173,
+          "lf_l12": 0.7365,
+          "masked_months_l12": 0,
+          "window_end": "2024-12-01"
+        }
+      ],
+      "overrides": []
+    },
+    "BSZ": {
+      "opportunity": {
+        "partner_icao": "UCFM",
+        "partner_iata": "BSZ",
+        "partner_city": "Bishkek",
+        "partner_airport": "Manas International Airport",
+        "partner_country": "KG",
+        "hubs_serving": 1,
+        "hubs_list": "IST",
+        "pax_l12_hubs": 285111,
+        "pax_p12_hubs": 274015,
+        "seats_l12_hubs": 361222,
+        "flights_l12_hubs": 1854,
+        "lf_l12_hubs": 0.7893,
+        "data_until_min": "2024-12-01",
+        "data_until_max": "2024-12-01",
+        "growth_hubs": 0.0405,
+        "distance_from_cdg_km": 5381.0,
+        "cdg_flights_l12": 0,
+        "cdg_masked_months_l12": 0,
+        "ory_flights_l12": 0,
+        "ory_masked_months_l12": 0,
+        "segment": "long-courrier",
+        "s_volume": 0.7435897435897436,
+        "s_growth": 0.47435897435897434,
+        "s_lf": 0.23076923076923078,
+        "s_hubs": 0.0,
+        "opportunity_score": 46.2
+      },
+      "hub_flows": [
+        {
+          "rep_icao": "LTFM",
+          "rep_iata": "IST",
+          "rep_city": "Istanbul",
+          "partner_icao": "UCFM",
+          "partner_iata": "BSZ",
+          "pax_l12": 285111,
+          "pax_p12": 274015,
+          "flights_l12": 1854,
+          "lf_l12": 0.7893,
+          "growth_pax": 0.0405,
+          "window_end": "2024-12-01",
+          "masked_months_l12": 0
+        }
+      ],
+      "paris_to_hubs": [
+        {
+          "partner_icao": "LTFM",
+          "partner_iata": "IST",
+          "partner_city": "Istanbul",
+          "pax_l12": 1011226,
+          "flights_l12": 5231,
+          "lf_l12": 0.8475,
+          "masked_months_l12": 0,
+          "window_end": "2024-12-01"
+        }
+      ],
+      "overrides": []
+    },
+    "AUA": {
+      "opportunity": {
+        "partner_icao": "TNCA",
+        "partner_iata": "AUA",
+        "partner_city": "Oranjestad",
+        "partner_airport": "Queen Beatrix International Airport",
+        "partner_country": "AW",
+        "hubs_serving": 1,
+        "hubs_list": "AMS",
+        "pax_l12_hubs": 238095,
+        "pax_p12_hubs": 270868,
+        "seats_l12_hubs": 258312,
+        "flights_l12_hubs": 896,
+        "lf_l12_hubs": 0.9217,
+        "data_until_min": "2024-12-01",
+        "data_until_max": "2024-12-01",
+        "growth_hubs": -0.121,
+        "distance_from_cdg_km": 7694.0,
+        "cdg_flights_l12": 0,
+        "cdg_masked_months_l12": 0,
+        "ory_flights_l12": 0,
+        "ory_masked_months_l12": 0,
+        "segment": "long-courrier",
+        "s_volume": 0.6666666666666666,
+        "s_growth": 0.038461538461538464,
+        "s_lf": 0.9230769230769231,
+        "s_hubs": 0.0,
+        "opportunity_score": 46.1
+      },
+      "hub_flows": [
+        {
+          "rep_icao": "EHAM",
+          "rep_iata": "AMS",
+          "rep_city": "Amsterdam",
+          "partner_icao": "TNCA",
+          "partner_iata": "AUA",
+          "pax_l12": 238095,
+          "pax_p12": 270868,
+          "flights_l12": 896,
+          "lf_l12": 0.9217,
+          "growth_pax": -0.121,
+          "window_end": "2024-12-01",
+          "masked_months_l12": 0
+        }
+      ],
+      "paris_to_hubs": [
+        {
+          "partner_icao": "EHAM",
+          "partner_iata": "AMS",
+          "partner_city": "Amsterdam",
+          "pax_l12": 1120710,
+          "flights_l12": 8025,
+          "lf_l12": 0.8157,
+          "masked_months_l12": 0,
+          "window_end": "2024-12-01"
+        }
+      ],
+      "overrides": []
+    },
+    "RAI": {
+      "opportunity": {
+        "partner_icao": "GVNP",
+        "partner_iata": "RAI",
+        "partner_city": "Praia",
+        "partner_airport": "Nelson Mandela International Airport",
+        "partner_country": "CV",
+        "hubs_serving": 1,
+        "hubs_list": "LIS",
+        "pax_l12_hubs": 235540,
+        "pax_p12_hubs": 217871,
+        "seats_l12_hubs": 314340,
+        "flights_l12_hubs": 1663,
+        "lf_l12_hubs": 0.7493,
+        "data_until_min": "2024-12-01",
+        "data_until_max": "2024-12-01",
+        "growth_hubs": 0.0811,
+        "distance_from_cdg_km": 4468.0,
+        "cdg_flights_l12": 0,
+        "cdg_masked_months_l12": 0,
+        "ory_flights_l12": 0,
+        "ory_masked_months_l12": 0,
+        "segment": "long-courrier",
+        "s_volume": 0.6538461538461539,
+        "s_growth": 0.5897435897435898,
+        "s_lf": 0.15384615384615385,
+        "s_hubs": 0.0,
+        "opportunity_score": 44.0
+      },
+      "hub_flows": [
+        {
+          "rep_icao": "LPPT",
+          "rep_iata": "LIS",
+          "rep_city": "Lisbon",
+          "partner_icao": "GVNP",
+          "partner_iata": "RAI",
+          "pax_l12": 235540,
+          "pax_p12": 217871,
+          "flights_l12": 1663,
+          "lf_l12": 0.7493,
+          "growth_pax": 0.0811,
+          "window_end": "2024-12-01",
+          "masked_months_l12": 0
+        }
+      ],
+      "paris_to_hubs": [
+        {
+          "partner_icao": "LPPT",
+          "partner_iata": "LIS",
+          "partner_city": "Lisbon",
+          "pax_l12": 644412,
+          "flights_l12": 4148,
+          "lf_l12": 0.8848,
+          "masked_months_l12": 0,
+          "window_end": "2024-12-01"
+        }
+      ],
+      "overrides": []
+    },
+    "SAN": {
+      "opportunity": {
+        "partner_icao": "KSAN",
+        "partner_iata": "SAN",
+        "partner_city": "San Diego",
+        "partner_airport": "San Diego International Airport",
+        "partner_country": "US",
+        "hubs_serving": 1,
+        "hubs_list": "MUC",
+        "pax_l12_hubs": 115743,
+        "pax_p12_hubs": 84963,
+        "seats_l12_hubs": 137004,
+        "flights_l12_hubs": 465,
+        "lf_l12_hubs": 0.8448,
+        "data_until_min": "2024-12-01",
+        "data_until_max": "2024-12-01",
+        "growth_hubs": 0.3623,
+        "distance_from_cdg_km": 9149.0,
+        "cdg_flights_l12": 0,
+        "cdg_masked_months_l12": 0,
+        "ory_flights_l12": 0,
+        "ory_masked_months_l12": 0,
+        "segment": "long-courrier",
+        "s_volume": 0.2564102564102564,
+        "s_growth": 0.9230769230769231,
+        "s_lf": 0.5,
+        "s_hubs": 0.0,
+        "opportunity_score": 43.3
+      },
+      "hub_flows": [
+        {
+          "rep_icao": "EDDM",
+          "rep_iata": "MUC",
+          "rep_city": "Munich",
+          "partner_icao": "KSAN",
+          "partner_iata": "SAN",
+          "pax_l12": 115743,
+          "pax_p12": 84963,
+          "flights_l12": 465,
+          "lf_l12": 0.8448,
+          "growth_pax": 0.3623,
+          "window_end": "2024-12-01",
+          "masked_months_l12": 0
+        }
+      ],
+      "paris_to_hubs": [
+        {
+          "partner_icao": "EDDM",
+          "partner_iata": "MUC",
+          "partner_city": "Munich",
+          "pax_l12": 830929,
+          "flights_l12": 6426,
+          "lf_l12": 0.8097,
+          "masked_months_l12": 0,
+          "window_end": "2024-12-01"
+        }
+      ],
+      "overrides": []
+    },
+    "ASU": {
+      "opportunity": {
+        "partner_icao": "SGAS",
+        "partner_iata": "ASU",
+        "partner_city": "Asunción",
+        "partner_airport": "Silvio Pettirossi International Airport",
+        "partner_country": "PY",
+        "hubs_serving": 1,
+        "hubs_list": "MAD",
+        "pax_l12_hubs": 171415,
+        "pax_p12_hubs": 0,
+        "seats_l12_hubs": 190900,
+        "flights_l12_hubs": 587,
+        "lf_l12_hubs": 0.8979,
+        "data_until_min": "2024-12-01",
+        "data_until_max": "2024-12-01",
+        "growth_hubs": null,
+        "distance_from_cdg_km": 10172.0,
+        "cdg_flights_l12": 0,
+        "cdg_masked_months_l12": 0,
+        "ory_flights_l12": 0,
+        "ory_masked_months_l12": 0,
+        "segment": "long-courrier",
+        "s_volume": 0.48717948717948717,
+        "s_growth": 0.24358974358974358,
+        "s_lf": 0.8461538461538461,
+        "s_hubs": 0.0,
+        "opportunity_score": 42.5
+      },
+      "hub_flows": [
+        {
+          "rep_icao": "LEMD",
+          "rep_iata": "MAD",
+          "rep_city": "Madrid",
+          "partner_icao": "SGAS",
+          "partner_iata": "ASU",
+          "pax_l12": 171415,
+          "pax_p12": 0,
+          "flights_l12": 587,
+          "lf_l12": 0.8979,
+          "growth_pax": null,
+          "window_end": "2024-12-01",
+          "masked_months_l12": 0
+        }
+      ],
+      "paris_to_hubs": [
+        {
+          "partner_icao": "LEMD",
+          "partner_iata": "MAD",
+          "partner_city": "Madrid",
+          "pax_l12": 1052673,
+          "flights_l12": 6557,
+          "lf_l12": 0.8715,
+          "masked_months_l12": 0,
+          "window_end": "2024-12-01"
+        }
+      ],
+      "overrides": []
+    },
+    "BSB": {
+      "opportunity": {
+        "partner_icao": "SBBR",
+        "partner_iata": "BSB",
+        "partner_city": "Brasília",
+        "partner_airport": "Presidente Juscelino Kubitschek International Airport",
+        "partner_country": "BR",
+        "hubs_serving": 1,
+        "hubs_list": "LIS",
+        "pax_l12_hubs": 159833,
+        "pax_p12_hubs": 146557,
+        "seats_l12_hubs": 194200,
+        "flights_l12_hubs": 655,
+        "lf_l12_hubs": 0.823,
+        "data_until_min": "2024-12-01",
+        "data_until_max": "2024-12-01",
+        "growth_hubs": 0.0906,
+        "distance_from_cdg_km": 8756.0,
+        "cdg_flights_l12": 0,
+        "cdg_masked_months_l12": 0,
+        "ory_flights_l12": 0,
+        "ory_masked_months_l12": 0,
+        "segment": "long-courrier",
+        "s_volume": 0.46153846153846156,
+        "s_growth": 0.6153846153846154,
+        "s_lf": 0.41025641025641024,
+        "s_hubs": 0.0,
+        "opportunity_score": 42.1
+      },
+      "hub_flows": [
+        {
+          "rep_icao": "LPPT",
+          "rep_iata": "LIS",
+          "rep_city": "Lisbon",
+          "partner_icao": "SBBR",
+          "partner_iata": "BSB",
+          "pax_l12": 159833,
+          "pax_p12": 146557,
+          "flights_l12": 655,
+          "lf_l12": 0.823,
+          "growth_pax": 0.0906,
+          "window_end": "2024-12-01",
+          "masked_months_l12": 0
+        }
+      ],
+      "paris_to_hubs": [
+        {
+          "partner_icao": "LPPT",
+          "partner_iata": "LIS",
+          "partner_city": "Lisbon",
+          "pax_l12": 644412,
+          "flights_l12": 4148,
+          "lf_l12": 0.8848,
+          "masked_months_l12": 0,
+          "window_end": "2024-12-01"
+        }
+      ],
+      "overrides": []
+    },
+    "MHD": {
+      "opportunity": {
+        "partner_icao": "OIMM",
+        "partner_iata": "MHD",
+        "partner_city": "Mashhad",
+        "partner_airport": "Mashhad International Airport",
+        "partner_country": "IR",
+        "hubs_serving": 1,
+        "hubs_list": "IST",
+        "pax_l12_hubs": 159889,
+        "pax_p12_hubs": 141813,
+        "seats_l12_hubs": 198561,
+        "flights_l12_hubs": 1074,
+        "lf_l12_hubs": 0.8052,
+        "data_until_min": "2024-12-01",
+        "data_until_max": "2024-12-01",
+        "growth_hubs": 0.1275,
+        "distance_from_cdg_km": 4760.0,
+        "cdg_flights_l12": 0,
+        "cdg_masked_months_l12": 0,
+        "ory_flights_l12": 0,
+        "ory_masked_months_l12": 0,
+        "segment": "long-courrier",
+        "s_volume": 0.47435897435897434,
+        "s_growth": 0.6666666666666666,
+        "s_lf": 0.2948717948717949,
+        "s_hubs": 0.0,
+        "opportunity_score": 41.5
+      },
+      "hub_flows": [
+        {
+          "rep_icao": "LTFM",
+          "rep_iata": "IST",
+          "rep_city": "Istanbul",
+          "partner_icao": "OIMM",
+          "partner_iata": "MHD",
+          "pax_l12": 159889,
+          "pax_p12": 141813,
+          "flights_l12": 1074,
+          "lf_l12": 0.8052,
+          "growth_pax": 0.1275,
+          "window_end": "2024-12-01",
+          "masked_months_l12": 0
+        }
+      ],
+      "paris_to_hubs": [
+        {
+          "partner_icao": "LTFM",
+          "partner_iata": "IST",
+          "partner_city": "Istanbul",
+          "pax_l12": 1011226,
+          "flights_l12": 5231,
+          "lf_l12": 0.8475,
+          "masked_months_l12": 0,
+          "window_end": "2024-12-01"
+        }
+      ],
+      "overrides": []
+    },
+    "CNF": {
+      "opportunity": {
+        "partner_icao": "SBCF",
+        "partner_iata": "CNF",
+        "partner_city": "Belo Horizonte",
+        "partner_airport": "Tancredo Neves International Airport",
+        "partner_country": "BR",
+        "hubs_serving": 1,
+        "hubs_list": "LIS",
+        "pax_l12_hubs": 171528,
+        "pax_p12_hubs": 166795,
+        "seats_l12_hubs": 202099,
+        "flights_l12_hubs": 679,
+        "lf_l12_hubs": 0.8487,
+        "data_until_min": "2024-12-01",
+        "data_until_max": "2024-12-01",
+        "growth_hubs": 0.0284,
+        "distance_from_cdg_km": 8910.0,
+        "cdg_flights_l12": 0,
+        "cdg_masked_months_l12": 0,
+        "ory_flights_l12": 0,
+        "ory_masked_months_l12": 0,
+        "segment": "long-courrier",
+        "s_volume": 0.5,
+        "s_growth": 0.4358974358974359,
+        "s_lf": 0.5256410256410257,
+        "s_hubs": 0.0,
+        "opportunity_score": 41.4
+      },
+      "hub_flows": [
+        {
+          "rep_icao": "LPPT",
+          "rep_iata": "LIS",
+          "rep_city": "Lisbon",
+          "partner_icao": "SBCF",
+          "partner_iata": "CNF",
+          "pax_l12": 171528,
+          "pax_p12": 166795,
+          "flights_l12": 679,
+          "lf_l12": 0.8487,
+          "growth_pax": 0.0284,
+          "window_end": "2024-12-01",
+          "masked_months_l12": 0
+        }
+      ],
+      "paris_to_hubs": [
+        {
+          "partner_icao": "LPPT",
+          "partner_iata": "LIS",
+          "partner_city": "Lisbon",
+          "pax_l12": 644412,
+          "flights_l12": 4148,
+          "lf_l12": 0.8848,
+          "masked_months_l12": 0,
+          "window_end": "2024-12-01"
+        }
+      ],
+      "overrides": []
+    },
+    "ABV": {
+      "opportunity": {
+        "partner_icao": "DNAA",
+        "partner_iata": "ABV",
+        "partner_city": "Abuja",
+        "partner_airport": "Nnamdi Azikiwe International Airport",
+        "partner_country": "NG",
+        "hubs_serving": 2,
+        "hubs_list": "FRA, IST",
+        "pax_l12_hubs": 196920,
+        "pax_p12_hubs": 198321,
+        "seats_l12_hubs": 276525,
+        "flights_l12_hubs": 1004,
+        "lf_l12_hubs": 0.7121,
+        "data_until_min": "2024-12-01",
+        "data_until_max": "2024-12-01",
+        "growth_hubs": -0.0071,
+        "distance_from_cdg_km": 4470.0,
+        "cdg_flights_l12": 0,
+        "cdg_masked_months_l12": 0,
+        "ory_flights_l12": 0,
+        "ory_masked_months_l12": 0,
+        "segment": "long-courrier",
+        "s_volume": 0.5512820512820513,
+        "s_growth": 0.21794871794871795,
+        "s_lf": 0.07692307692307693,
+        "s_hubs": 0.7948717948717948,
+        "opportunity_score": 41.0
+      },
+      "hub_flows": [
+        {
+          "rep_icao": "EDDF",
+          "rep_iata": "FRA",
+          "rep_city": "Frankfurt am Main",
+          "partner_icao": "DNAA",
+          "partner_iata": "ABV",
+          "pax_l12": 104933,
+          "pax_p12": 111858,
+          "flights_l12": 500,
+          "lf_l12": 0.7772,
+          "growth_pax": -0.0619,
+          "window_end": "2024-12-01",
+          "masked_months_l12": 0
+        },
+        {
+          "rep_icao": "LTFM",
+          "rep_iata": "IST",
+          "rep_city": "Istanbul",
+          "partner_icao": "DNAA",
+          "partner_iata": "ABV",
+          "pax_l12": 91987,
+          "pax_p12": 86463,
+          "flights_l12": 504,
+          "lf_l12": 0.65,
+          "growth_pax": 0.0639,
+          "window_end": "2024-12-01",
+          "masked_months_l12": 0
+        }
+      ],
+      "paris_to_hubs": [
+        {
+          "partner_icao": "LTFM",
+          "partner_iata": "IST",
+          "partner_city": "Istanbul",
+          "pax_l12": 1011226,
+          "flights_l12": 5231,
+          "lf_l12": 0.8475,
+          "masked_months_l12": 0,
+          "window_end": "2024-12-01"
+        },
+        {
+          "partner_icao": "EDDF",
+          "partner_iata": "FRA",
+          "partner_city": "Frankfurt am Main",
+          "pax_l12": 752494,
+          "flights_l12": 7173,
+          "lf_l12": 0.7365,
+          "masked_months_l12": 0,
+          "window_end": "2024-12-01"
+        }
+      ],
+      "overrides": []
+    },
+    "ISB": {
+      "opportunity": {
+        "partner_icao": "OPIS",
+        "partner_iata": "ISB",
+        "partner_city": "Attock",
+        "partner_airport": "Islamabad International Airport",
+        "partner_country": "PK",
+        "hubs_serving": 1,
+        "hubs_list": "IST",
+        "pax_l12_hubs": 252785,
+        "pax_p12_hubs": 260309,
+        "seats_l12_hubs": 309871,
+        "flights_l12_hubs": 941,
+        "lf_l12_hubs": 0.8158,
+        "data_until_min": "2024-12-01",
+        "data_until_max": "2024-12-01",
+        "growth_hubs": -0.0289,
+        "distance_from_cdg_km": 5894.0,
+        "cdg_flights_l12": 0,
+        "cdg_masked_months_l12": 0,
+        "ory_flights_l12": 0,
+        "ory_masked_months_l12": 0,
+        "segment": "long-courrier",
+        "s_volume": 0.717948717948718,
+        "s_growth": 0.1282051282051282,
+        "s_lf": 0.3717948717948718,
+        "s_hubs": 0.0,
+        "opportunity_score": 39.4
+      },
+      "hub_flows": [
+        {
+          "rep_icao": "LTFM",
+          "rep_iata": "IST",
+          "rep_city": "Istanbul",
+          "partner_icao": "OPIS",
+          "partner_iata": "ISB",
+          "pax_l12": 252785,
+          "pax_p12": 260309,
+          "flights_l12": 941,
+          "lf_l12": 0.8158,
+          "growth_pax": -0.0289,
+          "window_end": "2024-12-01",
+          "masked_months_l12": 0
+        }
+      ],
+      "paris_to_hubs": [
+        {
+          "partner_icao": "LTFM",
+          "partner_iata": "IST",
+          "partner_city": "Istanbul",
+          "pax_l12": 1011226,
+          "flights_l12": 5231,
+          "lf_l12": 0.8475,
+          "masked_months_l12": 0,
+          "window_end": "2024-12-01"
+        }
+      ],
+      "overrides": []
+    },
+    "KBL": {
+      "opportunity": {
+        "partner_icao": "OAKB",
+        "partner_iata": "KBL",
+        "partner_city": "Kabul",
+        "partner_airport": "Kabul International Airport",
+        "partner_country": "AF",
+        "hubs_serving": 1,
+        "hubs_list": "IST",
+        "pax_l12_hubs": 131829,
+        "pax_p12_hubs": 78741,
+        "seats_l12_hubs": 207780,
+        "flights_l12_hubs": 825,
+        "lf_l12_hubs": 0.6345,
+        "data_until_min": "2024-12-01",
+        "data_until_max": "2024-12-01",
+        "growth_hubs": 0.6742,
+        "distance_from_cdg_km": 5564.0,
+        "cdg_flights_l12": 0,
+        "cdg_masked_months_l12": 0,
+        "ory_flights_l12": 0,
+        "ory_masked_months_l12": 0,
+        "segment": "long-courrier",
+        "s_volume": 0.34615384615384615,
+        "s_growth": 0.9871794871794872,
+        "s_lf": 0.02564102564102564,
+        "s_hubs": 0.0,
+        "opportunity_score": 39.0
+      },
+      "hub_flows": [
+        {
+          "rep_icao": "LTFM",
+          "rep_iata": "IST",
+          "rep_city": "Istanbul",
+          "partner_icao": "OAKB",
+          "partner_iata": "KBL",
+          "pax_l12": 131829,
+          "pax_p12": 78741,
+          "flights_l12": 825,
+          "lf_l12": 0.6345,
+          "growth_pax": 0.6742,
+          "window_end": "2024-12-01",
+          "masked_months_l12": 0
+        }
+      ],
+      "paris_to_hubs": [
+        {
+          "partner_icao": "LTFM",
+          "partner_iata": "IST",
+          "partner_city": "Istanbul",
+          "pax_l12": 1011226,
+          "flights_l12": 5231,
+          "lf_l12": 0.8475,
+          "masked_months_l12": 0,
+          "window_end": "2024-12-01"
+        }
+      ],
+      "overrides": []
+    },
+    "DAC": {
+      "opportunity": {
+        "partner_icao": "VGHS",
+        "partner_iata": "DAC",
+        "partner_city": "Dhaka",
+        "partner_airport": "Hazrat Shahjalal International Airport",
+        "partner_country": "BD",
+        "hubs_serving": 1,
+        "hubs_list": "IST",
+        "pax_l12_hubs": 159441,
+        "pax_p12_hubs": 142942,
+        "seats_l12_hubs": 209254,
+        "flights_l12_hubs": 729,
+        "lf_l12_hubs": 0.7619,
+        "data_until_min": "2024-12-01",
+        "data_until_max": "2024-12-01",
+        "growth_hubs": 0.1154,
+        "distance_from_cdg_km": 7880.0,
+        "cdg_flights_l12": 0,
+        "cdg_masked_months_l12": 0,
+        "ory_flights_l12": 0,
+        "ory_masked_months_l12": 0,
+        "segment": "long-courrier",
+        "s_volume": 0.44871794871794873,
+        "s_growth": 0.6410256410256411,
+        "s_lf": 0.19230769230769232,
+        "s_hubs": 0.0,
+        "opportunity_score": 37.8
+      },
+      "hub_flows": [
+        {
+          "rep_icao": "LTFM",
+          "rep_iata": "IST",
+          "rep_city": "Istanbul",
+          "partner_icao": "VGHS",
+          "partner_iata": "DAC",
+          "pax_l12": 159441,
+          "pax_p12": 142942,
+          "flights_l12": 729,
+          "lf_l12": 0.7619,
+          "growth_pax": 0.1154,
+          "window_end": "2024-12-01",
+          "masked_months_l12": 0
+        }
+      ],
+      "paris_to_hubs": [
+        {
+          "partner_icao": "LTFM",
+          "partner_iata": "IST",
+          "partner_city": "Istanbul",
+          "pax_l12": 1011226,
+          "flights_l12": 5231,
+          "lf_l12": 0.8475,
+          "masked_months_l12": 0,
+          "window_end": "2024-12-01"
+        }
+      ],
+      "overrides": []
+    },
+    "GUA": {
+      "opportunity": {
+        "partner_icao": "MGGT",
+        "partner_iata": "GUA",
+        "partner_city": "Guatemala City",
+        "partner_airport": "La Aurora International Airport",
+        "partner_country": "GT",
+        "hubs_serving": 1,
+        "hubs_list": "MAD",
+        "pax_l12_hubs": 95563,
+        "pax_p12_hubs": 90526,
+        "seats_l12_hubs": 105396,
+        "flights_l12_hubs": 361,
+        "lf_l12_hubs": 0.9067,
+        "data_until_min": "2024-12-01",
+        "data_until_max": "2024-12-01",
+        "growth_hubs": 0.0556,
+        "distance_from_cdg_km": 9010.0,
+        "cdg_flights_l12": 0,
+        "cdg_masked_months_l12": 0,
+        "ory_flights_l12": 0,
+        "ory_masked_months_l12": 0,
+        "segment": "long-courrier",
+        "s_volume": 0.1282051282051282,
+        "s_growth": 0.5256410256410257,
+        "s_lf": 0.9102564102564102,
+        "s_hubs": 0.0,
+        "opportunity_score": 36.5
+      },
+      "hub_flows": [
+        {
+          "rep_icao": "LEMD",
+          "rep_iata": "MAD",
+          "rep_city": "Madrid",
+          "partner_icao": "MGGT",
+          "partner_iata": "GUA",
+          "pax_l12": 95563,
+          "pax_p12": 90526,
+          "flights_l12": 361,
+          "lf_l12": 0.9067,
+          "growth_pax": 0.0556,
+          "window_end": "2024-12-01",
+          "masked_months_l12": 0
+        }
+      ],
+      "paris_to_hubs": [
+        {
+          "partner_icao": "LEMD",
+          "partner_iata": "MAD",
+          "partner_city": "Madrid",
+          "pax_l12": 1052673,
+          "flights_l12": 6557,
+          "lf_l12": 0.8715,
+          "masked_months_l12": 0,
+          "window_end": "2024-12-01"
+        }
+      ],
+      "overrides": []
+    },
+    "DAR": {
+      "opportunity": {
+        "partner_icao": "HTDA",
+        "partner_iata": "DAR",
+        "partner_city": "Dar es Salaam",
+        "partner_airport": "Julius Nyerere International Airport",
+        "partner_country": "TZ",
+        "hubs_serving": 1,
+        "hubs_list": "IST",
+        "pax_l12_hubs": 106942,
+        "pax_p12_hubs": 89343,
+        "seats_l12_hubs": 130687,
+        "flights_l12_hubs": 801,
+        "lf_l12_hubs": 0.8183,
+        "data_until_min": "2024-12-01",
+        "data_until_max": "2024-12-01",
+        "growth_hubs": 0.197,
+        "distance_from_cdg_km": 7161.0,
+        "cdg_flights_l12": 0,
+        "cdg_masked_months_l12": 0,
+        "ory_flights_l12": 0,
+        "ory_masked_months_l12": 0,
+        "segment": "long-courrier",
+        "s_volume": 0.21794871794871795,
+        "s_growth": 0.7435897435897436,
+        "s_lf": 0.38461538461538464,
+        "s_hubs": 0.0,
+        "opportunity_score": 35.0
+      },
+      "hub_flows": [
+        {
+          "rep_icao": "LTFM",
+          "rep_iata": "IST",
+          "rep_city": "Istanbul",
+          "partner_icao": "HTDA",
+          "partner_iata": "DAR",
+          "pax_l12": 106942,
+          "pax_p12": 89343,
+          "flights_l12": 801,
+          "lf_l12": 0.8183,
+          "growth_pax": 0.197,
+          "window_end": "2024-12-01",
+          "masked_months_l12": 0
+        }
+      ],
+      "paris_to_hubs": [
+        {
+          "partner_icao": "LTFM",
+          "partner_iata": "IST",
+          "partner_city": "Istanbul",
+          "pax_l12": 1011226,
+          "flights_l12": 5231,
+          "lf_l12": 0.8475,
+          "masked_months_l12": 0,
+          "window_end": "2024-12-01"
+        }
+      ],
+      "overrides": []
+    },
+    "KTM": {
+      "opportunity": {
+        "partner_icao": "VNKT",
+        "partner_iata": "KTM",
+        "partner_city": "Kathmandu",
+        "partner_airport": "Tribhuvan International Airport",
+        "partner_country": "NP",
+        "hubs_serving": 1,
+        "hubs_list": "IST",
+        "pax_l12_hubs": 98280,
+        "pax_p12_hubs": 78675,
+        "seats_l12_hubs": 119072,
+        "flights_l12_hubs": 412,
+        "lf_l12_hubs": 0.8254,
+        "data_until_min": "2024-12-01",
+        "data_until_max": "2024-12-01",
+        "growth_hubs": 0.2492,
+        "distance_from_cdg_km": 7221.0,
+        "cdg_flights_l12": 0,
+        "cdg_masked_months_l12": 0,
+        "ory_flights_l12": 0,
+        "ory_masked_months_l12": 0,
+        "segment": "long-courrier",
+        "s_volume": 0.15384615384615385,
+        "s_growth": 0.8076923076923077,
+        "s_lf": 0.4230769230769231,
+        "s_hubs": 0.0,
+        "opportunity_score": 34.8
+      },
+      "hub_flows": [
+        {
+          "rep_icao": "LTFM",
+          "rep_iata": "IST",
+          "rep_city": "Istanbul",
+          "partner_icao": "VNKT",
+          "partner_iata": "KTM",
+          "pax_l12": 98280,
+          "pax_p12": 78675,
+          "flights_l12": 412,
+          "lf_l12": 0.8254,
+          "growth_pax": 0.2492,
+          "window_end": "2024-12-01",
+          "masked_months_l12": 0
+        }
+      ],
+      "paris_to_hubs": [
+        {
+          "partner_icao": "LTFM",
+          "partner_iata": "IST",
+          "partner_city": "Istanbul",
+          "pax_l12": 1011226,
+          "flights_l12": 5231,
+          "lf_l12": 0.8475,
+          "masked_months_l12": 0,
+          "window_end": "2024-12-01"
+        }
+      ],
+      "overrides": []
+    },
+    "LHE": {
+      "opportunity": {
+        "partner_icao": "OPLA",
+        "partner_iata": "LHE",
+        "partner_city": "Lahore",
+        "partner_airport": "Allama Iqbal International Airport",
+        "partner_country": "PK",
+        "hubs_serving": 1,
+        "hubs_list": "IST",
+        "pax_l12_hubs": 195231,
+        "pax_p12_hubs": 207646,
+        "seats_l12_hubs": 233320,
+        "flights_l12_hubs": 807,
+        "lf_l12_hubs": 0.8368,
+        "data_until_min": "2024-12-01",
+        "data_until_max": "2024-12-01",
+        "growth_hubs": -0.0598,
+        "distance_from_cdg_km": 6153.0,
+        "cdg_flights_l12": 0,
+        "cdg_masked_months_l12": 0,
+        "ory_flights_l12": 0,
+        "ory_masked_months_l12": 0,
+        "segment": "long-courrier",
+        "s_volume": 0.5384615384615384,
+        "s_growth": 0.08974358974358974,
+        "s_lf": 0.46153846153846156,
+        "s_hubs": 0.0,
+        "opportunity_score": 33.0
+      },
+      "hub_flows": [
+        {
+          "rep_icao": "LTFM",
+          "rep_iata": "IST",
+          "rep_city": "Istanbul",
+          "partner_icao": "OPLA",
+          "partner_iata": "LHE",
+          "pax_l12": 195231,
+          "pax_p12": 207646,
+          "flights_l12": 807,
+          "lf_l12": 0.8368,
+          "growth_pax": -0.0598,
+          "window_end": "2024-12-01",
+          "masked_months_l12": 0
+        }
+      ],
+      "paris_to_hubs": [
+        {
+          "partner_icao": "LTFM",
+          "partner_iata": "IST",
+          "partner_city": "Istanbul",
+          "pax_l12": 1011226,
+          "flights_l12": 5231,
+          "lf_l12": 0.8475,
+          "masked_months_l12": 0,
+          "window_end": "2024-12-01"
+        }
+      ],
+      "overrides": []
+    },
+    "SAL": {
+      "opportunity": {
+        "partner_icao": "MSLP",
+        "partner_iata": "SAL",
+        "partner_city": "San Salvador (San Luis Talpa)",
+        "partner_airport": "El Salvador International Airport Saint Óscar Arnulfo Romero y Galdámez",
+        "partner_country": "SV",
+        "hubs_serving": 1,
+        "hubs_list": "MAD",
+        "pax_l12_hubs": 126948,
+        "pax_p12_hubs": 128398,
+        "seats_l12_hubs": 144400,
+        "flights_l12_hubs": 497,
+        "lf_l12_hubs": 0.8791,
+        "data_until_min": "2024-12-01",
+        "data_until_max": "2024-12-01",
+        "growth_hubs": -0.0113,
+        "distance_from_cdg_km": 8999.0,
+        "cdg_flights_l12": 0,
+        "cdg_masked_months_l12": 0,
+        "ory_flights_l12": 0,
+        "ory_masked_months_l12": 0,
+        "segment": "long-courrier",
+        "s_volume": 0.3076923076923077,
+        "s_growth": 0.1794871794871795,
+        "s_lf": 0.7307692307692307,
+        "s_hubs": 0.0,
+        "opportunity_score": 31.4
+      },
+      "hub_flows": [
+        {
+          "rep_icao": "LEMD",
+          "rep_iata": "MAD",
+          "rep_city": "Madrid",
+          "partner_icao": "MSLP",
+          "partner_iata": "SAL",
+          "pax_l12": 126948,
+          "pax_p12": 128398,
+          "flights_l12": 497,
+          "lf_l12": 0.8791,
+          "growth_pax": -0.0113,
+          "window_end": "2024-12-01",
+          "masked_months_l12": 0
+        }
+      ],
+      "paris_to_hubs": [
+        {
+          "partner_icao": "LEMD",
+          "partner_iata": "MAD",
+          "partner_city": "Madrid",
+          "pax_l12": 1052673,
+          "flights_l12": 6557,
+          "lf_l12": 0.8715,
+          "masked_months_l12": 0,
+          "window_end": "2024-12-01"
+        }
+      ],
+      "overrides": []
+    },
+    "JRO": {
+      "opportunity": {
+        "partner_icao": "HTKJ",
+        "partner_iata": "JRO",
+        "partner_city": "Arusha",
+        "partner_airport": "Kilimanjaro International Airport",
+        "partner_country": "TZ",
+        "hubs_serving": 1,
+        "hubs_list": "AMS",
+        "pax_l12_hubs": 148688,
+        "pax_p12_hubs": 163948,
+        "seats_l12_hubs": 172204,
+        "flights_l12_hubs": 510,
+        "lf_l12_hubs": 0.8634,
+        "data_until_min": "2024-12-01",
+        "data_until_max": "2024-12-01",
+        "growth_hubs": -0.0931,
+        "distance_from_cdg_km": 6713.0,
+        "cdg_flights_l12": 0,
+        "cdg_masked_months_l12": 0,
+        "ory_flights_l12": 0,
+        "ory_masked_months_l12": 0,
+        "segment": "long-courrier",
+        "s_volume": 0.4230769230769231,
+        "s_growth": 0.05128205128205128,
+        "s_lf": 0.6282051282051282,
+        "s_hubs": 0.0,
+        "opportunity_score": 30.8
+      },
+      "hub_flows": [
+        {
+          "rep_icao": "EHAM",
+          "rep_iata": "AMS",
+          "rep_city": "Amsterdam",
+          "partner_icao": "HTKJ",
+          "partner_iata": "JRO",
+          "pax_l12": 148688,
+          "pax_p12": 163948,
+          "flights_l12": 510,
+          "lf_l12": 0.8634,
+          "growth_pax": -0.0931,
+          "window_end": "2024-12-01",
+          "masked_months_l12": 0
+        }
+      ],
+      "paris_to_hubs": [
+        {
+          "partner_icao": "EHAM",
+          "partner_iata": "AMS",
+          "partner_city": "Amsterdam",
+          "pax_l12": 1120710,
+          "flights_l12": 8025,
+          "lf_l12": 0.8157,
+          "masked_months_l12": 0,
+          "window_end": "2024-12-01"
+        }
+      ],
+      "overrides": []
+    },
+    "SHJ": {
+      "opportunity": {
+        "partner_icao": "OMSJ",
+        "partner_iata": "SHJ",
+        "partner_city": "Sharjah",
+        "partner_airport": "Sharjah International Airport",
+        "partner_country": "AE",
+        "hubs_serving": 1,
+        "hubs_list": "IST",
+        "pax_l12_hubs": 124558,
+        "pax_p12_hubs": 116254,
+        "seats_l12_hubs": 157272,
+        "flights_l12_hubs": 879,
+        "lf_l12_hubs": 0.792,
+        "data_until_min": "2024-12-01",
+        "data_until_max": "2024-12-01",
+        "growth_hubs": 0.0714,
+        "distance_from_cdg_km": 5243.0,
+        "cdg_flights_l12": 0,
+        "cdg_masked_months_l12": 0,
+        "ory_flights_l12": 0,
+        "ory_masked_months_l12": 0,
+        "segment": "long-courrier",
+        "s_volume": 0.2948717948717949,
+        "s_growth": 0.5512820512820513,
+        "s_lf": 0.24358974358974358,
+        "s_hubs": 0.0,
+        "opportunity_score": 30.4
+      },
+      "hub_flows": [
+        {
+          "rep_icao": "LTFM",
+          "rep_iata": "IST",
+          "rep_city": "Istanbul",
+          "partner_icao": "OMSJ",
+          "partner_iata": "SHJ",
+          "pax_l12": 124558,
+          "pax_p12": 116254,
+          "flights_l12": 879,
+          "lf_l12": 0.792,
+          "growth_pax": 0.0714,
+          "window_end": "2024-12-01",
+          "masked_months_l12": 0
+        }
+      ],
+      "paris_to_hubs": [
+        {
+          "partner_icao": "LTFM",
+          "partner_iata": "IST",
+          "partner_city": "Istanbul",
+          "pax_l12": 1011226,
+          "flights_l12": 5231,
+          "lf_l12": 0.8475,
+          "masked_months_l12": 0,
+          "window_end": "2024-12-01"
+        }
+      ],
+      "overrides": []
+    },
+    "MAA": {
+      "opportunity": {
+        "partner_icao": "VOMM",
+        "partner_iata": "MAA",
+        "partner_city": "Chennai",
+        "partner_airport": "Chennai International Airport",
+        "partner_country": "IN",
+        "hubs_serving": 1,
+        "hubs_list": "FRA",
+        "pax_l12_hubs": 128690,
+        "pax_p12_hubs": 129150,
+        "seats_l12_hubs": 151518,
+        "flights_l12_hubs": 544,
+        "lf_l12_hubs": 0.8493,
+        "data_until_min": "2024-12-01",
+        "data_until_max": "2024-12-01",
+        "growth_hubs": -0.0036,
+        "distance_from_cdg_km": 8021.0,
+        "cdg_flights_l12": 0,
+        "cdg_masked_months_l12": 0,
+        "ory_flights_l12": 0,
+        "ory_masked_months_l12": 0,
+        "segment": "long-courrier",
+        "s_volume": 0.32051282051282054,
+        "s_growth": 0.23076923076923078,
+        "s_lf": 0.5384615384615384,
+        "s_hubs": 0.0,
+        "opportunity_score": 29.4
+      },
+      "hub_flows": [
+        {
+          "rep_icao": "EDDF",
+          "rep_iata": "FRA",
+          "rep_city": "Frankfurt am Main",
+          "partner_icao": "VOMM",
+          "partner_iata": "MAA",
+          "pax_l12": 128690,
+          "pax_p12": 129150,
+          "flights_l12": 544,
+          "lf_l12": 0.8493,
+          "growth_pax": -0.0036,
+          "window_end": "2024-12-01",
+          "masked_months_l12": 0
+        }
+      ],
+      "paris_to_hubs": [
+        {
+          "partner_icao": "EDDF",
+          "partner_iata": "FRA",
+          "partner_city": "Frankfurt am Main",
+          "pax_l12": 752494,
+          "flights_l12": 7173,
+          "lf_l12": 0.7365,
+          "masked_months_l12": 0,
+          "window_end": "2024-12-01"
+        }
+      ],
+      "overrides": []
+    },
+    "BON": {
+      "opportunity": {
+        "partner_icao": "TNCB",
+        "partner_iata": "BON",
+        "partner_city": "Kralendijk",
+        "partner_airport": "Flamingo International Airport",
+        "partner_country": "AN",
+        "hubs_serving": 1,
+        "hubs_list": "AMS",
+        "pax_l12_hubs": 90561,
+        "pax_p12_hubs": 0,
+        "seats_l12_hubs": 96841,
+        "flights_l12_hubs": 315,
+        "lf_l12_hubs": 0.9352,
+        "data_until_min": "2024-12-01",
+        "data_until_max": "2024-12-01",
+        "growth_hubs": null,
+        "distance_from_cdg_km": 7598.0,
+        "cdg_flights_l12": 0,
+        "cdg_masked_months_l12": 0,
+        "ory_flights_l12": 0,
+        "ory_masked_months_l12": 0,
+        "segment": "long-courrier",
+        "s_volume": 0.08974358974358974,
+        "s_growth": 0.24358974358974358,
+        "s_lf": 0.9743589743589743,
+        "s_hubs": 0.0,
+        "opportunity_score": 29.2
+      },
+      "hub_flows": [
+        {
+          "rep_icao": "EHAM",
+          "rep_iata": "AMS",
+          "rep_city": "Amsterdam",
+          "partner_icao": "TNCB",
+          "partner_iata": "BON",
+          "pax_l12": 90561,
+          "pax_p12": 0,
+          "flights_l12": 315,
+          "lf_l12": 0.9352,
+          "growth_pax": null,
+          "window_end": "2024-12-01",
+          "masked_months_l12": 0
+        }
+      ],
+      "paris_to_hubs": [
+        {
+          "partner_icao": "EHAM",
+          "partner_iata": "AMS",
+          "partner_city": "Amsterdam",
+          "pax_l12": 1120710,
+          "flights_l12": 8025,
+          "lf_l12": 0.8157,
+          "masked_months_l12": 0,
+          "window_end": "2024-12-01"
+        }
+      ],
+      "overrides": []
+    },
+    "VXE": {
+      "opportunity": {
+        "partner_icao": "GVSV",
+        "partner_iata": "VXE",
+        "partner_city": "São Pedro",
+        "partner_airport": "Cesaria Evora International Airport",
+        "partner_country": "CV",
+        "hubs_serving": 1,
+        "hubs_list": "LIS",
+        "pax_l12_hubs": 107471,
+        "pax_p12_hubs": 99025,
+        "seats_l12_hubs": 141674,
+        "flights_l12_hubs": 806,
+        "lf_l12_hubs": 0.7586,
+        "data_until_min": "2024-12-01",
+        "data_until_max": "2024-12-01",
+        "growth_hubs": 0.0853,
+        "distance_from_cdg_km": 4359.0,
+        "cdg_flights_l12": 0,
+        "cdg_masked_months_l12": 0,
+        "ory_flights_l12": 0,
+        "ory_masked_months_l12": 0,
+        "segment": "long-courrier",
+        "s_volume": 0.23076923076923078,
+        "s_growth": 0.6025641025641025,
+        "s_lf": 0.1794871794871795,
+        "s_hubs": 0.0,
+        "opportunity_score": 27.9
+      },
+      "hub_flows": [
+        {
+          "rep_icao": "LPPT",
+          "rep_iata": "LIS",
+          "rep_city": "Lisbon",
+          "partner_icao": "GVSV",
+          "partner_iata": "VXE",
+          "pax_l12": 107471,
+          "pax_p12": 99025,
+          "flights_l12": 806,
+          "lf_l12": 0.7586,
+          "growth_pax": 0.0853,
+          "window_end": "2024-12-01",
+          "masked_months_l12": 0
+        }
+      ],
+      "paris_to_hubs": [
+        {
+          "partner_icao": "LPPT",
+          "partner_iata": "LIS",
+          "partner_city": "Lisbon",
+          "pax_l12": 644412,
+          "flights_l12": 4148,
+          "lf_l12": 0.8848,
+          "masked_months_l12": 0,
+          "window_end": "2024-12-01"
+        }
+      ],
+      "overrides": []
+    },
+    "ZNZ": {
+      "opportunity": {
+        "partner_icao": "HTZA",
+        "partner_iata": "ZNZ",
+        "partner_city": "Zanzibar",
+        "partner_airport": "Abeid Amani Karume International Airport",
+        "partner_country": "TZ",
+        "hubs_serving": 1,
+        "hubs_list": "IST",
+        "pax_l12_hubs": 96278,
+        "pax_p12_hubs": 0,
+        "seats_l12_hubs": 108909,
+        "flights_l12_hubs": 653,
+        "lf_l12_hubs": 0.884,
+        "data_until_min": "2024-12-01",
+        "data_until_max": "2024-12-01",
+        "growth_hubs": null,
+        "distance_from_cdg_km": 7096.0,
+        "cdg_flights_l12": 0,
+        "cdg_masked_months_l12": 0,
+        "ory_flights_l12": 0,
+        "ory_masked_months_l12": 0,
+        "segment": "long-courrier",
+        "s_volume": 0.14102564102564102,
+        "s_growth": 0.24358974358974358,
+        "s_lf": 0.7435897435897436,
+        "s_hubs": 0.0,
+        "opportunity_score": 26.6
+      },
+      "hub_flows": [
+        {
+          "rep_icao": "LTFM",
+          "rep_iata": "IST",
+          "rep_city": "Istanbul",
+          "partner_icao": "HTZA",
+          "partner_iata": "ZNZ",
+          "pax_l12": 96278,
+          "pax_p12": 0,
+          "flights_l12": 653,
+          "lf_l12": 0.884,
+          "growth_pax": null,
+          "window_end": "2024-12-01",
+          "masked_months_l12": 0
+        }
+      ],
+      "paris_to_hubs": [
+        {
+          "partner_icao": "LTFM",
+          "partner_iata": "IST",
+          "partner_city": "Istanbul",
+          "pax_l12": 1011226,
+          "flights_l12": 5231,
+          "lf_l12": 0.8475,
+          "masked_months_l12": 0,
+          "window_end": "2024-12-01"
+        }
+      ],
+      "overrides": []
+    },
+    "CMB": {
+      "opportunity": {
+        "partner_icao": "VCBI",
+        "partner_iata": "CMB",
+        "partner_city": "Colombo",
+        "partner_airport": "Bandaranaike International Colombo Airport",
+        "partner_country": "LK",
+        "hubs_serving": 1,
+        "hubs_list": "IST",
+        "pax_l12_hubs": 142565,
+        "pax_p12_hubs": 0,
+        "seats_l12_hubs": 179472,
+        "flights_l12_hubs": 626,
+        "lf_l12_hubs": 0.7944,
+        "data_until_min": "2024-12-01",
+        "data_until_max": "2024-12-01",
+        "growth_hubs": null,
+        "distance_from_cdg_km": 8483.0,
+        "cdg_flights_l12": 0,
+        "cdg_masked_months_l12": 0,
+        "ory_flights_l12": 0,
+        "ory_masked_months_l12": 0,
+        "segment": "long-courrier",
+        "s_volume": 0.38461538461538464,
+        "s_growth": 0.24358974358974358,
+        "s_lf": 0.2564102564102564,
+        "s_hubs": 0.0,
+        "opportunity_score": 26.6
+      },
+      "hub_flows": [
+        {
+          "rep_icao": "LTFM",
+          "rep_iata": "IST",
+          "rep_city": "Istanbul",
+          "partner_icao": "VCBI",
+          "partner_iata": "CMB",
+          "pax_l12": 142565,
+          "pax_p12": 0,
+          "flights_l12": 626,
+          "lf_l12": 0.7944,
+          "growth_pax": null,
+          "window_end": "2024-12-01",
+          "masked_months_l12": 0
+        }
+      ],
+      "paris_to_hubs": [
+        {
+          "partner_icao": "LTFM",
+          "partner_iata": "IST",
+          "partner_city": "Istanbul",
+          "pax_l12": 1011226,
+          "flights_l12": 5231,
+          "lf_l12": 0.8475,
+          "masked_months_l12": 0,
+          "window_end": "2024-12-01"
+        }
+      ],
+      "overrides": []
+    },
+    "KHI": {
+      "opportunity": {
+        "partner_icao": "OPKC",
+        "partner_iata": "KHI",
+        "partner_city": "Karachi",
+        "partner_airport": "Jinnah International Airport",
+        "partner_country": "PK",
+        "hubs_serving": 1,
+        "hubs_list": "IST",
+        "pax_l12_hubs": 150287,
+        "pax_p12_hubs": 152495,
+        "seats_l12_hubs": 203788,
+        "flights_l12_hubs": 716,
+        "lf_l12_hubs": 0.7375,
+        "data_until_min": "2024-12-01",
+        "data_until_max": "2024-12-01",
+        "growth_hubs": -0.0145,
+        "distance_from_cdg_km": 6120.0,
+        "cdg_flights_l12": 0,
+        "cdg_masked_months_l12": 0,
+        "ory_flights_l12": 0,
+        "ory_masked_months_l12": 0,
+        "segment": "long-courrier",
+        "s_volume": 0.4358974358974359,
+        "s_growth": 0.16666666666666666,
+        "s_lf": 0.1282051282051282,
+        "s_hubs": 0.0,
+        "opportunity_score": 24.2
+      },
+      "hub_flows": [
+        {
+          "rep_icao": "LTFM",
+          "rep_iata": "IST",
+          "rep_city": "Istanbul",
+          "partner_icao": "OPKC",
+          "partner_iata": "KHI",
+          "pax_l12": 150287,
+          "pax_p12": 152495,
+          "flights_l12": 716,
+          "lf_l12": 0.7375,
+          "growth_pax": -0.0145,
+          "window_end": "2024-12-01",
+          "masked_months_l12": 0
+        }
+      ],
+      "paris_to_hubs": [
+        {
+          "partner_icao": "LTFM",
+          "partner_iata": "IST",
+          "partner_city": "Istanbul",
+          "pax_l12": 1011226,
+          "flights_l12": 5231,
+          "lf_l12": 0.8475,
+          "masked_months_l12": 0,
+          "window_end": "2024-12-01"
+        }
+      ],
+      "overrides": []
+    },
+    "CLO": {
+      "opportunity": {
+        "partner_icao": "SKCL",
+        "partner_iata": "CLO",
+        "partner_city": "Cali",
+        "partner_airport": "Alfonso Bonilla Aragon International Airport",
+        "partner_country": "CO",
+        "hubs_serving": 1,
+        "hubs_list": "MAD",
+        "pax_l12_hubs": 80504,
+        "pax_p12_hubs": 78314,
+        "seats_l12_hubs": 93640,
+        "flights_l12_hubs": 328,
+        "lf_l12_hubs": 0.8597,
+        "data_until_min": "2024-12-01",
+        "data_until_max": "2024-12-01",
+        "growth_hubs": 0.028,
+        "distance_from_cdg_km": 8904.0,
+        "cdg_flights_l12": 0,
+        "cdg_masked_months_l12": 0,
+        "ory_flights_l12": 0,
+        "ory_masked_months_l12": 0,
+        "segment": "long-courrier",
+        "s_volume": 0.01282051282051282,
+        "s_growth": 0.4230769230769231,
+        "s_lf": 0.6153846153846154,
+        "s_hubs": 0.0,
+        "opportunity_score": 23.4
+      },
+      "hub_flows": [
+        {
+          "rep_icao": "LEMD",
+          "rep_iata": "MAD",
+          "rep_city": "Madrid",
+          "partner_icao": "SKCL",
+          "partner_iata": "CLO",
+          "pax_l12": 80504,
+          "pax_p12": 78314,
+          "flights_l12": 328,
+          "lf_l12": 0.8597,
+          "growth_pax": 0.028,
+          "window_end": "2024-12-01",
+          "masked_months_l12": 0
+        }
+      ],
+      "paris_to_hubs": [
+        {
+          "partner_icao": "LEMD",
+          "partner_iata": "MAD",
+          "partner_city": "Madrid",
+          "pax_l12": 1052673,
+          "flights_l12": 6557,
+          "lf_l12": 0.8715,
+          "masked_months_l12": 0,
+          "window_end": "2024-12-01"
+        }
+      ],
+      "overrides": []
+    },
+    "BPM": {
+      "opportunity": {
+        "partner_icao": "VOHY",
+        "partner_iata": "BPM",
+        "partner_city": "Hyderabad",
+        "partner_airport": "Begumpet Airport",
+        "partner_country": "IN",
+        "hubs_serving": 1,
+        "hubs_list": "FRA",
+        "pax_l12_hubs": 119648,
+        "pax_p12_hubs": 0,
+        "seats_l12_hubs": 149154,
+        "flights_l12_hubs": 507,
+        "lf_l12_hubs": 0.8022,
+        "data_until_min": "2024-12-01",
+        "data_until_max": "2024-12-01",
+        "growth_hubs": null,
+        "distance_from_cdg_km": 7533.0,
+        "cdg_flights_l12": 0,
+        "cdg_masked_months_l12": 0,
+        "ory_flights_l12": 0,
+        "ory_masked_months_l12": 0,
+        "segment": "long-courrier",
+        "s_volume": 0.28205128205128205,
+        "s_growth": 0.24358974358974358,
+        "s_lf": 0.28205128205128205,
+        "s_hubs": 0.0,
+        "opportunity_score": 23.0
+      },
+      "hub_flows": [
+        {
+          "rep_icao": "EDDF",
+          "rep_iata": "FRA",
+          "rep_city": "Frankfurt am Main",
+          "partner_icao": "VOHY",
+          "partner_iata": "BPM",
+          "pax_l12": 119648,
+          "pax_p12": 0,
+          "flights_l12": 507,
+          "lf_l12": 0.8022,
+          "growth_pax": null,
+          "window_end": "2024-12-01",
+          "masked_months_l12": 0
+        }
+      ],
+      "paris_to_hubs": [
+        {
+          "partner_icao": "EDDF",
+          "partner_iata": "FRA",
+          "partner_city": "Frankfurt am Main",
+          "pax_l12": 752494,
+          "flights_l12": 7173,
+          "lf_l12": 0.7365,
+          "masked_months_l12": 0,
+          "window_end": "2024-12-01"
+        }
+      ],
+      "overrides": []
+    },
+    "PDX": {
+      "opportunity": {
+        "partner_icao": "KPDX",
+        "partner_iata": "PDX",
+        "partner_city": "Portland",
+        "partner_airport": "Portland International Airport",
+        "partner_country": "US",
+        "hubs_serving": 1,
+        "hubs_list": "AMS",
+        "pax_l12_hubs": 146216,
+        "pax_p12_hubs": 160162,
+        "seats_l12_hubs": 189449,
+        "flights_l12_hubs": 644,
+        "lf_l12_hubs": 0.7718,
+        "data_until_min": "2024-12-01",
+        "data_until_max": "2024-12-01",
+        "growth_hubs": -0.0871,
+        "distance_from_cdg_km": 8233.0,
+        "cdg_flights_l12": 0,
+        "cdg_masked_months_l12": 0,
+        "ory_flights_l12": 0,
+        "ory_masked_months_l12": 0,
+        "segment": "long-courrier",
+        "s_volume": 0.3974358974358974,
+        "s_growth": 0.0641025641025641,
+        "s_lf": 0.21794871794871795,
+        "s_hubs": 0.0,
+        "opportunity_score": 21.9
+      },
+      "hub_flows": [
+        {
+          "rep_icao": "EHAM",
+          "rep_iata": "AMS",
+          "rep_city": "Amsterdam",
+          "partner_icao": "KPDX",
+          "partner_iata": "PDX",
+          "pax_l12": 146216,
+          "pax_p12": 160162,
+          "flights_l12": 644,
+          "lf_l12": 0.7718,
+          "growth_pax": -0.0871,
+          "window_end": "2024-12-01",
+          "masked_months_l12": 0
+        }
+      ],
+      "paris_to_hubs": [
+        {
+          "partner_icao": "EHAM",
+          "partner_iata": "AMS",
+          "partner_city": "Amsterdam",
+          "pax_l12": 1120710,
+          "flights_l12": 8025,
+          "lf_l12": 0.8157,
+          "masked_months_l12": 0,
+          "window_end": "2024-12-01"
+        }
+      ],
+      "overrides": []
+    },
+    "EBB": {
+      "opportunity": {
+        "partner_icao": "HUEN",
+        "partner_iata": "EBB",
+        "partner_city": "Entebbe",
+        "partner_airport": "Entebbe International Airport",
+        "partner_country": "UG",
+        "hubs_serving": 1,
+        "hubs_list": "BRU",
+        "pax_l12_hubs": 87713,
+        "pax_p12_hubs": 91923,
+        "seats_l12_hubs": 98372,
+        "flights_l12_hubs": 334,
+        "lf_l12_hubs": 0.8916,
+        "data_until_min": "2024-12-01",
+        "data_until_max": "2024-12-01",
+        "growth_hubs": -0.0458,
+        "distance_from_cdg_km": 6149.0,
+        "cdg_flights_l12": 0,
+        "cdg_masked_months_l12": 0,
+        "ory_flights_l12": 0,
+        "ory_masked_months_l12": 0,
+        "segment": "long-courrier",
+        "s_volume": 0.0641025641025641,
+        "s_growth": 0.10256410256410256,
+        "s_lf": 0.7948717948717948,
+        "s_hubs": 0.0,
+        "opportunity_score": 21.0
+      },
+      "hub_flows": [
+        {
+          "rep_icao": "EBBR",
+          "rep_iata": "BRU",
+          "rep_city": "Zaventem",
+          "partner_icao": "HUEN",
+          "partner_iata": "EBB",
+          "pax_l12": 87713,
+          "pax_p12": 91923,
+          "flights_l12": 334,
+          "lf_l12": 0.8916,
+          "growth_pax": -0.0458,
+          "window_end": "2024-12-01",
+          "masked_months_l12": 0
+        }
+      ],
+      "paris_to_hubs": [
+        {
+          "partner_icao": "EBBR",
+          "partner_iata": "BRU",
+          "partner_city": "Zaventem",
+          "pax_l12": 199106,
+          "flights_l12": 1699,
+          "lf_l12": 0.6159,
+          "masked_months_l12": 0,
+          "window_end": "2024-12-01"
+        }
+      ],
+      "overrides": []
+    },
+    "COR": {
+      "opportunity": {
+        "partner_icao": "SACO",
+        "partner_iata": "COR",
+        "partner_city": "Cordoba",
+        "partner_airport": "Ingeniero Aeronáutico Ambrosio L.V. Taravella International Airport",
+        "partner_country": "AR",
+        "hubs_serving": 1,
+        "hubs_list": "MAD",
+        "pax_l12_hubs": 89659,
+        "pax_p12_hubs": 132579,
+        "seats_l12_hubs": 99062,
+        "flights_l12_hubs": 312,
+        "lf_l12_hubs": 0.9051,
+        "data_until_min": "2024-12-01",
+        "data_until_max": "2024-12-01",
+        "growth_hubs": -0.3237,
+        "distance_from_cdg_km": 11104.0,
+        "cdg_flights_l12": 0,
+        "cdg_masked_months_l12": 0,
+        "ory_flights_l12": 0,
+        "ory_masked_months_l12": 0,
+        "segment": "long-courrier",
+        "s_volume": 0.07692307692307693,
+        "s_growth": 0.0,
+        "s_lf": 0.8846153846153846,
+        "s_hubs": 0.0,
+        "opportunity_score": 20.8
+      },
+      "hub_flows": [
+        {
+          "rep_icao": "LEMD",
+          "rep_iata": "MAD",
+          "rep_city": "Madrid",
+          "partner_icao": "SACO",
+          "partner_iata": "COR",
+          "pax_l12": 89659,
+          "pax_p12": 132579,
+          "flights_l12": 312,
+          "lf_l12": 0.9051,
+          "growth_pax": -0.3237,
+          "window_end": "2024-12-01",
+          "masked_months_l12": 0
+        }
+      ],
+      "paris_to_hubs": [
+        {
+          "partner_icao": "LEMD",
+          "partner_iata": "MAD",
+          "partner_city": "Madrid",
+          "pax_l12": 1052673,
+          "flights_l12": 6557,
+          "lf_l12": 0.8715,
+          "masked_months_l12": 0,
+          "window_end": "2024-12-01"
+        }
+      ],
+      "overrides": []
+    },
+    "NAT": {
+      "opportunity": {
+        "partner_icao": "SBSG",
+        "partner_iata": "NAT",
+        "partner_city": "Natal",
+        "partner_airport": "Rio Grande do Norte/São Gonçalo do Amarante–Governador Aluízio Alves International Airport",
+        "partner_country": "BR",
+        "hubs_serving": 1,
+        "hubs_list": "LIS",
+        "pax_l12_hubs": 95328,
+        "pax_p12_hubs": 88709,
+        "seats_l12_hubs": 137502,
+        "flights_l12_hubs": 671,
+        "lf_l12_hubs": 0.6933,
+        "data_until_min": "2024-12-01",
+        "data_until_max": "2024-12-01",
+        "growth_hubs": 0.0746,
+        "distance_from_cdg_km": 7112.0,
+        "cdg_flights_l12": 0,
+        "cdg_masked_months_l12": 0,
+        "ory_flights_l12": 0,
+        "ory_masked_months_l12": 0,
+        "segment": "long-courrier",
+        "s_volume": 0.11538461538461539,
+        "s_growth": 0.5641025641025641,
+        "s_lf": 0.0641025641025641,
+        "s_hubs": 0.0,
+        "opportunity_score": 20.0
+      },
+      "hub_flows": [
+        {
+          "rep_icao": "LPPT",
+          "rep_iata": "LIS",
+          "rep_city": "Lisbon",
+          "partner_icao": "SBSG",
+          "partner_iata": "NAT",
+          "pax_l12": 95328,
+          "pax_p12": 88709,
+          "flights_l12": 671,
+          "lf_l12": 0.6933,
+          "growth_pax": 0.0746,
+          "window_end": "2024-12-01",
+          "masked_months_l12": 0
+        }
+      ],
+      "paris_to_hubs": [
+        {
+          "partner_icao": "LPPT",
+          "partner_iata": "LIS",
+          "partner_city": "Lisbon",
+          "pax_l12": 644412,
+          "flights_l12": 4148,
+          "lf_l12": 0.8848,
+          "masked_months_l12": 0,
+          "window_end": "2024-12-01"
+        }
+      ],
+      "overrides": []
+    },
+    "TFU": {
+      "opportunity": {
+        "partner_icao": "ZUTF",
+        "partner_iata": "TFU",
+        "partner_city": "Chengdu (Jianyang)",
+        "partner_airport": "Chengdu Tianfu International Airport",
+        "partner_country": "CN",
+        "hubs_serving": 1,
+        "hubs_list": "IST",
+        "pax_l12_hubs": 98429,
+        "pax_p12_hubs": 0,
+        "seats_l12_hubs": 121872,
+        "flights_l12_hubs": 400,
+        "lf_l12_hubs": 0.8076,
+        "data_until_min": "2024-12-01",
+        "data_until_max": "2024-12-01",
+        "growth_hubs": null,
+        "distance_from_cdg_km": 8303.0,
+        "cdg_flights_l12": 0,
+        "cdg_masked_months_l12": 0,
+        "ory_flights_l12": 0,
+        "ory_masked_months_l12": 0,
+        "segment": "long-courrier",
+        "s_volume": 0.16666666666666666,
+        "s_growth": 0.24358974358974358,
+        "s_lf": 0.32051282051282054,
+        "s_hubs": 0.0,
+        "opportunity_score": 19.2
+      },
+      "hub_flows": [
+        {
+          "rep_icao": "LTFM",
+          "rep_iata": "IST",
+          "rep_city": "Istanbul",
+          "partner_icao": "ZUTF",
+          "partner_iata": "TFU",
+          "pax_l12": 98429,
+          "pax_p12": 0,
+          "flights_l12": 400,
+          "lf_l12": 0.8076,
+          "growth_pax": null,
+          "window_end": "2024-12-01",
+          "masked_months_l12": 0
+        }
+      ],
+      "paris_to_hubs": [
+        {
+          "partner_icao": "LTFM",
+          "partner_iata": "IST",
+          "partner_city": "Istanbul",
+          "pax_l12": 1011226,
+          "flights_l12": 5231,
+          "lf_l12": 0.8475,
+          "masked_months_l12": 0,
+          "window_end": "2024-12-01"
+        }
+      ],
+      "overrides": []
+    },
+    "SYZ": {
+      "opportunity": {
+        "partner_icao": "OISS",
+        "partner_iata": "SYZ",
+        "partner_city": "Shiraz",
+        "partner_airport": "Shiraz Shahid Dastghaib International Airport",
+        "partner_country": "IR",
+        "hubs_serving": 1,
+        "hubs_list": "IST",
+        "pax_l12_hubs": 103689,
+        "pax_p12_hubs": 105566,
+        "seats_l12_hubs": 134430,
+        "flights_l12_hubs": 727,
+        "lf_l12_hubs": 0.7713,
+        "data_until_min": "2024-12-01",
+        "data_until_max": "2024-12-01",
+        "growth_hubs": -0.0178,
+        "distance_from_cdg_km": 4712.0,
+        "cdg_flights_l12": 0,
+        "cdg_masked_months_l12": 0,
+        "ory_flights_l12": 0,
+        "ory_masked_months_l12": 0,
+        "segment": "long-courrier",
+        "s_volume": 0.20512820512820512,
+        "s_growth": 0.15384615384615385,
+        "s_lf": 0.20512820512820512,
+        "s_hubs": 0.0,
+        "opportunity_score": 16.2
+      },
+      "hub_flows": [
+        {
+          "rep_icao": "LTFM",
+          "rep_iata": "IST",
+          "rep_city": "Istanbul",
+          "partner_icao": "OISS",
+          "partner_iata": "SYZ",
+          "pax_l12": 103689,
+          "pax_p12": 105566,
+          "flights_l12": 727,
+          "lf_l12": 0.7713,
+          "growth_pax": -0.0178,
+          "window_end": "2024-12-01",
+          "masked_months_l12": 0
+        }
+      ],
+      "paris_to_hubs": [
+        {
+          "partner_icao": "LTFM",
+          "partner_iata": "IST",
+          "partner_city": "Istanbul",
+          "pax_l12": 1011226,
+          "flights_l12": 5231,
+          "lf_l12": 0.8475,
+          "masked_months_l12": 0,
+          "window_end": "2024-12-01"
+        }
+      ],
+      "overrides": []
+    },
+    "AUS": {
+      "opportunity": {
+        "partner_icao": "KAUS",
+        "partner_iata": "AUS",
+        "partner_city": "Austin",
+        "partner_airport": "Austin Bergstrom International Airport",
+        "partner_country": "US",
+        "hubs_serving": 1,
+        "hubs_list": "FRA",
+        "pax_l12_hubs": 92831,
+        "pax_p12_hubs": 0,
+        "seats_l12_hubs": 116209,
+        "flights_l12_hubs": 397,
+        "lf_l12_hubs": 0.7988,
+        "data_until_min": "2024-12-01",
+        "data_until_max": "2024-12-01",
+        "growth_hubs": null,
+        "distance_from_cdg_km": 8205.0,
+        "cdg_flights_l12": 0,
+        "cdg_masked_months_l12": 0,
+        "ory_flights_l12": 0,
+        "ory_masked_months_l12": 0,
+        "segment": "long-courrier",
+        "s_volume": 0.10256410256410256,
+        "s_growth": 0.24358974358974358,
+        "s_lf": 0.2692307692307692,
+        "s_hubs": 0.0,
+        "opportunity_score": 15.6
+      },
+      "hub_flows": [
+        {
+          "rep_icao": "EDDF",
+          "rep_iata": "FRA",
+          "rep_city": "Frankfurt am Main",
+          "partner_icao": "KAUS",
+          "partner_iata": "AUS",
+          "pax_l12": 92831,
+          "pax_p12": 0,
+          "flights_l12": 397,
+          "lf_l12": 0.7988,
+          "growth_pax": null,
+          "window_end": "2024-12-01",
+          "masked_months_l12": 0
+        }
+      ],
+      "paris_to_hubs": [
+        {
+          "partner_icao": "EDDF",
+          "partner_iata": "FRA",
+          "partner_city": "Frankfurt am Main",
+          "pax_l12": 752494,
+          "flights_l12": 7173,
+          "lf_l12": 0.7365,
+          "masked_months_l12": 0,
+          "window_end": "2024-12-01"
+        }
+      ],
+      "overrides": []
+    },
+    "MPM": {
+      "opportunity": {
+        "partner_icao": "FQMA",
+        "partner_iata": "MPM",
+        "partner_city": "Maputo",
+        "partner_airport": "Maputo Airport",
+        "partner_country": "MZ",
+        "hubs_serving": 1,
+        "hubs_list": "LIS",
+        "pax_l12_hubs": 101031,
+        "pax_p12_hubs": 0,
+        "seats_l12_hubs": 161924,
+        "flights_l12_hubs": 532,
+        "lf_l12_hubs": 0.6239,
+        "data_until_min": "2024-12-01",
+        "data_until_max": "2024-12-01",
+        "growth_hubs": null,
+        "distance_from_cdg_km": 8849.0,
+        "cdg_flights_l12": 0,
+        "cdg_masked_months_l12": 0,
+        "ory_flights_l12": 0,
+        "ory_masked_months_l12": 0,
+        "segment": "long-courrier",
+        "s_volume": 0.19230769230769232,
+        "s_growth": 0.24358974358974358,
+        "s_lf": 0.01282051282051282,
+        "s_hubs": 0.0,
+        "opportunity_score": 14.0
+      },
+      "hub_flows": [
+        {
+          "rep_icao": "LPPT",
+          "rep_iata": "LIS",
+          "rep_city": "Lisbon",
+          "partner_icao": "FQMA",
+          "partner_iata": "MPM",
+          "pax_l12": 101031,
+          "pax_p12": 0,
+          "flights_l12": 532,
+          "lf_l12": 0.6239,
+          "growth_pax": null,
+          "window_end": "2024-12-01",
+          "masked_months_l12": 0
+        }
+      ],
+      "paris_to_hubs": [
+        {
+          "partner_icao": "LPPT",
+          "partner_iata": "LIS",
+          "partner_city": "Lisbon",
+          "pax_l12": 644412,
+          "flights_l12": 4148,
+          "lf_l12": 0.8848,
+          "masked_months_l12": 0,
+          "window_end": "2024-12-01"
+        }
+      ],
+      "overrides": []
+    },
+    "DMM": {
+      "opportunity": {
+        "partner_icao": "OEDF",
+        "partner_iata": "DMM",
+        "partner_city": "Ad Dammam",
+        "partner_airport": "King Fahd International Airport",
+        "partner_country": "SA",
+        "hubs_serving": 1,
+        "hubs_list": "IST",
+        "pax_l12_hubs": 115934,
+        "pax_p12_hubs": 126286,
+        "seats_l12_hubs": 177812,
+        "flights_l12_hubs": 955,
+        "lf_l12_hubs": 0.652,
+        "data_until_min": "2024-12-01",
+        "data_until_max": "2024-12-01",
+        "growth_hubs": -0.082,
+        "distance_from_cdg_km": 4747.0,
+        "cdg_flights_l12": 0,
+        "cdg_masked_months_l12": 0,
+        "ory_flights_l12": 0,
+        "ory_masked_months_l12": 0,
+        "segment": "long-courrier",
+        "s_volume": 0.2692307692307692,
+        "s_growth": 0.07692307692307693,
+        "s_lf": 0.038461538461538464,
+        "s_hubs": 0.0,
+        "opportunity_score": 13.5
+      },
+      "hub_flows": [
+        {
+          "rep_icao": "LTFM",
+          "rep_iata": "IST",
+          "rep_city": "Istanbul",
+          "partner_icao": "OEDF",
+          "partner_iata": "DMM",
+          "pax_l12": 115934,
+          "pax_p12": 126286,
+          "flights_l12": 955,
+          "lf_l12": 0.652,
+          "growth_pax": -0.082,
+          "window_end": "2024-12-01",
+          "masked_months_l12": 0
+        }
+      ],
+      "paris_to_hubs": [
+        {
+          "partner_icao": "LTFM",
+          "partner_iata": "IST",
+          "partner_city": "Istanbul",
+          "pax_l12": 1011226,
+          "flights_l12": 5231,
+          "lf_l12": 0.8475,
+          "masked_months_l12": 0,
+          "window_end": "2024-12-01"
+        }
+      ],
+      "overrides": []
+    },
+    "OUA": {
+      "opportunity": {
+        "partner_icao": "DFFD",
+        "partner_iata": "OUA",
+        "partner_city": "Ouagadougou",
+        "partner_airport": "Ouagadougou Thomas Sankara International Airport",
+        "partner_country": "BF",
+        "hubs_serving": 1,
+        "hubs_list": "IST",
+        "pax_l12_hubs": 87643,
+        "pax_p12_hubs": 0,
+        "seats_l12_hubs": 121531,
+        "flights_l12_hubs": 709,
+        "lf_l12_hubs": 0.7212,
+        "data_until_min": "2024-12-01",
+        "data_until_max": "2024-12-01",
+        "growth_hubs": null,
+        "distance_from_cdg_km": 4093.0,
+        "cdg_flights_l12": 0,
+        "cdg_masked_months_l12": 0,
+        "ory_flights_l12": 0,
+        "ory_masked_months_l12": 0,
+        "segment": "long-courrier",
+        "s_volume": 0.05128205128205128,
+        "s_growth": 0.24358974358974358,
+        "s_lf": 0.10256410256410256,
+        "s_hubs": 0.0,
+        "opportunity_score": 10.2
+      },
+      "hub_flows": [
+        {
+          "rep_icao": "LTFM",
+          "rep_iata": "IST",
+          "rep_city": "Istanbul",
+          "partner_icao": "DFFD",
+          "partner_iata": "OUA",
+          "pax_l12": 87643,
+          "pax_p12": 0,
+          "flights_l12": 709,
+          "lf_l12": 0.7212,
+          "growth_pax": null,
+          "window_end": "2024-12-01",
+          "masked_months_l12": 0
+        }
+      ],
+      "paris_to_hubs": [
+        {
+          "partner_icao": "LTFM",
+          "partner_iata": "IST",
+          "partner_city": "Istanbul",
+          "pax_l12": 1011226,
+          "flights_l12": 5231,
+          "lf_l12": 0.8475,
+          "masked_months_l12": 0,
+          "window_end": "2024-12-01"
+        }
+      ],
+      "overrides": []
+    },
+    "YHZ": {
+      "opportunity": {
+        "partner_icao": "CYHZ",
+        "partner_iata": "YHZ",
+        "partner_city": "Halifax",
+        "partner_airport": "Halifax / Stanfield International Airport",
+        "partner_country": "CA",
+        "hubs_serving": 1,
+        "hubs_list": "FRA",
+        "pax_l12_hubs": 79647,
+        "pax_p12_hubs": 0,
+        "seats_l12_hubs": 109827,
+        "flights_l12_hubs": 378,
+        "lf_l12_hubs": 0.7252,
+        "data_until_min": "2024-12-01",
+        "data_until_max": "2024-12-01",
+        "growth_hubs": null,
+        "distance_from_cdg_km": 4875.0,
+        "cdg_flights_l12": 0,
+        "cdg_masked_months_l12": 0,
+        "ory_flights_l12": 0,
+        "ory_masked_months_l12": 0,
+        "segment": "long-courrier",
+        "s_volume": 0.0,
+        "s_growth": 0.24358974358974358,
+        "s_lf": 0.11538461538461539,
+        "s_hubs": 0.0,
+        "opportunity_score": 8.4
+      },
+      "hub_flows": [
+        {
+          "rep_icao": "EDDF",
+          "rep_iata": "FRA",
+          "rep_city": "Frankfurt am Main",
+          "partner_icao": "CYHZ",
+          "partner_iata": "YHZ",
+          "pax_l12": 79647,
+          "pax_p12": 0,
+          "flights_l12": 378,
+          "lf_l12": 0.7252,
+          "growth_pax": null,
+          "window_end": "2024-12-01",
+          "masked_months_l12": 0
+        }
+      ],
+      "paris_to_hubs": [
+        {
+          "partner_icao": "EDDF",
+          "partner_iata": "FRA",
+          "partner_city": "Frankfurt am Main",
+          "pax_l12": 752494,
+          "flights_l12": 7173,
+          "lf_l12": 0.7365,
+          "masked_months_l12": 0,
+          "window_end": "2024-12-01"
+        }
+      ],
+      "overrides": []
+    },
+    "BSR": {
+      "opportunity": {
+        "partner_icao": "ORMM",
+        "partner_iata": "BSR",
+        "partner_city": "Basra",
+        "partner_airport": "Basra International Airport",
+        "partner_country": "IQ",
+        "hubs_serving": 1,
+        "hubs_list": "IST",
+        "pax_l12_hubs": 81678,
+        "pax_p12_hubs": 82342,
+        "seats_l12_hubs": 132952,
+        "flights_l12_hubs": 794,
+        "lf_l12_hubs": 0.6143,
+        "data_until_min": "2024-12-01",
+        "data_until_max": "2024-12-01",
+        "growth_hubs": -0.0081,
+        "distance_from_cdg_km": 4284.0,
+        "cdg_flights_l12": 0,
+        "cdg_masked_months_l12": 0,
+        "ory_flights_l12": 0,
+        "ory_masked_months_l12": 0,
+        "segment": "long-courrier",
+        "s_volume": 0.02564102564102564,
+        "s_growth": 0.20512820512820512,
+        "s_lf": 0.0,
+        "s_hubs": 0.0,
+        "opportunity_score": 6.2
+      },
+      "hub_flows": [
+        {
+          "rep_icao": "LTFM",
+          "rep_iata": "IST",
+          "rep_city": "Istanbul",
+          "partner_icao": "ORMM",
+          "partner_iata": "BSR",
+          "pax_l12": 81678,
+          "pax_p12": 82342,
+          "flights_l12": 794,
+          "lf_l12": 0.6143,
+          "growth_pax": -0.0081,
+          "window_end": "2024-12-01",
+          "masked_months_l12": 0
+        }
+      ],
+      "paris_to_hubs": [
+        {
+          "partner_icao": "LTFM",
+          "partner_iata": "IST",
+          "partner_city": "Istanbul",
+          "pax_l12": 1011226,
+          "flights_l12": 5231,
+          "lf_l12": 0.8475,
+          "masked_months_l12": 0,
+          "window_end": "2024-12-01"
+        }
+      ],
+      "overrides": []
+    },
+    "DYU": {
+      "opportunity": {
+        "partner_icao": "UTDD",
+        "partner_iata": "DYU",
+        "partner_city": "Dushanbe",
+        "partner_airport": "Dushanbe International Airport",
+        "partner_country": "TJ",
+        "hubs_serving": 1,
+        "hubs_list": "IST",
+        "pax_l12_hubs": 85504,
+        "pax_p12_hubs": 116032,
+        "seats_l12_hubs": 125236,
+        "flights_l12_hubs": 550,
+        "lf_l12_hubs": 0.6827,
+        "data_until_min": "2024-12-01",
+        "data_until_max": "2024-12-01",
+        "growth_hubs": -0.2631,
+        "distance_from_cdg_km": 5271.0,
+        "cdg_flights_l12": 0,
+        "cdg_masked_months_l12": 0,
+        "ory_flights_l12": 0,
+        "ory_masked_months_l12": 0,
+        "segment": "long-courrier",
+        "s_volume": 0.038461538461538464,
+        "s_growth": 0.01282051282051282,
+        "s_lf": 0.05128205128205128,
+        "s_hubs": 0.0,
+        "opportunity_score": 2.9
+      },
+      "hub_flows": [
+        {
+          "rep_icao": "LTFM",
+          "rep_iata": "IST",
+          "rep_city": "Istanbul",
+          "partner_icao": "UTDD",
+          "partner_iata": "DYU",
+          "pax_l12": 85504,
+          "pax_p12": 116032,
+          "flights_l12": 550,
+          "lf_l12": 0.6827,
+          "growth_pax": -0.2631,
+          "window_end": "2024-12-01",
+          "masked_months_l12": 0
+        }
+      ],
+      "paris_to_hubs": [
+        {
+          "partner_icao": "LTFM",
+          "partner_iata": "IST",
+          "partner_city": "Istanbul",
+          "pax_l12": 1011226,
+          "flights_l12": 5231,
+          "lf_l12": 0.8475,
+          "masked_months_l12": 0,
+          "window_end": "2024-12-01"
+        }
+      ],
+      "overrides": []
+    }
+  },
+  "freshness": [
+    {
+      "rep_country": "SI",
+      "last_month": "2024-12-01",
+      "share_ok": 0.995,
+      "rows_masked": 0
+    },
+    {
+      "rep_country": "LU",
+      "last_month": "2024-12-01",
+      "share_ok": 0.9728,
+      "rows_masked": 0
+    },
+    {
+      "rep_country": "LV",
+      "last_month": "2024-12-01",
+      "share_ok": 0.9802,
+      "rows_masked": 0
+    },
+    {
+      "rep_country": "MT",
+      "last_month": "2024-12-01",
+      "share_ok": 0.9939,
+      "rows_masked": 0
+    },
+    {
+      "rep_country": "ME",
+      "last_month": "2024-12-01",
+      "share_ok": 1.0,
+      "rows_masked": 0
+    },
+    {
+      "rep_country": "CY",
+      "last_month": "2024-12-01",
+      "share_ok": 0.9908,
+      "rows_masked": 0
+    },
+    {
+      "rep_country": "SK",
+      "last_month": "2024-12-01",
+      "share_ok": 0.9934,
+      "rows_masked": 0
+    },
+    {
+      "rep_country": "HU",
+      "last_month": "2024-12-01",
+      "share_ok": 0.9834,
+      "rows_masked": 0
+    },
+    {
+      "rep_country": "BG",
+      "last_month": "2024-12-01",
+      "share_ok": 0.9929,
+      "rows_masked": 0
+    },
+    {
+      "rep_country": "CH",
+      "last_month": "2024-12-01",
+      "share_ok": 0.9966,
+      "rows_masked": 0
+    },
+    {
+      "rep_country": "IS",
+      "last_month": "2024-12-01",
+      "share_ok": 0.9894,
+      "rows_masked": 0
+    },
+    {
+      "rep_country": "LT",
+      "last_month": "2024-12-01",
+      "share_ok": 0.9913,
+      "rows_masked": 0
+    },
+    {
+      "rep_country": "BE",
+      "last_month": "2024-12-01",
+      "share_ok": 0.9849,
+      "rows_masked": 0
+    },
+    {
+      "rep_country": "IE",
+      "last_month": "2024-12-01",
+      "share_ok": 0.9959,
+      "rows_masked": 0
+    },
+    {
+      "rep_country": "HR",
+      "last_month": "2024-12-01",
+      "share_ok": 0.9927,
+      "rows_masked": 0
+    },
+    {
+      "rep_country": "AT",
+      "last_month": "2024-12-01",
+      "share_ok": 0.9894,
+      "rows_masked": 0
+    },
+    {
+      "rep_country": "FI",
+      "last_month": "2024-12-01",
+      "share_ok": 0.9953,
+      "rows_masked": 0
+    },
+    {
+      "rep_country": "PT",
+      "last_month": "2024-12-01",
+      "share_ok": 0.9909,
+      "rows_masked": 0
+    },
+    {
+      "rep_country": "RO",
+      "last_month": "2024-12-01",
+      "share_ok": 0.9854,
+      "rows_masked": 0
+    },
+    {
+      "rep_country": "DE",
+      "last_month": "2024-12-01",
+      "share_ok": 0.9753,
+      "rows_masked": 0
+    },
+    {
+      "rep_country": "IT",
+      "last_month": "2024-12-01",
+      "share_ok": 0.9948,
+      "rows_masked": 0
+    },
+    {
+      "rep_country": "ES",
+      "last_month": "2024-12-01",
+      "share_ok": 0.9959,
+      "rows_masked": 0
+    },
+    {
+      "rep_country": "FR",
+      "last_month": "2024-12-01",
+      "share_ok": 0.9833,
+      "rows_masked": 674
+    },
+    {
+      "rep_country": "EE",
+      "last_month": "2024-12-01",
+      "share_ok": 0.9874,
+      "rows_masked": 0
+    },
+    {
+      "rep_country": "NL",
+      "last_month": "2024-12-01",
+      "share_ok": 0.9973,
+      "rows_masked": 0
+    },
+    {
+      "rep_country": "MK",
+      "last_month": "2024-12-01",
+      "share_ok": 0.9935,
+      "rows_masked": 0
+    },
+    {
+      "rep_country": "RS",
+      "last_month": "2024-12-01",
+      "share_ok": 0.9618,
+      "rows_masked": 0
+    },
+    {
+      "rep_country": "DK",
+      "last_month": "2024-12-01",
+      "share_ok": 0.9904,
+      "rows_masked": 0
+    },
+    {
+      "rep_country": "PL",
+      "last_month": "2024-12-01",
+      "share_ok": 0.9926,
+      "rows_masked": 0
+    },
+    {
+      "rep_country": "TR",
+      "last_month": "2024-12-01",
+      "share_ok": 0.9464,
+      "rows_masked": 0
+    },
+    {
+      "rep_country": "NO",
+      "last_month": "2024-12-01",
+      "share_ok": 0.7581,
+      "rows_masked": 3186
+    },
+    {
+      "rep_country": "SE",
+      "last_month": "2024-12-01",
+      "share_ok": 0.9816,
+      "rows_masked": 0
+    },
+    {
+      "rep_country": "EL",
+      "last_month": "2024-12-01",
+      "share_ok": 0.6869,
+      "rows_masked": 0
+    }
+  ]
+}

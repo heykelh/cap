@@ -1,0 +1,14 @@
+.venv/
+.env
+__pycache__/
+/data/
+ops/last_refresh.json
+site/node_modules/
+site/.next/
+site/lib/worldDots.ts
+site/public/dossiers/
+site/public/analyste/
+site_data/
+site/public/marche/PRN.json
+site/.env.local
+.env*.local

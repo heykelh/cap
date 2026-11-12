@@ -1,0 +1,86 @@
+{
+  "version": "afklm-fy2025",
+  "published_source": "Air France-KLM, communiqué de presse Full Year 2025, 19 février 2026",
+  "source_url": "https://www.airfranceklm.com/sites/default/files/2026-02/afklm_full_year_2025_press_release_english.pdf",
+  "assumptions": {
+    "yield_eur_per_rpk": {
+      "value": 0.0975,
+      "unit": "€ par passager-km",
+      "label": "Recette par passager-km (yield)",
+      "method": "Recettes passagers trafic du réseau (24 114 M€) / passagers-km du réseau (247 354 M)",
+      "source_pages": "p. 12 et p. 29",
+      "scope": "Réseau passagers Air France-KLM, moyenne tous marchés"
+    },
+    "cost_eur_per_ask": {
+      "value": 0.0810,
+      "unit": "€ par siège-km",
+      "label": "Coût par siège-km (CASK)",
+      "method": "Coût net par siège-km hors quotas carbone (ETS), publié",
+      "source_pages": "p. 27",
+      "scope": "Groupe Air France-KLM, carburant inclus"
+    },
+    "fuel_eur_per_ask": {
+      "value": 0.0199,
+      "unit": "€ par siège-km",
+      "label": "dont carburant par siège-km",
+      "method": "Carburant du réseau passagers hors ETS (5 635 M€) / sièges-km du réseau (283 727 M)",
+      "source_pages": "p. 12 et p. 29",
+      "scope": "Réseau passagers Air France-KLM"
+    },
+    "load_factor": {
+      "value": 0.879,
+      "unit": "part des sièges",
+      "label": "Taux de remplissage visé",
+      "method": "Coefficient de remplissage long-courrier 2025, publié",
+      "source_pages": "p. 29",
+      "scope": "Long-courrier Air France-KLM"
+    },
+    "weeks_per_year": {
+      "value": 52,
+      "unit": "semaines",
+      "label": "Semaines d'exploitation par an",
+      "method": "Convention : exploitation à l'année. Réduire pour une ligne saisonnière",
+      "source_pages": "",
+      "scope": "Convention du modèle"
+    }
+  },
+  "load_factor_by_region": {
+    "Amérique du Nord": {"value": 0.877, "source_pages": "p. 29"},
+    "Amérique latine": {"value": 0.909, "source_pages": "p. 29"},
+    "Asie et Moyen-Orient": {"value": 0.881, "source_pages": "p. 29"},
+    "Afrique": {"value": 0.846, "source_pages": "p. 29"},
+    "Caraïbes et océan Indien": {"value": 0.876, "source_pages": "p. 29"},
+    "Court et moyen-courrier": {"value": 0.839, "source_pages": "p. 29"}
+  },
+  "aircraft": {
+    "A350-900": {
+      "seats": 324,
+      "cabins": "34 J, 24 W, 266 Y",
+      "alternatives": [292, 290],
+      "source": "Wikipédia, « Air France fleet », consulté le 2026-10-28 (source secondaire, à confirmer)"
+    },
+    "B787-9": {
+      "seats": 279,
+      "cabins": "30 J, 21 W, 228 Y",
+      "alternatives": [],
+      "source": "Wikipédia, « Air France fleet », consulté le 2026-10-28 (source secondaire, à confirmer)"
+    },
+    "B777-300ER": {
+      "seats": 312,
+      "cabins": "4 F, 60 J, 44 W, 204 Y",
+      "alternatives": [296, 369, 472],
+      "source": "Wikipédia, « Air France fleet », consulté le 2026-10-28 : configuration cible de la flotte (source secondaire, à confirmer)"
+    },
+    "B777-200ER": {
+      "seats": 328,
+      "cabins": "28 J, 32 W, 268 Y",
+      "alternatives": [],
+      "source": "Wikipédia, « Air France fleet », consulté le 2026-10-28 (source secondaire, à confirmer)"
+    }
+  },
+  "known_limits": [
+    "Recette et coût sont des moyennes du réseau : un long-courrier a en général un coût par siège-km plus bas qu'un court-courrier, et la recette varie fortement selon le marché.",
+    "Le modèle ne tient pas compte des passagers en correspondance qui alimentent le reste du réseau (contribution réseau), souvent décisive pour une ouverture.",
+    "Le nombre de sièges vient d'une source secondaire et doit être confirmé."
+  ]
+}

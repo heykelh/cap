@@ -1,0 +1,3 @@
+partner_iata,airport_from,status,season,source,verified_on,comment
+CPT,CDG,desservie,hiver,horaires airfrance.fr,2026-10-26,Vol direct saisonnier
+DEN,CDG,a_verifier,,,,Jamais publiée par Eurostat : vérifier les horaires Air France
